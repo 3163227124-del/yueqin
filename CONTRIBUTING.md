@@ -10,7 +10,7 @@ npm run check
 
 ## 数据修改
 
-更新 BEMANICN 页面数据后，先运行：
+更新 BEMANICN 页面数据后，先保存对应城市 HTML 到 `work/`，再运行：
 
 ```bash
 npm run extract:data

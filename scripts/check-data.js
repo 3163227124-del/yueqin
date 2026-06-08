@@ -1,61 +1,70 @@
 const fs = require('fs');
 const path = require('path');
-
-const DATA_PATH = path.join(__dirname, '..', 'data', 'shops.beijing.json');
+const { CITIES } = require('../lib/cities');
 
 function fail(message) {
   console.error(`Data check failed: ${message}`);
   process.exitCode = 1;
 }
 
-function isFiniteLocation(location) {
+function isFiniteLocation(location, city) {
+  const lng = Number(location?.lng);
+  const lat = Number(location?.lat);
+  const bounds = city.bounds;
+
   return (
-    location &&
-    Number.isFinite(Number(location.lng)) &&
-    Number.isFinite(Number(location.lat)) &&
-    Number(location.lng) >= 115 &&
-    Number(location.lng) <= 118 &&
-    Number(location.lat) >= 39 &&
-    Number(location.lat) <= 41
+    Number.isFinite(lng) &&
+    Number.isFinite(lat) &&
+    bounds &&
+    lng >= bounds.lng[0] &&
+    lng <= bounds.lng[1] &&
+    lat >= bounds.lat[0] &&
+    lat <= bounds.lat[1]
   );
 }
 
-const dataset = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
-const shops = Array.isArray(dataset.shops) ? dataset.shops : [];
-const ids = new Set();
+let total = 0;
+for (const city of CITIES) {
+  const dataPath = path.join(__dirname, '..', city.dataFile);
+  const dataset = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+  const shops = Array.isArray(dataset.shops) ? dataset.shops : [];
+  const ids = new Set();
 
-if (dataset.city?.code !== '110100000000') {
-  fail('city code must be Beijing 110100000000');
-}
-
-if (shops.length !== dataset.counts?.shops) {
-  fail(`counts.shops=${dataset.counts?.shops} but shops.length=${shops.length}`);
-}
-
-for (const shop of shops) {
-  if (!Number.isInteger(shop.id)) fail(`shop id is invalid: ${shop.id}`);
-  if (ids.has(shop.id)) fail(`duplicate shop id: ${shop.id}`);
-  ids.add(shop.id);
-
-  if (!shop.name || !shop.address) fail(`shop ${shop.id} is missing name or address`);
-  if (shop.sourceUrl !== `https://map.bemanicn.com/s/${shop.id}`) {
-    fail(`shop ${shop.id} has invalid sourceUrl`);
-  }
-  if (!isFiniteLocation(shop.location)) {
-    fail(`shop ${shop.id} is missing a Beijing-like location`);
+  if (dataset.city?.code !== city.code) {
+    fail(`${city.slug}: city code must be ${city.code}`);
   }
 
-  const expectedAdcode = String(shop.countyCode || '').slice(0, 6);
-  const actualAdcode = String(shop.geocode?.adcode || '');
-  if (expectedAdcode && actualAdcode && expectedAdcode !== actualAdcode) {
-    fail(`shop ${shop.id} geocode adcode ${actualAdcode} does not match ${expectedAdcode}`);
+  if (shops.length !== dataset.counts?.shops) {
+    fail(`${city.slug}: counts.shops=${dataset.counts?.shops} but shops.length=${shops.length}`);
   }
-}
 
-if (dataset.counts?.located !== shops.filter((shop) => shop.location).length) {
-  fail('counts.located does not match located shop count');
+  for (const shop of shops) {
+    if (!Number.isInteger(shop.id)) fail(`${city.slug}: shop id is invalid: ${shop.id}`);
+    if (ids.has(shop.id)) fail(`${city.slug}: duplicate shop id: ${shop.id}`);
+    ids.add(shop.id);
+
+    if (!shop.name || !shop.address) fail(`${city.slug}: shop ${shop.id} is missing name or address`);
+    if (shop.sourceUrl !== `https://map.bemanicn.com/s/${shop.id}`) {
+      fail(`${city.slug}: shop ${shop.id} has invalid sourceUrl`);
+    }
+    if (!isFiniteLocation(shop.location, city)) {
+      fail(`${city.slug}: shop ${shop.id} is missing a city-like location`);
+    }
+
+    const expectedAdcode = String(shop.countyCode || '').slice(0, 6);
+    const actualAdcode = String(shop.geocode?.adcode || '');
+    if (expectedAdcode && actualAdcode && expectedAdcode !== actualAdcode) {
+      fail(`${city.slug}: shop ${shop.id} geocode adcode ${actualAdcode} does not match ${expectedAdcode}`);
+    }
+  }
+
+  if (dataset.counts?.located !== shops.filter((shop) => shop.location).length) {
+    fail(`${city.slug}: counts.located does not match located shop count`);
+  }
+
+  total += shops.length;
 }
 
 if (!process.exitCode) {
-  console.log(`Data check passed: ${shops.length} shops, ${dataset.counts?.located} located.`);
+  console.log(`Data check passed: ${CITIES.length} cities, ${total} shops.`);
 }

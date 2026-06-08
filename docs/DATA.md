@@ -2,7 +2,7 @@
 
 ## 来源
 
-北京店铺列表来自 BEMANICN 街机地图城市页：
+店铺列表来自 BEMANICN 街机地图城市页。当前覆盖北京、上海、广州、深圳，例如北京：
 
 `https://map.bemanicn.com/region/city/110100000000`
 
@@ -16,7 +16,7 @@
 - `name`：店铺名称。
 - `address`：BEMANICN 地址。
 - `geocodeAddress`：用于高德地理编码的规范化地址。
-- `countyCode` / `countyName`：北京区县。
+- `countyCode` / `countyName`：城市下属区县。
 - `status`：`open`、`closed`、`upcoming`。
 - `location`：高德经纬度。
 - `geocode`：高德地理编码或人工确认 POI 的匹配结果。

@@ -153,10 +153,16 @@ h2 {
   background: #dff6e8;
 }
 
+.city-field,
 .key-form,
 .person-card,
 .progress-box {
   margin-bottom: 14px;
+}
+
+.city-field {
+  display: grid;
+  gap: 7px;
 }
 
 .inline-field {

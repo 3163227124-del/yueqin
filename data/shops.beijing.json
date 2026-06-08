@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-06-07T14:37:32.469Z",
+  "generatedAt": "2026-06-08T03:35:45.079Z",
   "source": {
     "name": "BEMANICN 街机地图",
     "url": "https://map.bemanicn.com/region/city/110100000000",
-    "fetchedAt": "2026-06-07T14:37:32.469Z"
+    "fetchedAt": "2026-06-08T03:35:45.079Z"
   },
   "city": {
     "id": 1,
     "name": "北京市",
+    "slug": "beijing",
+    "shortName": "北京",
     "code": "110100000000",
     "provinceCode": "110000000000",
     "center": [
@@ -1235,7 +1237,7 @@
         "poiId": "B0KDVO07Y6",
         "poiName": "星际传奇(北京海淀万达广场店)",
         "overrideReason": "AMap geocode matched STAR LEGEND to the Dongba Wanda POI; AMap place search and input tips returned the exact Wukesong arcade POI.",
-        "geocodedAt": "2026-06-07T14:40:53.971Z"
+        "geocodedAt": "2026-06-08T03:36:17.621Z"
       },
       "location": {
         "lng": 116.276661,
@@ -3981,7 +3983,7 @@
   ],
   "geocoding": {
     "provider": "AMap Geocode",
-    "generatedAt": "2026-06-07T14:40:53.973Z",
+    "generatedAt": "2026-06-08T03:36:17.623Z",
     "located": 111,
     "failed": 0,
     "warnings": 0

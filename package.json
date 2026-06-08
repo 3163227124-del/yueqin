@@ -2,11 +2,11 @@
   "name": "arcade-commute-finder",
   "version": "0.1.0",
   "private": true,
-  "description": "A Beijing arcade meet-up commute recommender using BEMANICN shop data and AMap route results.",
+  "description": "A multi-city arcade meet-up commute recommender using BEMANICN shop data and AMap route results.",
   "scripts": {
     "check": "node -c server.js && node -c public/app.js && node -c scripts/extract-bemanicn.js && node -c scripts/geocode-shops.js && node -c scripts/check-data.js && node scripts/check-data.js && npm test",
-    "extract:data": "node scripts/extract-bemanicn.js",
-    "geocode:data": "node scripts/geocode-shops.js",
+    "extract:data": "node scripts/extract-bemanicn.js all",
+    "geocode:data": "node scripts/geocode-shops.js all",
     "start": "node server.js",
     "test": "node --test"
   },

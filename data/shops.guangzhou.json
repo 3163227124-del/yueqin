@@ -1,0 +1,4318 @@
+{
+  "generatedAt": "2026-06-08T03:35:45.089Z",
+  "source": {
+    "name": "BEMANICN 街机地图",
+    "url": "https://map.bemanicn.com/region/city/440100000000",
+    "fetchedAt": "2026-06-08T03:35:45.089Z"
+  },
+  "city": {
+    "id": 199,
+    "name": "广州市",
+    "slug": "guangzhou",
+    "shortName": "广州",
+    "code": "440100000000",
+    "provinceCode": "440000000000",
+    "center": [
+      113.264385,
+      23.129112
+    ]
+  },
+  "counts": {
+    "shops": 122,
+    "available": 121,
+    "upcoming": 0,
+    "closed": 1,
+    "located": 122
+  },
+  "shops": [
+    {
+      "id": 33,
+      "name": "环游嘉年华广州天河城店",
+      "address": "天河路208号天河城6层616",
+      "geocodeAddress": "广州市天河区天河路208号天河城6层616",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/33",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区天河路208号天河城6层616",
+        "formattedAddress": "广东省广州市天河区天河路208号天河城6层",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.322697,
+          "lat": 23.132218
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:56.341Z"
+      },
+      "location": {
+        "lng": 113.322697,
+        "lat": 23.132218
+      }
+    },
+    {
+      "id": 35,
+      "name": "哇哇哇游乐城",
+      "address": "天河路228号正佳广场7层7A001、7B002",
+      "geocodeAddress": "广州市天河区天河路228号正佳广场7层7A001、7B002",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/35",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区天河路228号正佳广场7层7A001、7B002",
+        "formattedAddress": "广东省广州市天河区天河路228号",
+        "level": "门牌号",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.320766,
+          "lat": 23.133335
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:57.031Z"
+      },
+      "location": {
+        "lng": 113.320766,
+        "lat": 23.133335
+      }
+    },
+    {
+      "id": 37,
+      "name": "环游嘉年华奥园广场店",
+      "address": "桥南福德路281号奥园广场3层",
+      "geocodeAddress": "广州市番禺区桥南福德路281号奥园广场3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/37",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区桥南福德路281号奥园广场3层",
+        "formattedAddress": "广东省广州市番禺区桥南福德路281号番禺奥园广场第3层",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.35717,
+          "lat": 22.924595
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:57.281Z"
+      },
+      "location": {
+        "lng": 113.35717,
+        "lat": 22.924595
+      }
+    },
+    {
+      "id": 38,
+      "name": "环游嘉年华易发店（暂停营业至8月）",
+      "address": "市桥光明北路32号易发商业中心5层",
+      "geocodeAddress": "广州市番禺区市桥光明北路32号易发商业中心5层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "closed",
+      "isAvailable": false,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/38",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区市桥光明北路32号易发商业中心5层",
+        "formattedAddress": "广东省广州市番禺区市桥光明北路32-34号易发商业中心5层",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.362961,
+          "lat": 22.940923
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:57.542Z"
+      },
+      "location": {
+        "lng": 113.362961,
+        "lat": 22.940923
+      }
+    },
+    {
+      "id": 41,
+      "name": "星舰梦航",
+      "address": "芳村花地大道中66号荔胜广百广场3层3F-10",
+      "geocodeAddress": "广州市荔湾区芳村花地大道中66号荔胜广百广场3层3F-10",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/41",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区芳村花地大道中66号荔胜广百广场3层3F-10",
+        "formattedAddress": "广东省广州市荔湾区芳村花地荔胜广百广场3f号",
+        "level": "门址",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.233081,
+          "lat": 23.078576
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:57.796Z"
+      },
+      "location": {
+        "lng": 113.233081,
+        "lat": 23.078576
+      }
+    },
+    {
+      "id": 278,
+      "name": "环游嘉年华番禺永旺店",
+      "address": "大龙亚运大道1号番禺永旺梦乐城3层3001",
+      "geocodeAddress": "广州市番禺区大龙亚运大道1号番禺永旺梦乐城3层3001",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/278",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区大龙亚运大道1号番禺永旺梦乐城3层3001",
+        "formattedAddress": "广东省广州市番禺区大龙镇亚运大道1号0001-7",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.38707,
+          "lat": 22.938204
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:58.056Z"
+      },
+      "location": {
+        "lng": 113.38707,
+        "lat": 22.938204
+      }
+    },
+    {
+      "id": 282,
+      "name": "环游嘉年华中新绿地店",
+      "address": "知识城南区亿创街3号绿地缤纷城3层",
+      "geocodeAddress": "广州市黄埔区知识城南区亿创街3号绿地缤纷城3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440112000000",
+      "countyName": "黄埔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/282",
+      "geocode": {
+        "ok": true,
+        "query": "广州市黄埔区知识城南区亿创街3号绿地缤纷城3层",
+        "formattedAddress": "广东省广州市黄埔区黄埔知识城亿创街3号缤纷城3楼",
+        "level": "门址",
+        "adcode": "440112",
+        "expectedAdcode": "440112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.548819,
+          "lat": 23.324088
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:58.310Z"
+      },
+      "location": {
+        "lng": 113.548819,
+        "lat": 23.324088
+      }
+    },
+    {
+      "id": 284,
+      "name": "乐缤纷游艺室次元嘉年华（原疯狂牛仔城上下九店）",
+      "address": "下九路90-92号东急新天地3层5-7",
+      "geocodeAddress": "广州市荔湾区下九路90-92号东急新天地3层5-7",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/284",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区下九路90-92号东急新天地3层5-7",
+        "formattedAddress": "广东省广州市荔湾区下九路90-92号",
+        "level": "门址",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.248469,
+          "lat": 23.114401
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:59.006Z"
+      },
+      "location": {
+        "lng": 113.248469,
+        "lat": 23.114401
+      }
+    },
+    {
+      "id": 614,
+      "name": "晴空进击社悦汇城店",
+      "address": "西湾路150号悦汇城3层C068",
+      "geocodeAddress": "广州市荔湾区西湾路150号悦汇城3层C068",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/614",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区西湾路150号悦汇城3层C068",
+        "formattedAddress": "广东省广州市荔湾区西湾路150号悦汇城3层",
+        "level": "门址",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.243064,
+          "lat": 23.149729
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:59.276Z"
+      },
+      "location": {
+        "lng": 113.243064,
+        "lat": 23.149729
+      }
+    },
+    {
+      "id": 620,
+      "name": "赛乐联盟海珠合生店",
+      "address": "叠景路168-170号合生广场南区3层L304-L305",
+      "geocodeAddress": "广州市海珠区叠景路168-170号合生广场南区3层L304-L305",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/620",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区叠景路168-170号合生广场南区3层L304-L305",
+        "formattedAddress": "广东省广州市海珠区叠景中路168号合生广场南区3层",
+        "level": "小巷",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.313801,
+          "lat": 23.085109
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:59.527Z"
+      },
+      "location": {
+        "lng": 113.313801,
+        "lat": 23.085109
+      }
+    },
+    {
+      "id": 625,
+      "name": "环游嘉年华(大玩家)白云万达店",
+      "address": "白云新城云城东路501号白云万达广场3层358",
+      "geocodeAddress": "广州市白云区白云新城云城东路501号白云万达广场3层358",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/625",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区白云新城云城东路501号白云万达广场3层358",
+        "formattedAddress": "广东省广州市白云区云城东路501号万达广场(1号门)3层358号",
+        "level": "小巷",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.266961,
+          "lat": 23.172428
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:59.771Z"
+      },
+      "location": {
+        "lng": 113.266961,
+        "lat": 23.172428
+      }
+    },
+    {
+      "id": 669,
+      "name": "全境方舟萝岗万达店",
+      "address": "萝岗科丰路89号萝岗万达广场3层",
+      "geocodeAddress": "广州市黄埔区萝岗科丰路89号萝岗万达广场3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440112000000",
+      "countyName": "黄埔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/669",
+      "geocode": {
+        "ok": true,
+        "query": "广州市黄埔区萝岗科丰路89号萝岗万达广场3层",
+        "formattedAddress": "广东省广州市黄埔区萝岗镇科丰路89号萝岗万达广场3层",
+        "level": "门址",
+        "adcode": "440112",
+        "expectedAdcode": "440112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.466315,
+          "lat": 23.168978
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:00.031Z"
+      },
+      "location": {
+        "lng": 113.466315,
+        "lat": 23.168978
+      }
+    },
+    {
+      "id": 721,
+      "name": "环游嘉年华番禺天河城店",
+      "address": "万博汉溪大道东366号番禺天河城4层",
+      "geocodeAddress": "广州市番禺区万博汉溪大道东366号番禺天河城4层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/721",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区万博汉溪大道东366号番禺天河城4层",
+        "formattedAddress": "广东省广州市番禺区番禺汉溪大道东366号番禺天河城4楼",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.348322,
+          "lat": 23.004391
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:00.280Z"
+      },
+      "location": {
+        "lng": 113.348322,
+        "lat": 23.004391
+      }
+    },
+    {
+      "id": 868,
+      "name": "反斗乐园融创茂店",
+      "address": "凤凰北路63号融创茂2层101",
+      "geocodeAddress": "广州市花都区凤凰北路63号融创茂2层101",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/868",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区凤凰北路63号融创茂2层101",
+        "formattedAddress": "广东省广州市花都区凤凰北路融创茂",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.232409,
+          "lat": 23.426934
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:00.983Z"
+      },
+      "location": {
+        "lng": 113.232409,
+        "lat": 23.426934
+      }
+    },
+    {
+      "id": 1017,
+      "name": "朗玩ROUND ONE新塘永旺梦乐城店",
+      "address": "宁西创新大道15号新塘永旺梦乐城1栋3层3084",
+      "geocodeAddress": "广州市增城区宁西创新大道15号新塘永旺梦乐城1栋3层3084",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1017",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区宁西创新大道15号新塘永旺梦乐城1栋3层3084",
+        "formattedAddress": "广东省广州市增城区创新大道新塘镇永旺梦乐城(新塘店)1栋",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.625427,
+          "lat": 23.159208
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:01.244Z"
+      },
+      "location": {
+        "lng": 113.625427,
+        "lat": 23.159208
+      }
+    },
+    {
+      "id": 1136,
+      "name": "漫奈斯智慧城广百店",
+      "address": "华观路1932号智慧城广百广场3层303-311",
+      "geocodeAddress": "广州市天河区华观路1932号智慧城广百广场3层303-311",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1136",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区华观路1932号智慧城广百广场3层303-311",
+        "formattedAddress": "广东省广州市天河区华观路1932号智慧城广百广场",
+        "level": "兴趣点",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.404775,
+          "lat": 23.16669
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:01.490Z"
+      },
+      "location": {
+        "lng": 113.404775,
+        "lat": 23.16669
+      }
+    },
+    {
+      "id": 1263,
+      "name": "Joypolis广州华夏世嘉都市乐园",
+      "address": "永宁创盈路1号钧明欢乐世界C区",
+      "geocodeAddress": "广州市增城区永宁创盈路1号钧明欢乐世界C区",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1263",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区永宁创盈路1号钧明欢乐世界C区",
+        "formattedAddress": "广东省广州市增城区永宁镇创盈路1号广州钧明欢乐世界c区",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.592765,
+          "lat": 23.190516
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:01.742Z"
+      },
+      "location": {
+        "lng": 113.592765,
+        "lat": 23.190516
+      }
+    },
+    {
+      "id": 1321,
+      "name": "漫奈斯同和店",
+      "address": "同和大街1号同和金铂广场A座2层A220",
+      "geocodeAddress": "广州市白云区同和大街1号同和金铂广场A座2层A220",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1321",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区同和大街1号同和金铂广场A座2层A220",
+        "formattedAddress": "广东省广州市白云区同和大街1号A207",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.325321,
+          "lat": 23.196548
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:02.003Z"
+      },
+      "location": {
+        "lng": 113.325321,
+        "lat": 23.196548
+      }
+    },
+    {
+      "id": 1437,
+      "name": "环游嘉年华中华广场店",
+      "address": "中山三路33号中华广场3层",
+      "geocodeAddress": "广州市越秀区中山三路33号中华广场3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440104000000",
+      "countyName": "越秀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1437",
+      "geocode": {
+        "ok": true,
+        "query": "广州市越秀区中山三路33号中华广场3层",
+        "formattedAddress": "广东省广州市越秀区中山三路33号B塔中华广场3层",
+        "level": "门址",
+        "adcode": "440104",
+        "expectedAdcode": "440104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.282629,
+          "lat": 23.126189
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:02.270Z"
+      },
+      "location": {
+        "lng": 113.282629,
+        "lat": 23.126189
+      }
+    },
+    {
+      "id": 1493,
+      "name": "疯狂牛仔城番禺大石店",
+      "address": "大石富石路313号大石万民城2层",
+      "geocodeAddress": "广州市番禺区大石富石路313号大石万民城2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1493",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区大石富石路313号大石万民城2层",
+        "formattedAddress": "广东省广州市番禺区大石富石路313号万民城2楼",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.313724,
+          "lat": 23.012866
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:02.954Z"
+      },
+      "location": {
+        "lng": 113.313724,
+        "lat": 23.012866
+      }
+    },
+    {
+      "id": 1553,
+      "name": "天空之城广州嘉禾店",
+      "address": "望岗鹤龙二路85号嘉禾金铂天地2层",
+      "geocodeAddress": "广州市白云区望岗鹤龙二路85号嘉禾金铂天地2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1553",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区望岗鹤龙二路85号嘉禾金铂天地2层",
+        "formattedAddress": "广东省广州市白云区望岗鹤龙二路85号嘉禾金铂天地2层",
+        "level": "小巷",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.28137,
+          "lat": 23.23834
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:03.212Z"
+      },
+      "location": {
+        "lng": 113.28137,
+        "lat": 23.23834
+      }
+    },
+    {
+      "id": 1683,
+      "name": "UFO Center",
+      "address": "江埔从城大道111号欣荣广场A区B栋2层218-219",
+      "geocodeAddress": "广州市从化区江埔从城大道111号欣荣广场A区B栋2层218-219",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1683",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区江埔从城大道111号欣荣广场A区B栋2层218-219",
+        "formattedAddress": "广东省广州市从化区江埔从城大道111号欣荣广场a区b栋",
+        "level": "小巷",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.591623,
+          "lat": 23.531344
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:03.462Z"
+      },
+      "location": {
+        "lng": 113.591623,
+        "lat": 23.531344
+      }
+    },
+    {
+      "id": 1685,
+      "name": "Kikis其趣同和店",
+      "address": "同和大街1号金铂广场A座2层",
+      "geocodeAddress": "广州市白云区同和大街1号金铂广场A座2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1685",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区同和大街1号金铂广场A座2层",
+        "formattedAddress": "广东省广州市白云区同和大街1号A207",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.325321,
+          "lat": 23.196548
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:03.715Z"
+      },
+      "location": {
+        "lng": 113.325321,
+        "lat": 23.196548
+      }
+    },
+    {
+      "id": 1710,
+      "name": "晶灵玩家",
+      "address": "永发路14号雅乐城2-3层",
+      "geocodeAddress": "广州市花都区永发路14号雅乐城2-3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1710",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区永发路14号雅乐城2-3层",
+        "formattedAddress": "广东省广州市花都区永发大道14号雅乐城2层",
+        "level": "门址",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.189867,
+          "lat": 23.422313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:03.969Z"
+      },
+      "location": {
+        "lng": 113.189867,
+        "lat": 23.422313
+      }
+    },
+    {
+      "id": 2007,
+      "name": "夏意乐园",
+      "address": "荔城府佑路98号东汇城2层268（大润发出口）",
+      "geocodeAddress": "广州市增城区荔城府佑路98号东汇城2层268（大润发出口）",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2007",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区荔城府佑路98号东汇城2层268（大润发出口）",
+        "formattedAddress": "广东省广州市增城区荔城府佑路98号东汇城2层",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.819025,
+          "lat": 23.283908
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:04.223Z"
+      },
+      "location": {
+        "lng": 113.819025,
+        "lat": 23.283908
+      }
+    },
+    {
+      "id": 2111,
+      "name": "星际玩家广州富力海珠城店",
+      "address": "江南大道中180号富力海珠城B区6层601",
+      "geocodeAddress": "广州市海珠区江南大道中180号富力海珠城B区6层601",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2111",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区江南大道中180号富力海珠城B区6层601",
+        "formattedAddress": "广东省广州市海珠区江南大道中180号富力海珠城b区6层",
+        "level": "小巷",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.273836,
+          "lat": 23.095249
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:04.910Z"
+      },
+      "location": {
+        "lng": 113.273836,
+        "lat": 23.095249
+      }
+    },
+    {
+      "id": 2155,
+      "name": "晴空进击社广州设计之都时光汇店",
+      "address": "黄边北路152号广州设计之都时光汇3层",
+      "geocodeAddress": "广州市白云区黄边北路152号广州设计之都时光汇3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2155",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区黄边北路152号广州设计之都时光汇3层",
+        "formattedAddress": "广东省广州市白云区黄边北路广州设计之都时光汇",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.285373,
+          "lat": 23.221529
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:05.172Z"
+      },
+      "location": {
+        "lng": 113.285373,
+        "lat": 23.221529
+      }
+    },
+    {
+      "id": 2311,
+      "name": "合成电玩城",
+      "address": "狮岭合成三街1号合成广场3层3-08,3-09",
+      "geocodeAddress": "广州市花都区狮岭合成三街1号合成广场3层3-08,3-09",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2311",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区狮岭合成三街1号合成广场3层3-08,3-09",
+        "formattedAddress": "广东省广州市花都区狮岭合成三街合成广场",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.181593,
+          "lat": 23.453567
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:05.423Z"
+      },
+      "location": {
+        "lng": 113.181593,
+        "lat": 23.453567
+      }
+    },
+    {
+      "id": 2360,
+      "name": "乐逸超乐场广州店",
+      "address": "新塘港口大道北332号金海岸城市广场3层A07",
+      "geocodeAddress": "广州市增城区新塘港口大道北332号金海岸城市广场3层A07",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2360",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区新塘港口大道北332号金海岸城市广场3层A07",
+        "formattedAddress": "广东省广州市增城区新塘港口大道北332号金海岸城市广场3层",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.602734,
+          "lat": 23.127242
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:06.128Z"
+      },
+      "location": {
+        "lng": 113.602734,
+        "lat": 23.127242
+      }
+    },
+    {
+      "id": 2396,
+      "name": "天空之城白云万象汇店",
+      "address": "新市街道棠乐路1,3,5,7号广州白云万象汇3层XL3019",
+      "geocodeAddress": "广州市白云区新市街道棠乐路1,3,5,7号广州白云万象汇3层XL3019",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2396",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区新市街道棠乐路1,3,5,7号广州白云万象汇3层XL3019",
+        "formattedAddress": "广东省广州市白云区新市街道棠乐路1-3-5-7号广州白云万象汇",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.258816,
+          "lat": 23.194834
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:06.382Z"
+      },
+      "location": {
+        "lng": 113.258816,
+        "lat": 23.194834
+      }
+    },
+    {
+      "id": 2407,
+      "name": "特爱玩电玩城",
+      "address": "天源路5号天河新天地3层L323-330",
+      "geocodeAddress": "广州市天河区天源路5号天河新天地3层L323-330",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2407",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区天源路5号天河新天地3层L323-330",
+        "formattedAddress": "广东省广州市天河区天源路5天河天河新天地(西北门)",
+        "level": "兴趣点",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.34381,
+          "lat": 23.171991
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:07.066Z"
+      },
+      "location": {
+        "lng": 113.34381,
+        "lat": 23.171991
+      }
+    },
+    {
+      "id": 2624,
+      "name": "咔奇超乐场",
+      "address": "萝岗科学大道52号广州黄埔大悦汇-1层CB10-118",
+      "geocodeAddress": "广州市黄埔区萝岗科学大道52号广州黄埔大悦汇-1层CB10-118",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440112000000",
+      "countyName": "黄埔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2624",
+      "geocode": {
+        "ok": true,
+        "query": "广州市黄埔区萝岗科学大道52号广州黄埔大悦汇-1层CB10-118",
+        "formattedAddress": "广东省广州市黄埔区萝岗镇科学大道52号广州黄埔大悦汇(西门)",
+        "level": "兴趣点",
+        "adcode": "440112",
+        "expectedAdcode": "440112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.429324,
+          "lat": 23.164303
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:07.334Z"
+      },
+      "location": {
+        "lng": 113.429324,
+        "lat": 23.164303
+      }
+    },
+    {
+      "id": 2818,
+      "name": "超能星客凯德广场店",
+      "address": "白云新城云城西路890号凯德广场云尚3层14/34",
+      "geocodeAddress": "广州市白云区白云新城云城西路890号凯德广场云尚3层14/34",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2818",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区白云新城云城西路890号凯德广场云尚3层14/34",
+        "formattedAddress": "广东省广州市白云区云城西路890号凯德广场云尚(南2门)",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.269549,
+          "lat": 23.180501
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:07.605Z"
+      },
+      "location": {
+        "lng": 113.269549,
+        "lat": 23.180501
+      }
+    },
+    {
+      "id": 2835,
+      "name": "环游嘉年华天河领展店",
+      "address": "马场路36号广州天河领展广场4层401",
+      "geocodeAddress": "广州市天河区马场路36号广州天河领展广场4层401",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2835",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区马场路36号广州天河领展广场4层401",
+        "formattedAddress": "广东省广州市天河区马场路36号天河领展广场",
+        "level": "兴趣点",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.344307,
+          "lat": 23.123706
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:07.877Z"
+      },
+      "location": {
+        "lng": 113.344307,
+        "lat": 23.123706
+      }
+    },
+    {
+      "id": 2889,
+      "name": "FUN WLLEY星寰店",
+      "address": "侨光西路11号星寰国际商业中心3层L3-01-1",
+      "geocodeAddress": "广州市越秀区侨光西路11号星寰国际商业中心3层L3-01-1",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440104000000",
+      "countyName": "越秀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2889",
+      "geocode": {
+        "ok": true,
+        "query": "广州市越秀区侨光西路11号星寰国际商业中心3层L3-01-1",
+        "formattedAddress": "广东省广州市越秀区侨光西路11号星寰国际商业中心",
+        "level": "兴趣点",
+        "adcode": "440104",
+        "expectedAdcode": "440104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.264035,
+          "lat": 23.11357
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:08.135Z"
+      },
+      "location": {
+        "lng": 113.264035,
+        "lat": 23.11357
+      }
+    },
+    {
+      "id": 2890,
+      "name": "三华里の漫音屋（广州花都店）",
+      "address": "尖东街115号三华里羽毛球馆",
+      "geocodeAddress": "广州市花都区尖东街115号三华里羽毛球馆",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2890",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区尖东街115号三华里羽毛球馆",
+        "formattedAddress": "广东省广州市花都区三华村",
+        "level": "村庄",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.195714,
+          "lat": 23.390044
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:08.395Z"
+      },
+      "location": {
+        "lng": 113.195714,
+        "lat": 23.390044
+      }
+    },
+    {
+      "id": 2963,
+      "name": "极客森健康港星河COCOPARK店",
+      "address": "东沙大道16号健康港星河COCOPARK北塔3层3723",
+      "geocodeAddress": "广州市荔湾区东沙大道16号健康港星河COCOPARK北塔3层3723",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2963",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区东沙大道16号健康港星河COCOPARK北塔3层3723",
+        "formattedAddress": "广东省广州市荔湾区东沙大道16号",
+        "level": "门址",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.260843,
+          "lat": 23.059384
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:09.121Z"
+      },
+      "location": {
+        "lng": 113.260843,
+        "lat": 23.059384
+      }
+    },
+    {
+      "id": 3065,
+      "name": "全境方舟悦方城店",
+      "address": "黄阁黄梅路328号悦方城3层333",
+      "geocodeAddress": "广州市南沙区黄阁黄梅路328号悦方城3层333",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440115000000",
+      "countyName": "南沙区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3065",
+      "geocode": {
+        "ok": true,
+        "query": "广州市南沙区黄阁黄梅路328号悦方城3层333",
+        "formattedAddress": "广东省广州市南沙区黄阁黄梅路悦方城(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "440115",
+        "expectedAdcode": "440115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.501993,
+          "lat": 22.815517
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:09.421Z"
+      },
+      "location": {
+        "lng": 113.501993,
+        "lat": 22.815517
+      }
+    },
+    {
+      "id": 3074,
+      "name": "极客森南沙星河COCOPARK店",
+      "address": "番中公路黄阁段37-1号南沙星河COCOPARKL3层411",
+      "geocodeAddress": "广州市南沙区番中公路黄阁段37-1号南沙星河COCOPARKL3层411",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440115000000",
+      "countyName": "南沙区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3074",
+      "geocode": {
+        "ok": true,
+        "query": "广州市南沙区番中公路黄阁段37-1号南沙星河COCOPARKL3层411",
+        "formattedAddress": "广东省广州市南沙区黄阁星河",
+        "level": "住宅区",
+        "adcode": "440115",
+        "expectedAdcode": "440115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.546474,
+          "lat": 22.803938
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:09.927Z"
+      },
+      "location": {
+        "lng": 113.546474,
+        "lat": 22.803938
+      }
+    },
+    {
+      "id": 3083,
+      "name": "漫游胖达",
+      "address": "天河路299号时尚天河商业广场-1层中区中五街046",
+      "geocodeAddress": "广州市天河区天河路299号时尚天河商业广场-1层中区中五街046",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3083",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区天河路299号时尚天河商业广场-1层中区中五街046",
+        "formattedAddress": "广东省广州市天河区天河路299号时尚中五街046号",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.325296,
+          "lat": 23.133987
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:10.727Z"
+      },
+      "location": {
+        "lng": 113.325296,
+        "lat": 23.133987
+      }
+    },
+    {
+      "id": 3181,
+      "name": "萌吉拉合成店",
+      "address": "狮岭大道中1号合成广场二期2层2-(11-18)",
+      "geocodeAddress": "广州市花都区狮岭大道中1号合成广场二期2层2-(11-18)",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3181",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区狮岭大道中1号合成广场二期2层2-(11-18)",
+        "formattedAddress": "广东省广州市花都区狮岭大道中1号合成广场",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.181593,
+          "lat": 23.453567
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:11.013Z"
+      },
+      "location": {
+        "lng": 113.181593,
+        "lat": 23.453567
+      }
+    },
+    {
+      "id": 3292,
+      "name": "哒趣超乐场",
+      "address": "江埔从城大道107号远达汇聚广场2层H2-007,008,009",
+      "geocodeAddress": "广州市从化区江埔从城大道107号远达汇聚广场2层H2-007,008,009",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3292",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区江埔从城大道107号远达汇聚广场2层H2-007,008,009",
+        "formattedAddress": "广东省广州市从化区江埔从城大道远达汇聚广场",
+        "level": "兴趣点",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.594305,
+          "lat": 23.529484
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:11.375Z"
+      },
+      "location": {
+        "lng": 113.594305,
+        "lat": 23.529484
+      }
+    },
+    {
+      "id": 3311,
+      "name": "潮能空间",
+      "address": "荔城观翠路21号东汇城2层259-261,263,266,268",
+      "geocodeAddress": "广州市增城区荔城观翠路21号东汇城2层259-261,263,266,268",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3311",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区荔城观翠路21号东汇城2层259-261,263,266,268",
+        "formattedAddress": "广东省广州市增城区荔城观翠路21号1栋",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.82229,
+          "lat": 23.283586
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:12.069Z"
+      },
+      "location": {
+        "lng": 113.82229,
+        "lat": 23.283586
+      }
+    },
+    {
+      "id": 3436,
+      "name": "夹满嘟",
+      "address": "厦滘迎宾路19号厦滘商务区A区广州岭南购物城3街1层37-43",
+      "geocodeAddress": "广州市番禺区厦滘迎宾路19号厦滘商务区A区广州岭南购物城3街1层37-43",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3436",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区厦滘迎宾路19号厦滘商务区A区广州岭南购物城3街1层37-43",
+        "formattedAddress": "广东省广州市番禺区厦滘迎宾路岭南购物城3街",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.316237,
+          "lat": 23.038738
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:12.322Z"
+      },
+      "location": {
+        "lng": 113.316237,
+        "lat": 23.038738
+      }
+    },
+    {
+      "id": 3518,
+      "name": "大玩家广州南沙万达店",
+      "address": "双山大道7号南沙万达广场3层",
+      "geocodeAddress": "广州市南沙区双山大道7号南沙万达广场3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440115000000",
+      "countyName": "南沙区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3518",
+      "geocode": {
+        "ok": true,
+        "query": "广州市南沙区双山大道7号南沙万达广场3层",
+        "formattedAddress": "广东省广州市南沙区双山大道7号万达广场(百货出入口)3层",
+        "level": "门址",
+        "adcode": "440115",
+        "expectedAdcode": "440115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.531705,
+          "lat": 22.794424
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:12.574Z"
+      },
+      "location": {
+        "lng": 113.531705,
+        "lat": 22.794424
+      }
+    },
+    {
+      "id": 3599,
+      "name": "萌吉拉新街汇店",
+      "address": "新华新街大道5号之一新街汇广场3层323",
+      "geocodeAddress": "广州市花都区新华新街大道5号之一新街汇广场3层323",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3599",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区新华新街大道5号之一新街汇广场3层323",
+        "formattedAddress": "广东省广州市花都区新街大道新街村",
+        "level": "村庄",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.194376,
+          "lat": 23.376077
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:12.836Z"
+      },
+      "location": {
+        "lng": 113.194376,
+        "lat": 23.376077
+      }
+    },
+    {
+      "id": 3637,
+      "name": "疯狂牛仔城天河美林店",
+      "address": "黄埔大道东663号广州美林M·LIVE天地3层012",
+      "geocodeAddress": "广州市天河区黄埔大道东663号广州美林M·LIVE天地3层012",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3637",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区黄埔大道东663号广州美林M·LIVE天地3层012",
+        "formattedAddress": "广东省广州市天河区黄埔大道东663号1-a33",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.41544,
+          "lat": 23.104608
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:13.096Z"
+      },
+      "location": {
+        "lng": 113.41544,
+        "lat": 23.104608
+      }
+    },
+    {
+      "id": 3640,
+      "name": "头号玩家琶洲保利广场店",
+      "address": "琶洲蟠龙新街2号保利广场3层C302B",
+      "geocodeAddress": "广州市海珠区琶洲蟠龙新街2号保利广场3层C302B",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3640",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区琶洲蟠龙新街2号保利广场3层C302B",
+        "formattedAddress": "广东省广州市海珠区琶洲保利广场3层",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.383799,
+          "lat": 23.098786
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:13.358Z"
+      },
+      "location": {
+        "lng": 113.383799,
+        "lat": 23.098786
+      }
+    },
+    {
+      "id": 3695,
+      "name": "晴空进击社嘉裕太阳城店",
+      "address": "京溪广州大道北1811号嘉裕太阳城2层2059",
+      "geocodeAddress": "广州市白云区京溪广州大道北1811号嘉裕太阳城2层2059",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3695",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区京溪广州大道北1811号嘉裕太阳城2层2059",
+        "formattedAddress": "广东省广州市白云区京溪广州大道北1811号",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.326249,
+          "lat": 23.187886
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:14.058Z"
+      },
+      "location": {
+        "lng": 113.326249,
+        "lat": 23.187886
+      }
+    },
+    {
+      "id": 3751,
+      "name": "热带雨林增城万达店",
+      "address": "荔城增城大道69号1栋294号增城万达广场2层Z-2F-B",
+      "geocodeAddress": "广州市增城区荔城增城大道69号1栋294号增城万达广场2层Z-2F-B",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3751",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区荔城增城大道69号1栋294号增城万达广场2层Z-2F-B",
+        "formattedAddress": "广东省广州市增城区荔城增城大道69号广州增城万达广场2号",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.814157,
+          "lat": 23.276495
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:14.306Z"
+      },
+      "location": {
+        "lng": 113.814157,
+        "lat": 23.276495
+      }
+    },
+    {
+      "id": 3766,
+      "name": "天空之城番禺华丰汇店",
+      "address": "市桥清河东路203号番禺华丰汇购物中心3层3010-3013",
+      "geocodeAddress": "广州市番禺区市桥清河东路203号番禺华丰汇购物中心3层3010-3013",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3766",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区市桥清河东路203号番禺华丰汇购物中心3层3010-3013",
+        "formattedAddress": "广东省广州市番禺区市桥清河东路203号番禺华丰汇购物中心(清河东路店)",
+        "level": "兴趣点",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.377675,
+          "lat": 22.937175
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:14.549Z"
+      },
+      "location": {
+        "lng": 113.377675,
+        "lat": 22.937175
+      }
+    },
+    {
+      "id": 3824,
+      "name": "疯狂牛仔城白云百信店",
+      "address": "新市街道机场路1399号百信广场L3层",
+      "geocodeAddress": "广州市白云区新市街道机场路1399号百信广场L3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3824",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区新市街道机场路1399号百信广场L3层",
+        "formattedAddress": "广东省广州市白云区新市街道机场路1399号百信广场(3号入口)l3层",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.261852,
+          "lat": 23.194537
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:14.815Z"
+      },
+      "location": {
+        "lng": 113.261852,
+        "lat": 23.194537
+      }
+    },
+    {
+      "id": 3877,
+      "name": "漫奈斯南沙万达店",
+      "address": "双山大道3号南沙万达广场2层",
+      "geocodeAddress": "广州市南沙区双山大道3号南沙万达广场2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440115000000",
+      "countyName": "南沙区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3877",
+      "geocode": {
+        "ok": true,
+        "query": "广州市南沙区双山大道3号南沙万达广场2层",
+        "formattedAddress": "广东省广州市南沙区双山大道3号万达广场(百货出入口)2层",
+        "level": "门址",
+        "adcode": "440115",
+        "expectedAdcode": "440115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.533002,
+          "lat": 22.794461
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:15.065Z"
+      },
+      "location": {
+        "lng": 113.533002,
+        "lat": 22.794461
+      }
+    },
+    {
+      "id": 3962,
+      "name": "宝贝王天河欢乐颂店",
+      "address": "中山大道中1116号广州天河欢乐颂3层",
+      "geocodeAddress": "广州市天河区中山大道中1116号广州天河欢乐颂3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3962",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区中山大道中1116号广州天河欢乐颂3层",
+        "formattedAddress": "广东省广州市天河区中山大道中1116号欢乐颂(西南门)",
+        "level": "兴趣点",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.420158,
+          "lat": 23.11552
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:15.327Z"
+      },
+      "location": {
+        "lng": 113.420158,
+        "lat": 23.11552
+      }
+    },
+    {
+      "id": 4049,
+      "name": "Unity Power窝",
+      "address": "西槎路158号雅怡花园（团结之力）",
+      "geocodeAddress": "广州市白云区西槎路158号雅怡花园（团结之力）",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4049",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区西槎路158号雅怡花园（团结之力）",
+        "formattedAddress": "广东省广州市白云区西槎路158-10号雅怡花园(西1门)",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.236643,
+          "lat": 23.160527
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:16.059Z"
+      },
+      "location": {
+        "lng": 113.236643,
+        "lat": 23.160527
+      }
+    },
+    {
+      "id": 4064,
+      "name": "嗨森汇广州北京路天河城店",
+      "address": "北京路168号北京路天河城A区3层B336-340",
+      "geocodeAddress": "广州市越秀区北京路168号北京路天河城A区3层B336-340",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440104000000",
+      "countyName": "越秀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4064",
+      "geocode": {
+        "ok": true,
+        "query": "广州市越秀区北京路168号北京路天河城A区3层B336-340",
+        "formattedAddress": "广东省广州市越秀区北京路168号北京路天河城A区",
+        "level": "兴趣点",
+        "adcode": "440104",
+        "expectedAdcode": "440104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.270018,
+          "lat": 23.119613
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:16.312Z"
+      },
+      "location": {
+        "lng": 113.270018,
+        "lat": 23.119613
+      }
+    },
+    {
+      "id": 4191,
+      "name": "疯狂牛仔城花都万民店",
+      "address": "建设北路72号万民广场3层",
+      "geocodeAddress": "广州市花都区建设北路72号万民广场3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4191",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区建设北路72号万民广场3层",
+        "formattedAddress": "广东省广州市花都区建设北路72号万民广场(花都店)",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.204634,
+          "lat": 23.386293
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:16.571Z"
+      },
+      "location": {
+        "lng": 113.204634,
+        "lat": 23.386293
+      }
+    },
+    {
+      "id": 4218,
+      "name": "奇妙之城从化奥莱小镇店",
+      "address": "太平广从南路8号仓流溪河奥莱小镇LG层037-038",
+      "geocodeAddress": "广州市从化区太平广从南路8号仓流溪河奥莱小镇LG层037-038",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4218",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区太平广从南路8号仓流溪河奥莱小镇LG层037-038",
+        "formattedAddress": "广东省广州市从化区太平镇广从南路广州8号仓(原8号仓流溪河奥莱小镇)",
+        "level": "兴趣点",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.519374,
+          "lat": 23.477488
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:16.835Z"
+      },
+      "location": {
+        "lng": 113.519374,
+        "lat": 23.477488
+      }
+    },
+    {
+      "id": 4220,
+      "name": "晴空乐园广州白云云门店",
+      "address": "永平百顺北路1号云门New Park3层L307",
+      "geocodeAddress": "广州市白云区永平百顺北路1号云门New Park3层L307",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4220",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区永平百顺北路1号云门New Park3层L307",
+        "formattedAddress": "广东省广州市白云区永平百顺北路1号",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.291824,
+          "lat": 23.236768
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:17.113Z"
+      },
+      "location": {
+        "lng": 113.291824,
+        "lat": 23.236768
+      }
+    },
+    {
+      "id": 4227,
+      "name": "梦幻乐园金茂广场店",
+      "address": "广州大道北980号金茂广场3层301-319",
+      "geocodeAddress": "广州市天河区广州大道北980号金茂广场3层301-319",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4227",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区广州大道北980号金茂广场3层301-319",
+        "formattedAddress": "广东省广州市天河区广州大道北980号",
+        "level": "门牌号",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.318558,
+          "lat": 23.172136
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:17.378Z"
+      },
+      "location": {
+        "lng": 113.318558,
+        "lat": 23.172136
+      }
+    },
+    {
+      "id": 4332,
+      "name": "欢乐岛游乐城",
+      "address": "江埔从城大道113号欣荣广场A区A栋3层",
+      "geocodeAddress": "广州市从化区江埔从城大道113号欣荣广场A区A栋3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4332",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区江埔从城大道113号欣荣广场A区A栋3层",
+        "formattedAddress": "广东省广州市从化区江埔从城大道113号欣荣广场a区a栋",
+        "level": "小巷",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.589114,
+          "lat": 23.532716
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:18.065Z"
+      },
+      "location": {
+        "lng": 113.589114,
+        "lat": 23.532716
+      }
+    },
+    {
+      "id": 4361,
+      "name": "炫次方正佳广场店",
+      "address": "天河路228号正佳广场5层5D113-114",
+      "geocodeAddress": "广州市天河区天河路228号正佳广场5层5D113-114",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4361",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区天河路228号正佳广场5层5D113-114",
+        "formattedAddress": "广东省广州市天河区天河路228号",
+        "level": "门牌号",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.320766,
+          "lat": 23.133335
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:18.320Z"
+      },
+      "location": {
+        "lng": 113.320766,
+        "lat": 23.133335
+      }
+    },
+    {
+      "id": 4412,
+      "name": "宴窝 | Banquet",
+      "address": "燕岭路133号苏荷独立艺术园区六栋105号",
+      "geocodeAddress": "广州市天河区燕岭路133号苏荷独立艺术园区六栋105号",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4412",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区燕岭路133号苏荷独立艺术园区六栋105号",
+        "formattedAddress": "广东省广州市天河区燕岭路133号苏荷独立艺术园区6区",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.329903,
+          "lat": 23.163313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:18.568Z"
+      },
+      "location": {
+        "lng": 113.329903,
+        "lat": 23.163313
+      }
+    },
+    {
+      "id": 4418,
+      "name": "猫窝（大石店）",
+      "address": "大石地铁站A口",
+      "geocodeAddress": "广州市番禺区大石地铁站A口",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4418",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区大石地铁站A口",
+        "formattedAddress": "广东省广州市番禺区大石(地铁站)a口",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.320329,
+          "lat": 23.018824
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:18.818Z"
+      },
+      "location": {
+        "lng": 113.320329,
+        "lat": 23.018824
+      }
+    },
+    {
+      "id": 4501,
+      "name": "西虹市游艺厅",
+      "address": "永发路14号雅乐城2层233-234",
+      "geocodeAddress": "广州市花都区永发路14号雅乐城2层233-234",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4501",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区永发路14号雅乐城2层233-234",
+        "formattedAddress": "广东省广州市花都区永发大道14号雅乐城2层",
+        "level": "门址",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.189867,
+          "lat": 23.422313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:19.076Z"
+      },
+      "location": {
+        "lng": 113.189867,
+        "lat": 23.422313
+      }
+    },
+    {
+      "id": 4544,
+      "name": "环游嘉年华(大玩家)海珠万达店",
+      "address": "广州大道南978号海珠万达广场3层301",
+      "geocodeAddress": "广州市海珠区广州大道南978号海珠万达广场3层301",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4544",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区广州大道南978号海珠万达广场3层301",
+        "formattedAddress": "广东省广州市海珠区广州大道南978号广州海珠万达广场3楼",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.313833,
+          "lat": 23.083346
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:19.336Z"
+      },
+      "location": {
+        "lng": 113.313833,
+        "lat": 23.083346
+      }
+    },
+    {
+      "id": 4566,
+      "name": "太空喵广州白云庆达店",
+      "address": "钟落潭广从七路1002号庆达广场2层220",
+      "geocodeAddress": "广州市白云区钟落潭广从七路1002号庆达广场2层220",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4566",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区钟落潭广从七路1002号庆达广场2层220",
+        "formattedAddress": "广东省广州市白云区钟落潭广从七路1002号庆达广场",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.41032,
+          "lat": 23.380023
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:20.010Z"
+      },
+      "location": {
+        "lng": 113.41032,
+        "lat": 23.380023
+      }
+    },
+    {
+      "id": 4599,
+      "name": "游亿斯广州天河龙泰广场店",
+      "address": "龙洞街道龙泰广场2楼",
+      "geocodeAddress": "广州市天河区龙洞街道龙泰广场2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4599",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区龙洞街道龙泰广场2楼",
+        "formattedAddress": "广东省广州市天河区龙洞街道龙泰广场(龙洞商业广场店)",
+        "level": "兴趣点",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.367115,
+          "lat": 23.193794
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:20.271Z"
+      },
+      "location": {
+        "lng": 113.367115,
+        "lat": 23.193794
+      }
+    },
+    {
+      "id": 4748,
+      "name": "骑趣乐园广州燕汇店",
+      "address": "江燕路108-2号燕汇广场A3层3C01-03",
+      "geocodeAddress": "广州市海珠区江燕路108-2号燕汇广场A3层3C01-03",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4748",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区江燕路108-2号燕汇广场A3层3C01-03",
+        "formattedAddress": "广东省广州市海珠区江燕路108-2号燕汇广场3层",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.277516,
+          "lat": 23.082204
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:20.525Z"
+      },
+      "location": {
+        "lng": 113.277516,
+        "lat": 23.082204
+      }
+    },
+    {
+      "id": 4810,
+      "name": "极力特番禺万达广场店",
+      "address": "万博汉溪大道东381,389,391号番禺万达广场2层213",
+      "geocodeAddress": "广州市番禺区万博汉溪大道东381,389,391号番禺万达广场2层213",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4810",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区万博汉溪大道东381,389,391号番禺万达广场2层213",
+        "formattedAddress": "广东省广州市番禺区番禺汉溪大道东番禺万达广场(北门)2层",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.349042,
+          "lat": 23.007265
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:20.782Z"
+      },
+      "location": {
+        "lng": 113.349042,
+        "lat": 23.007265
+      }
+    },
+    {
+      "id": 4865,
+      "name": "易游未尽酷玩城",
+      "address": "江埔环市东路688号金汇城3层L3-001-5",
+      "geocodeAddress": "广州市从化区江埔环市东路688号金汇城3层L3-001-5",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4865",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区江埔环市东路688号金汇城3层L3-001-5",
+        "formattedAddress": "广东省广州市从化区江埔天马大道168号",
+        "level": "门牌号",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.608429,
+          "lat": 23.529256
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:21.048Z"
+      },
+      "location": {
+        "lng": 113.608429,
+        "lat": 23.529256
+      }
+    },
+    {
+      "id": 4866,
+      "name": "梦幻空间广州花都店",
+      "address": "花港大道30号之二十五",
+      "geocodeAddress": "广州市花都区花港大道30号之二十五",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4866",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区花港大道30号之二十五",
+        "formattedAddress": "广东省广州市花都区花港大道30号",
+        "level": "门址",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.147701,
+          "lat": 23.356121
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:21.299Z"
+      },
+      "location": {
+        "lng": 113.147701,
+        "lat": 23.356121
+      }
+    },
+    {
+      "id": 4894,
+      "name": "爱吉乐(茶园新天地店)",
+      "address": "新华街道茶园路15号茶园新天地3楼",
+      "geocodeAddress": "广州市花都区新华街道茶园路15号茶园新天地3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4894",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区新华街道茶园路15号茶园新天地3楼",
+        "formattedAddress": "广东省广州市花都区新华街道茶园路9-10号",
+        "level": "门牌号",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.215441,
+          "lat": 23.388667
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:21.981Z"
+      },
+      "location": {
+        "lng": 113.215441,
+        "lat": 23.388667
+      }
+    },
+    {
+      "id": 4937,
+      "name": "Funwlley家庭娱乐中心广州番禺店",
+      "address": "洛溪环岛南路398号洛溪大厦喜邻里商业中心4楼",
+      "geocodeAddress": "广州市番禺区洛溪环岛南路398号洛溪大厦喜邻里商业中心4楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4937",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区洛溪环岛南路398号洛溪大厦喜邻里商业中心4楼",
+        "formattedAddress": "广东省广州市番禺区洛溪喜邻里商业中心",
+        "level": "住宅区",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.297184,
+          "lat": 23.041295
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:22.233Z"
+      },
+      "location": {
+        "lng": 113.297184,
+        "lat": 23.041295
+      }
+    },
+    {
+      "id": 4938,
+      "name": "萌吉拉广州番禺南村店",
+      "address": "南村镇南华路66号人人佳商业广场三楼",
+      "geocodeAddress": "广州市番禺区南村镇南华路66号人人佳商业广场三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4938",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区南村镇南华路66号人人佳商业广场三楼",
+        "formattedAddress": "广东省广州市番禺区南村镇南华路66号",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.388282,
+          "lat": 23.005264
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:22.483Z"
+      },
+      "location": {
+        "lng": 113.388282,
+        "lat": 23.005264
+      }
+    },
+    {
+      "id": 5080,
+      "name": "宝贝王乐园(萝岗万达店)",
+      "address": "萝岗科丰路89号萝岗万达广场2层",
+      "geocodeAddress": "广州市黄埔区萝岗科丰路89号萝岗万达广场2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440112000000",
+      "countyName": "黄埔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5080",
+      "geocode": {
+        "ok": true,
+        "query": "广州市黄埔区萝岗科丰路89号萝岗万达广场2层",
+        "formattedAddress": "广东省广州市黄埔区萝岗镇科丰路89号萝岗万达广场2层",
+        "level": "门址",
+        "adcode": "440112",
+        "expectedAdcode": "440112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.467225,
+          "lat": 23.169458
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:22.735Z"
+      },
+      "location": {
+        "lng": 113.467225,
+        "lat": 23.169458
+      }
+    },
+    {
+      "id": 5115,
+      "name": "阿尔法星球广州东篱梦时代店",
+      "address": "江南大道中219号",
+      "geocodeAddress": "广州市海珠区江南大道中219号",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5115",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区江南大道中219号",
+        "formattedAddress": "广东省广州市海珠区江南大道中219号",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.275389,
+          "lat": 23.094495
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:22.982Z"
+      },
+      "location": {
+        "lng": 113.275389,
+        "lat": 23.094495
+      }
+    },
+    {
+      "id": 5179,
+      "name": "漫奈斯嘉禾金铂天地店",
+      "address": "鹤龙二路85号嘉禾金铂天地2层",
+      "geocodeAddress": "广州市白云区鹤龙二路85号嘉禾金铂天地2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5179",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区鹤龙二路85号嘉禾金铂天地2层",
+        "formattedAddress": "广东省广州市白云区鹤龙二路85号嘉禾金铂天地2层",
+        "level": "小巷",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.28137,
+          "lat": 23.23834
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:23.233Z"
+      },
+      "location": {
+        "lng": 113.28137,
+        "lat": 23.23834
+      }
+    },
+    {
+      "id": 5242,
+      "name": "爱吉乐家庭娱乐中心(石井国际店)",
+      "address": "广东省广州市白云区石沙路86号石井国际3楼",
+      "geocodeAddress": "广州市广东省广州市白云区石沙路86号石井国际3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5242",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市白云区石沙路86号石井国际3楼",
+        "formattedAddress": "广东省广州市白云区石沙公路86号石井国际3楼",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.233379,
+          "lat": 23.210674
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:23.930Z"
+      },
+      "location": {
+        "lng": 113.233379,
+        "lat": 23.210674
+      }
+    },
+    {
+      "id": 5259,
+      "name": "极力特（海珠万达店）",
+      "address": "广州大道南978号海珠万达广场3层西側",
+      "geocodeAddress": "广州市海珠区广州大道南978号海珠万达广场3层西側",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5259",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区广州大道南978号海珠万达广场3层西側",
+        "formattedAddress": "广东省广州市海珠区广州大道南978号广州海珠万达广场3楼",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.313833,
+          "lat": 23.083346
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:24.184Z"
+      },
+      "location": {
+        "lng": 113.313833,
+        "lat": 23.083346
+      }
+    },
+    {
+      "id": 5281,
+      "name": "猫窝（东圃）",
+      "address": "东圃地铁站b口车陂第十三社东湖创意园C座515",
+      "geocodeAddress": "广州市天河区东圃地铁站b口车陂第十三社东湖创意园C座515",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5281",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区东圃地铁站b口车陂第十三社东湖创意园C座515",
+        "formattedAddress": "广东省广州市天河区东圃(地铁站)b号",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.400891,
+          "lat": 23.112208
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:24.438Z"
+      },
+      "location": {
+        "lng": 113.400891,
+        "lat": 23.112208
+      }
+    },
+    {
+      "id": 5303,
+      "name": "嬉游潮玩（增城新塘店）",
+      "address": "新塘镇新福路9号新塘万达广场三楼3F-A",
+      "geocodeAddress": "广州市增城区新塘镇新福路9号新塘万达广场三楼3F-A",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5303",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区新塘镇新福路9号新塘万达广场三楼3F-A",
+        "formattedAddress": "广东省广州市增城区新塘镇新塘",
+        "level": "兴趣点",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.598785,
+          "lat": 23.154053
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:24.691Z"
+      },
+      "location": {
+        "lng": 113.598785,
+        "lat": 23.154053
+      }
+    },
+    {
+      "id": 5313,
+      "name": "元气猩球&宝贝王(白云安华汇店)",
+      "address": "白云大道北880号安华汇三楼",
+      "geocodeAddress": "广州市白云区白云大道北880号安华汇三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5313",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区白云大道北880号安华汇三楼",
+        "formattedAddress": "广东省广州市白云区丛云路880号安华汇",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.296422,
+          "lat": 23.216676
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:24.949Z"
+      },
+      "location": {
+        "lng": 113.296422,
+        "lat": 23.216676
+      }
+    },
+    {
+      "id": 5369,
+      "name": "漫奈斯白云湖金铂天地店",
+      "address": "机场路2829号白云湖金铂天地三层301铺",
+      "geocodeAddress": "广州市白云区机场路2829号白云湖金铂天地三层301铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5369",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区机场路2829号白云湖金铂天地三层301铺",
+        "formattedAddress": "广东省广州市白云区机场路白云湖",
+        "level": "住宅区",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.257489,
+          "lat": 23.221884
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:25.200Z"
+      },
+      "location": {
+        "lng": 113.257489,
+        "lat": 23.221884
+      }
+    },
+    {
+      "id": 5370,
+      "name": "KiKis其趣白云湖金铂中心店",
+      "address": "机场路2829号（白云湖金铂天地三楼）",
+      "geocodeAddress": "广州市白云区机场路2829号（白云湖金铂天地三楼）",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5370",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区机场路2829号（白云湖金铂天地三楼）",
+        "formattedAddress": "广东省广州市白云区机场路白云湖",
+        "level": "住宅区",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.257489,
+          "lat": 23.221884
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:25.884Z"
+      },
+      "location": {
+        "lng": 113.257489,
+        "lat": 23.221884
+      }
+    },
+    {
+      "id": 5373,
+      "name": "萌吉拉炭步永利广场",
+      "address": "炭步万都超市3F",
+      "geocodeAddress": "广州市花都区炭步万都超市3F",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5373",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区炭步万都超市3F",
+        "formattedAddress": "广东省广州市花都区炭步",
+        "level": "住宅区",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.111545,
+          "lat": 23.340894
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:26.128Z"
+      },
+      "location": {
+        "lng": 113.111545,
+        "lat": 23.340894
+      }
+    },
+    {
+      "id": 5375,
+      "name": "反斗乐园骏壹万邦店",
+      "address": "曙光路81号骏壹万邦广场第三层3401",
+      "geocodeAddress": "广州市花都区曙光路81号骏壹万邦广场第三层3401",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5375",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区曙光路81号骏壹万邦广场第三层3401",
+        "formattedAddress": "广东省广州市花都区曙光大道81号骏壹万邦(东门)",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.228161,
+          "lat": 23.406313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:26.388Z"
+      },
+      "location": {
+        "lng": 113.228161,
+        "lat": 23.406313
+      }
+    },
+    {
+      "id": 5444,
+      "name": "千机幻城",
+      "address": "汉溪大道东390号四海城2楼恐龙公园入口",
+      "geocodeAddress": "广州市番禺区汉溪大道东390号四海城2楼恐龙公园入口",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5444",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区汉溪大道东390号四海城2楼恐龙公园入口",
+        "formattedAddress": "广东省广州市番禺区番禺汉溪大道东390号四海城2栋",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.352774,
+          "lat": 23.00626
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:27.069Z"
+      },
+      "location": {
+        "lng": 113.352774,
+        "lat": 23.00626
+      }
+    },
+    {
+      "id": 5445,
+      "name": "精灵岛潮玩中心(亿达方圆荟店)",
+      "address": "白云区江高镇广花三路399号亿达方圆荟三层",
+      "geocodeAddress": "广州市白云区江高镇广花三路399号亿达方圆荟三层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5445",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区江高镇广花三路399号亿达方圆荟三层",
+        "formattedAddress": "广东省广州市白云区江高镇广花三路亿达方圆荟",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.238673,
+          "lat": 23.297948
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:27.315Z"
+      },
+      "location": {
+        "lng": 113.238673,
+        "lat": 23.297948
+      }
+    },
+    {
+      "id": 5614,
+      "name": "奇幻空间(来又来店)",
+      "address": "广东省广州市花都区光凤路来又来时尚购物广场",
+      "geocodeAddress": "广州市广东省广州市花都区光凤路来又来时尚购物广场",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5614",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市花都区光凤路来又来时尚购物广场",
+        "formattedAddress": "广东省广州市花都区光凤路来又来时尚购物广场(西2门)",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.231615,
+          "lat": 23.398418
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:27.577Z"
+      },
+      "location": {
+        "lng": 113.231615,
+        "lat": 23.398418
+      }
+    },
+    {
+      "id": 5615,
+      "name": "萌吉拉(花东店）",
+      "address": "花东镇花都大道花东商业广场",
+      "geocodeAddress": "广州市花都区花东镇花都大道花东商业广场",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5615",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区花东镇花都大道花东商业广场",
+        "formattedAddress": "广东省广州市花都区花东镇花都大道花东商业广场",
+        "level": "兴趣点",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.321992,
+          "lat": 23.436085
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:27.827Z"
+      },
+      "location": {
+        "lng": 113.321992,
+        "lat": 23.436085
+      }
+    },
+    {
+      "id": 5867,
+      "name": "Top City家庭主题乐园(荔湾领展店)",
+      "address": "多宝街道黄沙大道8号领展广场西区2楼",
+      "geocodeAddress": "广州市荔湾区多宝街道黄沙大道8号领展广场西区2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5867",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区多宝街道黄沙大道8号领展广场西区2楼",
+        "formattedAddress": "广东省广州市荔湾区多宝街道黄沙大道8号荔湾领展广场西区",
+        "level": "兴趣点",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.239583,
+          "lat": 23.110696
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:28.073Z"
+      },
+      "location": {
+        "lng": 113.239583,
+        "lat": 23.110696
+      }
+    },
+    {
+      "id": 5892,
+      "name": "雁窝（广州昌岗店）",
+      "address": "昌岗地铁站c1出口，广东现代广告创意中心506-2",
+      "geocodeAddress": "广州市海珠区昌岗地铁站c1出口，广东现代广告创意中心506-2",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5892",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区昌岗地铁站c1出口，广东现代广告创意中心506-2",
+        "formattedAddress": "广东省广州市海珠区昌岗(地铁站) c1出口广东现代广告创意中心",
+        "level": "兴趣点",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.277197,
+          "lat": 23.091626
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:28.342Z"
+      },
+      "location": {
+        "lng": 113.277197,
+        "lat": 23.091626
+      }
+    },
+    {
+      "id": 5985,
+      "name": "MAGIC畅想城（番禺亚运城店）",
+      "address": "亚运大道1191号新华里购物中心一楼F1012-F1015",
+      "geocodeAddress": "广州市番禺区亚运大道1191号新华里购物中心一楼F1012-F1015",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5985",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区亚运大道1191号新华里购物中心一楼F1012-F1015",
+        "formattedAddress": "广东省广州市番禺区亚运大道1191号",
+        "level": "门址",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.474408,
+          "lat": 22.947566
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:29.034Z"
+      },
+      "location": {
+        "lng": 113.474408,
+        "lat": 22.947566
+      }
+    },
+    {
+      "id": 6033,
+      "name": "猫窝（京溪）",
+      "address": "白云区广州大道北1421号圣地大厦L203-2",
+      "geocodeAddress": "广州市白云区广州大道北1421号圣地大厦L203-2",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6033",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区广州大道北1421号圣地大厦L203-2",
+        "formattedAddress": "广东省广州市白云区广州大道北1421号圣地大厦l203-1铺",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.321559,
+          "lat": 23.182005
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:29.285Z"
+      },
+      "location": {
+        "lng": 113.321559,
+        "lat": 23.182005
+      }
+    },
+    {
+      "id": 6082,
+      "name": "极客玩家（萝岗奥园店）",
+      "address": "开创大道1934号萝岗奥园广场2楼L213",
+      "geocodeAddress": "广州市黄埔区开创大道1934号萝岗奥园广场2楼L213",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440112000000",
+      "countyName": "黄埔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6082",
+      "geocode": {
+        "ok": true,
+        "query": "广州市黄埔区开创大道1934号萝岗奥园广场2楼L213",
+        "formattedAddress": "广东省广州市黄埔区开创大道1934号萝岗奥园广场2楼",
+        "level": "门址",
+        "adcode": "440112",
+        "expectedAdcode": "440112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.497844,
+          "lat": 23.174325
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:29.533Z"
+      },
+      "location": {
+        "lng": 113.497844,
+        "lat": 23.174325
+      }
+    },
+    {
+      "id": 6115,
+      "name": "城市英雄广州番禺K11店",
+      "address": "钟村街汉溪大道东住178号三层自编L332、L333号商铺",
+      "geocodeAddress": "广州市番禺区钟村街汉溪大道东住178号三层自编L332、L333号商铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6115",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区钟村街汉溪大道东住178号三层自编L332、L333号商铺",
+        "formattedAddress": "广东省广州市番禺区汉溪大道东",
+        "level": "道路",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.29085,
+          "lat": 22.991768
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:29.785Z"
+      },
+      "location": {
+        "lng": 113.29085,
+        "lat": 22.991768
+      }
+    },
+    {
+      "id": 6129,
+      "name": "kikisland其趣丽影广场店",
+      "address": "丽影广场东区3楼",
+      "geocodeAddress": "广州市海珠区丽影广场东区3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6129",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区丽影广场东区3楼",
+        "formattedAddress": "广东省广州市海珠区丽影广场东区",
+        "level": "兴趣点",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.321463,
+          "lat": 23.095778
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:30.039Z"
+      },
+      "location": {
+        "lng": 113.321463,
+        "lat": 23.095778
+      }
+    },
+    {
+      "id": 6326,
+      "name": "童趣小叮当游乐园",
+      "address": "车陂利丰广场（四号线车陂站）",
+      "geocodeAddress": "广州市天河区车陂利丰广场（四号线车陂站）",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6326",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区车陂利丰广场（四号线车陂站）",
+        "formattedAddress": "广东省广州市天河区车陂",
+        "level": "住宅区",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.393589,
+          "lat": 23.123669
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:30.285Z"
+      },
+      "location": {
+        "lng": 113.393589,
+        "lat": 23.123669
+      }
+    },
+    {
+      "id": 6365,
+      "name": "宴窝 | SECLUSION",
+      "address": "从城大道99号远达广场",
+      "geocodeAddress": "广州市从化区从城大道99号远达广场",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440117000000",
+      "countyName": "从化区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6365",
+      "geocode": {
+        "ok": true,
+        "query": "广州市从化区从城大道99号远达广场",
+        "formattedAddress": "广东省广州市从化区从城大道99号",
+        "level": "门址",
+        "adcode": "440117",
+        "expectedAdcode": "440117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.59403,
+          "lat": 23.52986
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:30.952Z"
+      },
+      "location": {
+        "lng": 113.59403,
+        "lat": 23.52986
+      }
+    },
+    {
+      "id": 6376,
+      "name": "WIN窝 | 赢窝",
+      "address": "沙东街道陶庄路5号",
+      "geocodeAddress": "广州市天河区沙东街道陶庄路5号",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6376",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区沙东街道陶庄路5号",
+        "formattedAddress": "广东省广州市天河区沙东街道陶庄路5号",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.320748,
+          "lat": 23.162403
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:31.202Z"
+      },
+      "location": {
+        "lng": 113.320748,
+        "lat": 23.162403
+      }
+    },
+    {
+      "id": 6384,
+      "name": "元气满满广州白云万达广场店",
+      "address": "万达广场2楼",
+      "geocodeAddress": "广州市白云区万达广场2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6384",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区万达广场2楼",
+        "formattedAddress": "广东省广州市白云区万达广场(1号门)2楼",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.267244,
+          "lat": 23.172669
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:31.448Z"
+      },
+      "location": {
+        "lng": 113.267244,
+        "lat": 23.172669
+      }
+    },
+    {
+      "id": 6408,
+      "name": "未来之影广州天河天娱广场店",
+      "address": "石牌街道天河路623号天娱广场3F",
+      "geocodeAddress": "广州市天河区石牌街道天河路623号天娱广场3F",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6408",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区石牌街道天河路623号天娱广场3F",
+        "formattedAddress": "广东省广州市天河区石牌街道天河大道623号天娱广场3层",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.340078,
+          "lat": 23.135568
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:31.701Z"
+      },
+      "location": {
+        "lng": 113.340078,
+        "lat": 23.135568
+      }
+    },
+    {
+      "id": 6434,
+      "name": "魔童猫",
+      "address": "燕园路87号广垦天河一号",
+      "geocodeAddress": "广州市天河区燕园路87号广垦天河一号",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6434",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区燕园路87号广垦天河一号",
+        "formattedAddress": "广东省广州市天河区天河城1层",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.32238,
+          "lat": 23.132307
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:31.951Z"
+      },
+      "location": {
+        "lng": 113.32238,
+        "lat": 23.132307
+      }
+    },
+    {
+      "id": 6545,
+      "name": "kikis其趣广州白云佳润广场店",
+      "address": "佳润广场2F",
+      "geocodeAddress": "广州市白云区佳润广场2F",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6545",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区佳润广场2F",
+        "formattedAddress": "广东省广州市白云区佳润广场2层",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.322392,
+          "lat": 23.18157
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:32.204Z"
+      },
+      "location": {
+        "lng": 113.322392,
+        "lat": 23.18157
+      }
+    },
+    {
+      "id": 6592,
+      "name": "星漫传奇",
+      "address": "番禺区钟村街105国道旁雄峰城b1座三层",
+      "geocodeAddress": "广州市番禺区钟村街105国道旁雄峰城b1座三层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6592",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区钟村街105国道旁雄峰城b1座三层",
+        "formattedAddress": "广东省广州市番禺区钟村街钟顺路旁雄峰城B1座",
+        "level": "兴趣点",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.305517,
+          "lat": 22.970966
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:32.887Z"
+      },
+      "location": {
+        "lng": 113.305517,
+        "lat": 22.970966
+      }
+    },
+    {
+      "id": 6634,
+      "name": "奇妙岛",
+      "address": "黄石街道江夏东一路22号新月广场二楼",
+      "geocodeAddress": "广州市白云区黄石街道江夏东一路22号新月广场二楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6634",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区黄石街道江夏东一路22号新月广场二楼",
+        "formattedAddress": "广东省广州市白云区黄石街道江夏东一路22号新月广场",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.281088,
+          "lat": 23.211159
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:33.143Z"
+      },
+      "location": {
+        "lng": 113.281088,
+        "lat": 23.211159
+      }
+    },
+    {
+      "id": 6660,
+      "name": "幻境岛游艺中心(24h营业)",
+      "address": "广东省广州市海珠区凤阳街道奥宝·润政广场2楼幻境岛电玩城",
+      "geocodeAddress": "广州市广东省广州市海珠区凤阳街道奥宝·润政广场2楼幻境岛电玩城",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6660",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市海珠区凤阳街道奥宝·润政广场2楼幻境岛电玩城",
+        "formattedAddress": "广东省广州市海珠区凤阳街道奥宝·润政广场",
+        "level": "兴趣点",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.278882,
+          "lat": 23.083547
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:33.411Z"
+      },
+      "location": {
+        "lng": 113.278882,
+        "lat": 23.083547
+      }
+    },
+    {
+      "id": 6668,
+      "name": "疯狂牛仔城（增城东汇城店）",
+      "address": "荔城街府佑路98号东汇城三楼319-321，从大润发三楼入口处反方向直走至大秦小院右转，81体育后方",
+      "geocodeAddress": "广州市增城区荔城街府佑路98号东汇城三楼319-321，从大润发三楼入口处反方向直走至大秦小院右转，81体育后方",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440118000000",
+      "countyName": "增城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6668",
+      "geocode": {
+        "ok": true,
+        "query": "广州市增城区荔城街府佑路98号东汇城三楼319-321，从大润发三楼入口处反方向直走至大秦小院右转，81体育后方",
+        "formattedAddress": "广东省广州市增城区府佑路98号D1座",
+        "level": "门址",
+        "adcode": "440118",
+        "expectedAdcode": "440118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.818879,
+          "lat": 23.285829
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:34.103Z"
+      },
+      "location": {
+        "lng": 113.818879,
+        "lat": 23.285829
+      }
+    },
+    {
+      "id": 6680,
+      "name": "慧领地潮玩游乐汇(天河凤凰汇店)",
+      "address": "广汕一路716号天河凤凰汇1楼",
+      "geocodeAddress": "广州市天河区广汕一路716号天河凤凰汇1楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440106000000",
+      "countyName": "天河区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6680",
+      "geocode": {
+        "ok": true,
+        "query": "广州市天河区广汕一路716号天河凤凰汇1楼",
+        "formattedAddress": "广东省广州市天河区广汕一路716号",
+        "level": "门址",
+        "adcode": "440106",
+        "expectedAdcode": "440106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.392429,
+          "lat": 23.192547
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:34.354Z"
+      },
+      "location": {
+        "lng": 113.392429,
+        "lat": 23.192547
+      }
+    },
+    {
+      "id": 6873,
+      "name": "威力鼓",
+      "address": "广东省广州市白云区广州大道白云区同和荣升山水立方(广州大道西)",
+      "geocodeAddress": "广州市广东省广州市白云区广州大道白云区同和荣升山水立方(广州大道西)",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6873",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市白云区广州大道白云区同和荣升山水立方(广州大道西)",
+        "formattedAddress": "广东省广州市白云区同和荣升·山水立方",
+        "level": "兴趣点",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.326429,
+          "lat": 23.194016
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:34.616Z"
+      },
+      "location": {
+        "lng": 113.326429,
+        "lat": 23.194016
+      }
+    },
+    {
+      "id": 6929,
+      "name": "鸟窝｜黄边",
+      "address": "黄边北路向荣街179号-277号(单号)首层203铺",
+      "geocodeAddress": "广州市白云区黄边北路向荣街179号-277号(单号)首层203铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6929",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区黄边北路向荣街179号-277号(单号)首层203铺",
+        "formattedAddress": "广东省广州市白云区向荣街179-277号",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.286297,
+          "lat": 23.224011
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:34.879Z"
+      },
+      "location": {
+        "lng": 113.286297,
+        "lat": 23.224011
+      }
+    },
+    {
+      "id": 6939,
+      "name": "宴窝 | RIVIERA",
+      "address": "江南大道北4号岭舍创享公寓",
+      "geocodeAddress": "广州市海珠区江南大道北4号岭舍创享公寓",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6939",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区江南大道北4号岭舍创享公寓",
+        "formattedAddress": "广东省广州市海珠区江南大道北4号",
+        "level": "门址",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.267831,
+          "lat": 23.110079
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:35.142Z"
+      },
+      "location": {
+        "lng": 113.267831,
+        "lat": 23.110079
+      }
+    },
+    {
+      "id": 6940,
+      "name": "G2街区潮玩娱乐-钻汇星城店",
+      "address": "番禺区市桥街道市桥街桥兴大道134号钻汇星城B1层B区1077,1078,1079",
+      "geocodeAddress": "广州市番禺区市桥街道市桥街桥兴大道134号钻汇星城B1层B区1077,1078,1079",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6940",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区市桥街道市桥街桥兴大道134号钻汇星城B1层B区1077,1078,1079",
+        "formattedAddress": "广东省广州市番禺区市桥街道市桥大街桥兴大道钻汇星城",
+        "level": "兴趣点",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.362825,
+          "lat": 22.949975
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:35.400Z"
+      },
+      "location": {
+        "lng": 113.362825,
+        "lat": 22.949975
+      }
+    },
+    {
+      "id": 6947,
+      "name": "潮玩空间（万佳广场店）",
+      "address": "人和聚贤街江人三路1253号万佳百货3楼",
+      "geocodeAddress": "广州市白云区人和聚贤街江人三路1253号万佳百货3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6947",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区人和聚贤街江人三路1253号万佳百货3楼",
+        "formattedAddress": "广东省广州市白云区江人三路1253号",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.298545,
+          "lat": 23.329446
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:35.810Z"
+      },
+      "location": {
+        "lng": 113.298545,
+        "lat": 23.329446
+      }
+    },
+    {
+      "id": 6982,
+      "name": "太空喵广州白云润州城市广场店",
+      "address": "白云区大源东路2号润州城市广场F2层",
+      "geocodeAddress": "广州市白云区大源东路2号润州城市广场F2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440111000000",
+      "countyName": "白云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6982",
+      "geocode": {
+        "ok": true,
+        "query": "广州市白云区大源东路2号润州城市广场F2层",
+        "formattedAddress": "广东省广州市白云区大源东路2号",
+        "level": "门址",
+        "adcode": "440111",
+        "expectedAdcode": "440111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.352977,
+          "lat": 23.249954
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:37.065Z"
+      },
+      "location": {
+        "lng": 113.352977,
+        "lat": 23.249954
+      }
+    },
+    {
+      "id": 6997,
+      "name": "疯狂牛仔城(琶洲万民星光城店)",
+      "address": "琶洲大道180号201铺自编2001-2",
+      "geocodeAddress": "广州市海珠区琶洲大道180号201铺自编2001-2",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6997",
+      "geocode": {
+        "ok": true,
+        "query": "广州市海珠区琶洲大道180号201铺自编2001-2",
+        "formattedAddress": "广东省广州市海珠区琶洲大道180号",
+        "level": "门牌号",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.348834,
+          "lat": 23.09979
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:37.323Z"
+      },
+      "location": {
+        "lng": 113.348834,
+        "lat": 23.09979
+      }
+    },
+    {
+      "id": 6998,
+      "name": "城市英雄广州番禺万达店",
+      "address": "广东省广州市番禺区兴南大道386号番禺万达广场203房02号",
+      "geocodeAddress": "广州市广东省广州市番禺区兴南大道386号番禺万达广场203房02号",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6998",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市番禺区兴南大道386号番禺万达广场203房02号",
+        "formattedAddress": "广东省广州市番禺区兴南大道万达广场(东南门)",
+        "level": "兴趣点",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.349372,
+          "lat": 23.006191
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:37.578Z"
+      },
+      "location": {
+        "lng": 113.349372,
+        "lat": 23.006191
+      }
+    },
+    {
+      "id": 7010,
+      "name": "凯泰·KTxBingo美式社交主题电玩城",
+      "address": "中山七路333号1906科技园扬韬广场2楼",
+      "geocodeAddress": "广州市荔湾区中山七路333号1906科技园扬韬广场2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440103000000",
+      "countyName": "荔湾区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7010",
+      "geocode": {
+        "ok": true,
+        "query": "广州市荔湾区中山七路333号1906科技园扬韬广场2楼",
+        "formattedAddress": "广东省广州市荔湾区中山七路333号扬韬广场(北门)",
+        "level": "兴趣点",
+        "adcode": "440103",
+        "expectedAdcode": "440103",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.24466,
+          "lat": 23.125395
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:37.828Z"
+      },
+      "location": {
+        "lng": 113.24466,
+        "lat": 23.125395
+      }
+    },
+    {
+      "id": 7037,
+      "name": "岭南海港汇 好又来",
+      "address": "广东省广州市海珠区大干围12号岭南海港汇",
+      "geocodeAddress": "广州市广东省广州市海珠区大干围12号岭南海港汇",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440105000000",
+      "countyName": "海珠区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7037",
+      "geocode": {
+        "ok": true,
+        "query": "广州市广东省广州市海珠区大干围12号岭南海港汇",
+        "formattedAddress": "广东省广州市海珠区大干围岭南海港汇(建设中)",
+        "level": "兴趣点",
+        "adcode": "440105",
+        "expectedAdcode": "440105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.290925,
+          "lat": 23.056966
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:38.079Z"
+      },
+      "location": {
+        "lng": 113.290925,
+        "lat": 23.056966
+      }
+    },
+    {
+      "id": 7039,
+      "name": "星际玩家（番禺广晟店）",
+      "address": "南村镇广晟万博城3楼",
+      "geocodeAddress": "广州市番禺区南村镇广晟万博城3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440113000000",
+      "countyName": "番禺区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7039",
+      "geocode": {
+        "ok": true,
+        "query": "广州市番禺区南村镇广晟万博城3楼",
+        "formattedAddress": "广东省广州市番禺区南村镇广晟万博城",
+        "level": "兴趣点",
+        "adcode": "440113",
+        "expectedAdcode": "440113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.349915,
+          "lat": 23.004675
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:38.326Z"
+      },
+      "location": {
+        "lng": 113.349915,
+        "lat": 23.004675
+      }
+    },
+    {
+      "id": 7061,
+      "name": "骑趣乐园（花山花邻荟店）",
+      "address": "花都区花山镇花邻荟二楼201铺",
+      "geocodeAddress": "广州市花都区花山镇花邻荟二楼201铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440100000000",
+      "countyCode": "440114000000",
+      "countyName": "花都区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7061",
+      "geocode": {
+        "ok": true,
+        "query": "广州市花都区花山镇花邻荟二楼201铺",
+        "formattedAddress": "广东省广州市花都区花山镇",
+        "level": "乡镇",
+        "adcode": "440114",
+        "expectedAdcode": "440114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.263998,
+          "lat": 23.420706
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:39.014Z"
+      },
+      "location": {
+        "lng": 113.263998,
+        "lat": 23.420706
+      }
+    }
+  ],
+  "geocoding": {
+    "provider": "AMap Geocode",
+    "generatedAt": "2026-06-08T03:37:39.015Z",
+    "located": 122,
+    "failed": 0,
+    "warnings": 0
+  }
+}

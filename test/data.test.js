@@ -1,16 +1,20 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const dataset = require('../data/shops.beijing.json');
+const path = require('node:path');
+const { CITIES } = require('../lib/cities');
 
-test('Beijing shop dataset is complete enough for shared use', () => {
-  assert.equal(dataset.city.code, '110100000000');
-  assert.equal(dataset.shops.length, dataset.counts.shops);
-  assert.equal(dataset.counts.located, dataset.shops.length);
+test('city shop datasets are complete enough for shared use', () => {
+  for (const city of CITIES) {
+    const dataset = require(path.join('..', city.dataFile));
+    assert.equal(dataset.city.code, city.code);
+    assert.equal(dataset.shops.length, dataset.counts.shops);
+    assert.equal(dataset.counts.located, dataset.shops.length);
 
-  for (const shop of dataset.shops) {
-    assert.match(shop.sourceUrl, new RegExp(`/s/${shop.id}$`));
-    assert.equal(typeof shop.location.lng, 'number');
-    assert.equal(typeof shop.location.lat, 'number');
-    assert.equal(String(shop.geocode.expectedAdcode || shop.countyCode).slice(0, 6), String(shop.geocode.adcode).slice(0, 6));
+    for (const shop of dataset.shops) {
+      assert.match(shop.sourceUrl, new RegExp(`/s/${shop.id}$`));
+      assert.equal(typeof shop.location.lng, 'number');
+      assert.equal(typeof shop.location.lat, 'number');
+      assert.equal(String(shop.geocode.expectedAdcode || shop.countyCode).slice(0, 6), String(shop.geocode.adcode).slice(0, 6));
+    }
   }
 });

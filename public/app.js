@@ -31,6 +31,8 @@
 
   const state = {
     config: null,
+    cities: [],
+    city: 'beijing',
     shops: [],
     origins: { a: null, b: null },
     map: null,
@@ -45,6 +47,7 @@
 
   const el = {
     keyForm: document.getElementById('keyForm'),
+    citySelect: document.getElementById('citySelect'),
     apiKey: document.getElementById('apiKey'),
     keyStatus: document.getElementById('keyStatus'),
     dataSummary: document.getElementById('dataSummary'),
@@ -174,7 +177,9 @@
   }
 
   async function loadConfig() {
-    state.config = await api('/api/config');
+    state.config = await api(`/api/config?city=${encodeURIComponent(state.city)}`);
+    state.cities = state.config.cities || [state.config.city];
+    renderCitySelect();
     if (state.config.hasAmapKey) {
       el.keyStatus.textContent = state.config.keySource === 'env' ? '服务端 key 已就绪' : '高德已连接';
       el.keyStatus.classList.add('ready');
@@ -182,10 +187,23 @@
   }
 
   async function loadShops() {
-    const { dataset } = await api('/api/shops');
+    const { dataset } = await api(`/api/shops?city=${encodeURIComponent(state.city)}`);
     state.shops = dataset.shops;
+    state.config.city = dataset.city;
     el.dataSummary.textContent = `${dataset.city.name} · ${dataset.counts.shops} 家，默认推荐 ${dataset.counts.available} 家可约地点`;
+    if (state.map) {
+      state.map.setZoomAndCenter(10, dataset.city.center);
+      clearRoutes();
+      clearMarkers();
+      renderShopMarkers();
+    }
     updateMetrics();
+  }
+
+  function renderCitySelect() {
+    el.citySelect.innerHTML = state.cities.map((city) => `
+      <option value="${city.slug}" ${city.slug === state.city ? 'selected' : ''}>${escapeHtml(city.shortName || city.name)}</option>
+    `).join('');
   }
 
   function wireEvents() {
@@ -206,6 +224,15 @@
     setupSearch(el.personA, el.personASuggestions, 'a');
     setupSearch(el.personB, el.personBSuggestions, 'b');
 
+    el.citySelect.addEventListener('change', async () => {
+      state.city = el.citySelect.value;
+      resetForCityChange();
+      await loadConfig();
+      await loadShops();
+      renderResults([]);
+      setProgress('待开始', 0, 0);
+    });
+
     el.locateShops.addEventListener('click', async () => {
       await ensureMap();
       await geocodeShops(getCandidateShops());
@@ -224,7 +251,7 @@
       }
 
       try {
-        const { tips } = await api(`/api/tips?keywords=${encodeURIComponent(keywords)}`);
+        const { tips } = await api(`/api/tips?city=${encodeURIComponent(state.city)}&keywords=${encodeURIComponent(keywords)}`);
         renderSuggestions(container, tips, person);
       } catch (error) {
         container.innerHTML = `<button class="suggestion" type="button"><strong>${escapeHtml(error.message)}</strong></button>`;
@@ -276,7 +303,7 @@
     if (!query) return;
     const { geocode } = await api('/api/geocode', {
       method: 'POST',
-      body: JSON.stringify({ query: `北京市${query}` }),
+      body: JSON.stringify({ city: state.city, query: `${currentCityName()}${query}` }),
     }, 16000);
     if (!geocode?.ok) throw new Error('起点无法定位');
     setOrigin(person, {
@@ -310,7 +337,7 @@
     await loadAmapScript(key);
     state.AMap = window.AMap;
     state.map = new state.AMap.Map('map', {
-      center: [116.397428, 39.90923],
+      center: state.config?.city?.center || [116.397428, 39.90923],
       zoom: 10,
       resizeEnable: true,
       viewMode: '2D',
@@ -400,6 +427,33 @@
     updateMetrics();
   }
 
+  function clearMarkers() {
+    if (!state.map) return;
+    if (state.markers.size) {
+      state.map.remove(Array.from(state.markers.values()));
+      state.markers.clear();
+    }
+    for (const marker of Object.values(state.originMarkers)) {
+      if (marker) state.map.remove(marker);
+    }
+    state.originMarkers = {};
+  }
+
+  function resetForCityChange() {
+    state.shops = [];
+    state.results = [];
+    state.selectedShopId = null;
+    state.origins = { a: null, b: null };
+    el.personA.value = '';
+    el.personB.value = '';
+    el.personAReadout.textContent = '未选择';
+    el.personBReadout.textContent = '未选择';
+    el.personASuggestions.style.display = 'none';
+    el.personBSuggestions.style.display = 'none';
+    clearRoutes();
+    clearMarkers();
+  }
+
   function getCandidateShops() {
     return state.shops.filter((shop) => el.includeUnavailable.checked || shop.isAvailable);
   }
@@ -417,7 +471,7 @@
       try {
         const { geocode } = await api('/api/geocode', {
           method: 'POST',
-          body: JSON.stringify({ shopId: shop.id }),
+          body: JSON.stringify({ city: state.city, shopId: shop.id }),
         }, 18000);
         if (geocode?.ok) {
           shop.location = geocode.location;
@@ -507,8 +561,9 @@
         const { route } = await api('/api/route', {
           method: 'POST',
           body: JSON.stringify({
-            mode: job.mode,
-            origin: job.origin,
+              mode: job.mode,
+              city: state.city,
+              origin: job.origin,
             destination: job.shop.location,
           }),
         }, job.mode === 'transit' ? 32000 : 26000);
@@ -571,8 +626,9 @@
   function orderShopsForGeocode(shops) {
     if (!state.origins.a || !state.origins.b) return shops;
     return [...shops].sort((a, b) => {
-      const rankA = candidateRank(a, COUNTY_CENTERS[a.countyCode]);
-      const rankB = candidateRank(b, COUNTY_CENTERS[b.countyCode]);
+      const fallback = cityCenterPoint();
+      const rankA = candidateRank(a, COUNTY_CENTERS[a.countyCode] || fallback);
+      const rankB = candidateRank(b, COUNTY_CENTERS[b.countyCode] || fallback);
       return rankA.directScore - rankB.directScore;
     });
   }
@@ -596,6 +652,15 @@
     )));
 
     return { directScore, feasibilityScore };
+  }
+
+  function currentCityName() {
+    return state.config?.city?.name || state.cities.find((city) => city.slug === state.city)?.name || '';
+  }
+
+  function cityCenterPoint() {
+    const center = state.config?.city?.center || state.cities.find((city) => city.slug === state.city)?.center;
+    return Array.isArray(center) ? { lng: center[0], lat: center[1] } : null;
   }
 
   function scoreResult(item) {

@@ -1,0 +1,3412 @@
+{
+  "generatedAt": "2026-06-08T03:35:45.092Z",
+  "source": {
+    "name": "BEMANICN 街机地图",
+    "url": "https://map.bemanicn.com/region/city/440300000000",
+    "fetchedAt": "2026-06-08T03:35:45.092Z"
+  },
+  "city": {
+    "id": 201,
+    "name": "深圳市",
+    "slug": "shenzhen",
+    "shortName": "深圳",
+    "code": "440300000000",
+    "provinceCode": "440000000000",
+    "center": [
+      114.057939,
+      22.543527
+    ]
+  },
+  "counts": {
+    "shops": 96,
+    "available": 96,
+    "upcoming": 0,
+    "closed": 0,
+    "located": 96
+  },
+  "shops": [
+    {
+      "id": 45,
+      "name": "星际传奇梅林卓悦汇店",
+      "address": "中康路126号卓悦汇购物中心3L",
+      "geocodeAddress": "深圳市福田区中康路126号卓悦汇购物中心3L",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/45",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区中康路126号卓悦汇购物中心3L",
+        "formattedAddress": "广东省深圳市福田区中康路126号卓悦汇购物中心3楼",
+        "level": "门址",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.06019,
+          "lat": 22.570432
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:39.285Z"
+      },
+      "location": {
+        "lng": 114.06019,
+        "lat": 22.570432
+      }
+    },
+    {
+      "id": 46,
+      "name": "反斗乐园领展中心城店",
+      "address": "福华一路3号领展中心城M层64B",
+      "geocodeAddress": "深圳市福田区福华一路3号领展中心城M层64B",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/46",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区福华一路3号领展中心城M层64B",
+        "formattedAddress": "广东省深圳市福田区福华一路3号领展中心城m层",
+        "level": "门址",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.059761,
+          "lat": 22.535781
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:39.540Z"
+      },
+      "location": {
+        "lng": 114.059761,
+        "lat": 22.535781
+      }
+    },
+    {
+      "id": 48,
+      "name": "核客电玩城",
+      "address": "深南东路3020号百货广场大厦B-1-1",
+      "geocodeAddress": "深圳市罗湖区深南东路3020号百货广场大厦B-1-1",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/48",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区深南东路3020号百货广场大厦B-1-1",
+        "formattedAddress": "广东省深圳市罗湖区深南东路3020-11",
+        "level": "门址",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.11879,
+          "lat": 22.543777
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:39.825Z"
+      },
+      "location": {
+        "lng": 114.11879,
+        "lat": 22.543777
+      }
+    },
+    {
+      "id": 49,
+      "name": "反斗乐园金光华店",
+      "address": "人民南路2028号金光华广场L4层L4-001~007",
+      "geocodeAddress": "深圳市罗湖区人民南路2028号金光华广场L4层L4-001~007",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/49",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区人民南路2028号金光华广场L4层L4-001~007",
+        "formattedAddress": "广东省深圳市罗湖区人民南路2028号金光华广场l4层",
+        "level": "门址",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.120369,
+          "lat": 22.539598
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:40.077Z"
+      },
+      "location": {
+        "lng": 114.120369,
+        "lat": 22.539598
+      }
+    },
+    {
+      "id": 50,
+      "name": "星际传奇京基KKmall店",
+      "address": "深南东路5016号京基金融中心京基百纳空间F3层L313、313A",
+      "geocodeAddress": "深圳市罗湖区深南东路5016号京基金融中心京基百纳空间F3层L313、313A",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/50",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区深南东路5016号京基金融中心京基百纳空间F3层L313、313A",
+        "formattedAddress": "广东省深圳市罗湖区深南东路3081号",
+        "level": "门牌号",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.139909,
+          "lat": 22.545997
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:40.328Z"
+      },
+      "location": {
+        "lng": 114.139909,
+        "lat": 22.545997
+      }
+    },
+    {
+      "id": 51,
+      "name": "星际传奇深圳龙岗万科广场店",
+      "address": "龙翔大道7188号龙岗万科广场L3-11号",
+      "geocodeAddress": "深圳市龙岗区龙翔大道7188号龙岗万科广场L3-11号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/51",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区龙翔大道7188号龙岗万科广场L3-11号",
+        "formattedAddress": "广东省深圳市龙岗区龙翔大道7188号万科广场(公交站)l3-9号",
+        "level": "门址",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.244355,
+          "lat": 22.715539
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:41.008Z"
+      },
+      "location": {
+        "lng": 114.244355,
+        "lat": 22.715539
+      }
+    },
+    {
+      "id": 283,
+      "name": "星际传奇大仟里店",
+      "address": "宝安大道和海城路交汇处(地铁1号线坪洲站A出口)坪洲大仟里3楼",
+      "geocodeAddress": "深圳市宝安区宝安大道和海城路交汇处(地铁1号线坪洲站A出口)坪洲大仟里3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/283",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区宝安大道和海城路交汇处(地铁1号线坪洲站A出口)坪洲大仟里3楼",
+        "formattedAddress": "广东省深圳市宝安区宝安大道和海城路坪洲坪洲大仟里3楼",
+        "level": "门址",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.872303,
+          "lat": 22.5703
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:41.271Z"
+      },
+      "location": {
+        "lng": 113.872303,
+        "lat": 22.5703
+      }
+    },
+    {
+      "id": 296,
+      "name": "冒险岛深圳南山方大城店",
+      "address": "龙珠四路2号南山方大城3楼冒险岛",
+      "geocodeAddress": "深圳市南山区龙珠四路2号南山方大城3楼冒险岛",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/296",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区龙珠四路2号南山方大城3楼冒险岛",
+        "formattedAddress": "广东省深圳市南山区龙珠四路2号方大城冒险岛(方大城店)",
+        "level": "兴趣点",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.972775,
+          "lat": 22.556525
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:41.525Z"
+      },
+      "location": {
+        "lng": 113.972775,
+        "lat": 22.556525
+      }
+    },
+    {
+      "id": 415,
+      "name": "彩虹王国动漫体验中心(新沙天虹商场店)",
+      "address": "宝安区沙井街道新沙天虹购物中心四层457号",
+      "geocodeAddress": "深圳市宝安区沙井街道新沙天虹购物中心四层457号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/415",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区沙井街道新沙天虹购物中心四层457号",
+        "formattedAddress": "广东省深圳市宝安区沙井街道新沙天虹购物中心(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.800728,
+          "lat": 22.73015
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:41.777Z"
+      },
+      "location": {
+        "lng": 113.800728,
+        "lat": 22.73015
+      }
+    },
+    {
+      "id": 437,
+      "name": "反斗乐园（天虹购物中心店）",
+      "address": "中航路1号中航城君尚购物中心5层",
+      "geocodeAddress": "深圳市福田区中航路1号中航城君尚购物中心5层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/437",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区中航路1号中航城君尚购物中心5层",
+        "formattedAddress": "广东省深圳市福田区中航路1号中航城君尚购物中心",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.083194,
+          "lat": 22.54284
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:42.026Z"
+      },
+      "location": {
+        "lng": 114.083194,
+        "lat": 22.54284
+      }
+    },
+    {
+      "id": 489,
+      "name": "星际传奇万象天地店",
+      "address": "粤海街道深南大道9668号华润城万象天地L4层SL435",
+      "geocodeAddress": "深圳市南山区粤海街道深南大道9668号华润城万象天地L4层SL435",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/489",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区粤海街道深南大道9668号华润城万象天地L4层SL435",
+        "formattedAddress": "广东省深圳市南山区粤海街道深南大道9668号华润华润城深圳万象天地(LG南门)l4层sl435号",
+        "level": "小巷",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.956169,
+          "lat": 22.541206
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:42.277Z"
+      },
+      "location": {
+        "lng": 113.956169,
+        "lat": 22.541206
+      }
+    },
+    {
+      "id": 552,
+      "name": "星际传奇深圳宝安壹方城店",
+      "address": "宝安中心壹方城购物中心三楼星际传奇",
+      "geocodeAddress": "深圳市宝安区宝安中心壹方城购物中心三楼星际传奇",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/552",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区宝安中心壹方城购物中心三楼星际传奇",
+        "formattedAddress": "广东省深圳市宝安区宝安街道壹方城购物中心(壹方中心店)星际传奇(壹方城购物中心店)",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.886456,
+          "lat": 22.553009
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:42.972Z"
+      },
+      "location": {
+        "lng": 113.886456,
+        "lat": 22.553009
+      }
+    },
+    {
+      "id": 605,
+      "name": "极客森超乐场西丽宝能环球汇店",
+      "address": "西丽留仙大道塘朗地铁站D出口宝能城三楼",
+      "geocodeAddress": "深圳市南山区西丽留仙大道塘朗地铁站D出口宝能城三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/605",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区西丽留仙大道塘朗地铁站D出口宝能城三楼",
+        "formattedAddress": "广东省深圳市南山区西丽镇留仙大道塘朗(地铁站)d出口",
+        "level": "门址",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.998873,
+          "lat": 22.590855
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:43.222Z"
+      },
+      "location": {
+        "lng": 113.998873,
+        "lat": 22.590855
+      }
+    },
+    {
+      "id": 720,
+      "name": "轩轩窝",
+      "address": "美宜佳",
+      "geocodeAddress": "深圳市龙华区美宜佳",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/720",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区美宜佳",
+        "formattedAddress": "广东省深圳市龙华区",
+        "level": "区县",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.04491,
+          "lat": 22.696735
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:43.475Z"
+      },
+      "location": {
+        "lng": 114.04491,
+        "lat": 22.696735
+      }
+    },
+    {
+      "id": 877,
+      "name": "极客森超乐场深圳万科里店",
+      "address": "龙岗大道3999号龙岗区政府正对面万科里负一楼极客森",
+      "geocodeAddress": "深圳市龙岗大道3999号龙岗区政府正对面万科里负一楼极客森",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/877",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗大道3999号龙岗区政府正对面万科里负一楼极客森",
+        "formattedAddress": "广东省深圳市龙岗区龙岗大道3999号万科里",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.250971,
+          "lat": 22.716803
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:43.725Z"
+      },
+      "location": {
+        "lng": 114.250971,
+        "lat": 22.716803
+      }
+    },
+    {
+      "id": 976,
+      "name": "极客森超乐场游戏体验中心",
+      "address": "龙岗大道东部星悦天地3层",
+      "geocodeAddress": "深圳市龙岗区龙岗大道东部星悦天地3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/976",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区龙岗大道东部星悦天地3层",
+        "formattedAddress": "广东省深圳市龙岗区龙岗大道东部星悦天地3层",
+        "level": "门址",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.150259,
+          "lat": 22.618983
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:43.973Z"
+      },
+      "location": {
+        "lng": 114.150259,
+        "lat": 22.618983
+      }
+    },
+    {
+      "id": 1038,
+      "name": "星际传奇光明大仟里店",
+      "address": "光明大仟里3楼星际传奇",
+      "geocodeAddress": "深圳市光明区光明大仟里3楼星际传奇",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440311000000",
+      "countyName": "光明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1038",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市光明区光明大仟里3楼星际传奇",
+        "formattedAddress": "广东省深圳市光明区光明大仟里3楼",
+        "level": "门址",
+        "adcode": "440311",
+        "expectedAdcode": "440311",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.894936,
+          "lat": 22.774996
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:44.219Z"
+      },
+      "location": {
+        "lng": 113.894936,
+        "lat": 22.774996
+      }
+    },
+    {
+      "id": 1088,
+      "name": "朗玩Round One(龙华壹方天地店)",
+      "address": "龙华街道景龙社区壹方天地C区L1-001A-4001",
+      "geocodeAddress": "深圳市龙华区龙华街道景龙社区壹方天地C区L1-001A-4001",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1088",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区龙华街道景龙社区壹方天地C区L1-001A-4001",
+        "formattedAddress": "广东省深圳市龙华区龙华街道景龙社区壹方天地C区(2号门)",
+        "level": "兴趣点",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.029188,
+          "lat": 22.644038
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:44.899Z"
+      },
+      "location": {
+        "lng": 114.029188,
+        "lat": 22.644038
+      }
+    },
+    {
+      "id": 1112,
+      "name": "反斗乐园π（龙华天虹店）",
+      "address": "民治街道人民南路天虹购物中心3层L312号铺",
+      "geocodeAddress": "深圳市龙华区民治街道人民南路天虹购物中心3层L312号铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1112",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区民治街道人民南路天虹购物中心3层L312号铺",
+        "formattedAddress": "广东省深圳市龙华区民治街道人民南路龙华天虹购物中心(东门)3层",
+        "level": "门址",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.021103,
+          "lat": 22.627688
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:45.156Z"
+      },
+      "location": {
+        "lng": 114.021103,
+        "lat": 22.627688
+      }
+    },
+    {
+      "id": 1147,
+      "name": "星际传奇深圳前海欢乐港湾店",
+      "address": "广东省深圳市宝安区新安街道海滨社区欢乐港湾2号东L1-027",
+      "geocodeAddress": "深圳市广东省深圳市宝安区新安街道海滨社区欢乐港湾2号东L1-027",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1147",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区新安街道海滨社区欢乐港湾2号东L1-027",
+        "formattedAddress": "广东省深圳市宝安区新安街道欢乐港湾2号东",
+        "level": "小巷",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.886932,
+          "lat": 22.542997
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:45.411Z"
+      },
+      "location": {
+        "lng": 113.886932,
+        "lat": 22.542997
+      }
+    },
+    {
+      "id": 1160,
+      "name": "莱华度假酒店奇妙世界",
+      "address": "南澳街道新东路28号桔钓沙莱华度假酒店负一层",
+      "geocodeAddress": "深圳市龙岗区南澳街道新东路28号桔钓沙莱华度假酒店负一层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1160",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区南澳街道新东路28号桔钓沙莱华度假酒店负一层",
+        "formattedAddress": "广东省深圳市龙岗区南澳街道新东路28号深圳桔钓沙莱华度假酒店",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.552193,
+          "lat": 22.557085
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:46.075Z"
+      },
+      "location": {
+        "lng": 114.552193,
+        "lat": 22.557085
+      }
+    },
+    {
+      "id": 1222,
+      "name": "星际传奇深圳龙华观澜湖店",
+      "address": "观澜街道高尔夫大道8号MH Hall三楼301",
+      "geocodeAddress": "深圳市龙华区观澜街道高尔夫大道8号MH Hall三楼301",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1222",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区观澜街道高尔夫大道8号MH Hall三楼301",
+        "formattedAddress": "广东省深圳市龙华区观澜街道高尔夫大道8号",
+        "level": "门牌号",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.100584,
+          "lat": 22.728937
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:46.321Z"
+      },
+      "location": {
+        "lng": 114.100584,
+        "lat": 22.728937
+      }
+    },
+    {
+      "id": 1398,
+      "name": "极客森超乐场深圳宝能环球汇店",
+      "address": "宝安北路3008号E、F栋",
+      "geocodeAddress": "深圳市罗湖区宝安北路3008号E、F栋",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1398",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区宝安北路3008号E、F栋",
+        "formattedAddress": "广东省深圳市罗湖区宝安北路3008号",
+        "level": "门址",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.109717,
+          "lat": 22.565526
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:46.572Z"
+      },
+      "location": {
+        "lng": 114.109717,
+        "lat": 22.565526
+      }
+    },
+    {
+      "id": 1535,
+      "name": "BitCity大中华广场",
+      "address": "会展福华一路1号大中华HUA广场G层",
+      "geocodeAddress": "深圳市福田区会展福华一路1号大中华HUA广场G层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1535",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区会展福华一路1号大中华HUA广场G层",
+        "formattedAddress": "广东省深圳市福田区福华一路1号大中华HUA广场",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.061354,
+          "lat": 22.536024
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:46.814Z"
+      },
+      "location": {
+        "lng": 114.061354,
+        "lat": 22.536024
+      }
+    },
+    {
+      "id": 1541,
+      "name": "一同潮玩深圳石厦时代广场店",
+      "address": "石厦北二街89号马成时代广场2层",
+      "geocodeAddress": "深圳市福田区石厦北二街89号马成时代广场2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1541",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区石厦北二街89号马成时代广场2层",
+        "formattedAddress": "广东省深圳市福田区石厦北二街马成时代广场2层",
+        "level": "门址",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.053272,
+          "lat": 22.520499
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:47.064Z"
+      },
+      "location": {
+        "lng": 114.053272,
+        "lat": 22.520499
+      }
+    },
+    {
+      "id": 2004,
+      "name": "极客森电玩深圳松岗店",
+      "address": "松岗街道沙浦社区艺展三路8号国际艺展中心Mall6楼",
+      "geocodeAddress": "深圳市宝安区松岗街道沙浦社区艺展三路8号国际艺展中心Mall6楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2004",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区松岗街道沙浦社区艺展三路8号国际艺展中心Mall6楼",
+        "formattedAddress": "广东省深圳市宝安区松岗街道沙浦艺展三路8号",
+        "level": "门址",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.836696,
+          "lat": 22.783507
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:47.315Z"
+      },
+      "location": {
+        "lng": 113.836696,
+        "lat": 22.783507
+      }
+    },
+    {
+      "id": 2342,
+      "name": "天空之城游乐体验世界深圳龙岗店",
+      "address": "星河COCO Park(龙岗店)三楼天空之城",
+      "geocodeAddress": "深圳市龙岗区星河COCO Park(龙岗店)三楼天空之城",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2342",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区星河COCO Park(龙岗店)三楼天空之城",
+        "formattedAddress": "广东省深圳市龙岗区星河COCO Park(龙岗店)天空之城(龙岗星河COCO Park店)",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.227444,
+          "lat": 22.690836
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:47.988Z"
+      },
+      "location": {
+        "lng": 114.227444,
+        "lat": 22.690836
+      }
+    },
+    {
+      "id": 2349,
+      "name": "极客森(深圳光明蓝鲸世界店)",
+      "address": "光明大道120号蓝鲸世界3层 极客森(光明店)",
+      "geocodeAddress": "深圳市光明区光明大道120号蓝鲸世界3层 极客森(光明店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440311000000",
+      "countyName": "光明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2349",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市光明区光明大道120号蓝鲸世界3层 极客森(光明店)",
+        "formattedAddress": "广东省深圳市光明区光明大道120号",
+        "level": "门牌号",
+        "adcode": "440311",
+        "expectedAdcode": "440311",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.944529,
+          "lat": 22.763459
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:48.239Z"
+      },
+      "location": {
+        "lng": 113.944529,
+        "lat": 22.763459
+      }
+    },
+    {
+      "id": 2535,
+      "name": "极客森超乐场龙岗万达店",
+      "address": "龙岗区平湖街道禾花社区华南二道1号万达广场负一楼",
+      "geocodeAddress": "深圳市龙岗区平湖街道禾花社区华南二道1号万达广场负一楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2535",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区平湖街道禾花社区华南二道1号万达广场负一楼",
+        "formattedAddress": "广东省深圳市龙岗区平湖街道禾花社区华南万达广场(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.130156,
+          "lat": 22.673321
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:48.486Z"
+      },
+      "location": {
+        "lng": 114.130156,
+        "lat": 22.673321
+      }
+    },
+    {
+      "id": 2674,
+      "name": "极客森-沙井百佳华店",
+      "address": "广东省深圳市宝安区沙井中心路与蚝乡路交汇处西南侧百佳华三楼",
+      "geocodeAddress": "深圳市广东省深圳市宝安区沙井中心路与蚝乡路交汇处西南侧百佳华三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2674",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区沙井中心路与蚝乡路交汇处西南侧百佳华三楼",
+        "formattedAddress": "广东省深圳市宝安区沙井百佳华(东北门)",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.847292,
+          "lat": 22.768267
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:48.744Z"
+      },
+      "location": {
+        "lng": 113.847292,
+        "lat": 22.768267
+      }
+    },
+    {
+      "id": 2745,
+      "name": "极客森超乐场深圳龙华星河iCO店",
+      "address": "龙华街道东环二路8号星河iCO 3楼",
+      "geocodeAddress": "深圳市龙华区龙华街道东环二路8号星河iCO 3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2745",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区龙华街道东环二路8号星河iCO 3楼",
+        "formattedAddress": "广东省深圳市龙华区龙华街道东环二路8号龙华星河ico3楼",
+        "level": "门址",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.036926,
+          "lat": 22.65663
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:48.988Z"
+      },
+      "location": {
+        "lng": 114.036926,
+        "lat": 22.65663
+      }
+    },
+    {
+      "id": 2778,
+      "name": "国士无双智竞馆南山店",
+      "address": "向南瑞峰商业广场4066号",
+      "geocodeAddress": "深圳市南山区向南瑞峰商业广场4066号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2778",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区向南瑞峰商业广场4066号",
+        "formattedAddress": "广东省深圳市南山区向南瑞峰商业广场",
+        "level": "兴趣点",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.925609,
+          "lat": 22.524318
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:49.235Z"
+      },
+      "location": {
+        "lng": 113.925609,
+        "lat": 22.524318
+      }
+    },
+    {
+      "id": 2799,
+      "name": "米其漫游艺城（绿景佐阾红树林购物中心店）",
+      "address": "沙嘴路8号绿景佐阾红树林购物中心2层（客服中心旁）",
+      "geocodeAddress": "深圳市福田区沙嘴路8号绿景佐阾红树林购物中心2层（客服中心旁）",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2799",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区沙嘴路8号绿景佐阾红树林购物中心2层（客服中心旁）",
+        "formattedAddress": "广东省深圳市福田区沙嘴路8号绿景佐阾红树林购物中心",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.036683,
+          "lat": 22.520042
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:49.905Z"
+      },
+      "location": {
+        "lng": 114.036683,
+        "lat": 22.520042
+      }
+    },
+    {
+      "id": 3172,
+      "name": "全境方舟（信和·东门商厦店）",
+      "address": "东门中路2010号信和·东门商厦F2层",
+      "geocodeAddress": "深圳市罗湖区东门中路2010号信和·东门商厦F2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3172",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区东门中路2010号信和·东门商厦F2层",
+        "formattedAddress": "广东省深圳市罗湖区东门中路2010号信和·东门商厦",
+        "level": "兴趣点",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.121985,
+          "lat": 22.546645
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:50.156Z"
+      },
+      "location": {
+        "lng": 114.121985,
+        "lat": 22.546645
+      }
+    },
+    {
+      "id": 3545,
+      "name": "反斗乐园π海岸城店",
+      "address": "粤海街道文心五路33号海岸城购物中心501-9",
+      "geocodeAddress": "深圳市南山区粤海街道文心五路33号海岸城购物中心501-9",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3545",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区粤海街道文心五路33号海岸城购物中心501-9",
+        "formattedAddress": "广东省深圳市南山区粤海街道文心五路33号海岸城购物中心",
+        "level": "未知",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.935767,
+          "lat": 22.51685
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:50.404Z"
+      },
+      "location": {
+        "lng": 113.935767,
+        "lat": 22.51685
+      }
+    },
+    {
+      "id": 3747,
+      "name": "福爪爪快乐街区（蛇口招商花园城店）",
+      "address": "招商街道四海社区南海大道1090号蛇口花园城中心2楼",
+      "geocodeAddress": "深圳市南山区招商街道四海社区南海大道1090号蛇口花园城中心2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3747",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区招商街道四海社区南海大道1090号蛇口花园城中心2楼",
+        "formattedAddress": "广东省深圳市南山区招商街道四海社区居委会南海大道1090号蛇口花园城中心(西南门)",
+        "level": "兴趣点",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.923203,
+          "lat": 22.501202
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:51.106Z"
+      },
+      "location": {
+        "lng": 113.923203,
+        "lat": 22.501202
+      }
+    },
+    {
+      "id": 3833,
+      "name": "炫次方万丰海岸城店",
+      "address": "广东省深圳市宝安区新桥街道万丰社区万丰海岸城购物中心A馆五层E515炫次方(万丰海岸城店)",
+      "geocodeAddress": "深圳市广东省深圳市宝安区新桥街道万丰社区万丰海岸城购物中心A馆五层E515炫次方(万丰海岸城店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3833",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区新桥街道万丰社区万丰海岸城购物中心A馆五层E515炫次方(万丰海岸城店)",
+        "formattedAddress": "广东省深圳市宝安区新桥街道万丰社区万丰海岸城购物中心A馆",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.821475,
+          "lat": 22.712625
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:51.378Z"
+      },
+      "location": {
+        "lng": 113.821475,
+        "lat": 22.712625
+      }
+    },
+    {
+      "id": 3862,
+      "name": "米其漫游艺城(红山六九七九商业中心店)",
+      "address": "龙华区民治街道红山社区红山六九七九二期7栋B117",
+      "geocodeAddress": "深圳市龙华区民治街道红山社区红山六九七九二期7栋B117",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3862",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区民治街道红山社区红山六九七九二期7栋B117",
+        "formattedAddress": "广东省深圳市龙华区民治街道红山(地铁站)红山六九七九二期7栋",
+        "level": "门址",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.025557,
+          "lat": 22.6224
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:51.633Z"
+      },
+      "location": {
+        "lng": 114.025557,
+        "lat": 22.6224
+      }
+    },
+    {
+      "id": 3865,
+      "name": "松岗联投东方梦幻之城",
+      "address": "松岗街道联投东方东方新天地",
+      "geocodeAddress": "深圳市宝安区松岗街道联投东方东方新天地",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3865",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区松岗街道联投东方东方新天地",
+        "formattedAddress": "广东省深圳市宝安区松岗街道联投东方东方新天地",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.858677,
+          "lat": 22.760609
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:51.891Z"
+      },
+      "location": {
+        "lng": 113.858677,
+        "lat": 22.760609
+      }
+    },
+    {
+      "id": 3871,
+      "name": "星际传奇京基水贝KK TIME店",
+      "address": "笋岗街道水贝一路104号KKTIME商场3楼星际传奇",
+      "geocodeAddress": "深圳市罗湖区笋岗街道水贝一路104号KKTIME商场3楼星际传奇",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3871",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区笋岗街道水贝一路104号KKTIME商场3楼星际传奇",
+        "formattedAddress": "广东省深圳市罗湖区笋岗街道水贝一路104号KKTIME(西门)星际传奇(深圳京基水贝KKTIME店)",
+        "level": "兴趣点",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.12413,
+          "lat": 22.570693
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:52.151Z"
+      },
+      "location": {
+        "lng": 114.12413,
+        "lat": 22.570693
+      }
+    },
+    {
+      "id": 3903,
+      "name": "星际传奇龙岗大运天地店",
+      "address": "龙翔大道3001号大运天地南区L2层SL202",
+      "geocodeAddress": "深圳市龙岗区龙翔大道3001号大运天地南区L2层SL202",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3903",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区龙翔大道3001号大运天地南区L2层SL202",
+        "formattedAddress": "广东省深圳市龙岗区龙翔大道3001号深圳大运天地南区(2号门)",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.21965,
+          "lat": 22.695314
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:52.396Z"
+      },
+      "location": {
+        "lng": 114.21965,
+        "lat": 22.695314
+      }
+    },
+    {
+      "id": 4065,
+      "name": "全境方舟（深圳天河城店）",
+      "address": "太白路3009号深圳天河城购物中心南区2楼N205",
+      "geocodeAddress": "深圳市罗湖区太白路3009号深圳天河城购物中心南区2楼N205",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4065",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区太白路3009号深圳天河城购物中心南区2楼N205",
+        "formattedAddress": "广东省深圳市罗湖区太白路3009号深圳天河城购物中心",
+        "level": "兴趣点",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.134606,
+          "lat": 22.577485
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:53.074Z"
+      },
+      "location": {
+        "lng": 114.134606,
+        "lat": 22.577485
+      }
+    },
+    {
+      "id": 4128,
+      "name": "极速地带（绿景佐阾虹湾购物中心店）",
+      "address": "福田区梅林街道北环大道6098号绿景佐阾虹湾购物中心3层3017B",
+      "geocodeAddress": "深圳市福田区梅林街道北环大道6098号绿景佐阾虹湾购物中心3层3017B",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4128",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区梅林街道北环大道6098号绿景佐阾虹湾购物中心3层3017B",
+        "formattedAddress": "广东省深圳市福田区梅林街道北环大道6098号绿景佐阾虹湾购物中心3层",
+        "level": "未知",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.039687,
+          "lat": 22.561057
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:53.332Z"
+      },
+      "location": {
+        "lng": 114.039687,
+        "lat": 22.561057
+      }
+    },
+    {
+      "id": 4134,
+      "name": "朗玩ROUND ONE（福田城市广场店）",
+      "address": "深南中路1095号城市广场·深圳3层",
+      "geocodeAddress": "深圳市福田区深南中路1095号城市广场·深圳3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4134",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区深南中路1095号城市广场·深圳3层",
+        "formattedAddress": "广东省深圳市福田区深南中路1095号城市广场·深圳(LGF东南门)",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.099855,
+          "lat": 22.539109
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:53.583Z"
+      },
+      "location": {
+        "lng": 114.099855,
+        "lat": 22.539109
+      }
+    },
+    {
+      "id": 4152,
+      "name": "极客森超乐场深圳卓悦中心店",
+      "address": "福田街道岗厦社区深南大道2005号One Avenue·卓越中心北区B1层",
+      "geocodeAddress": "深圳市福田区福田街道岗厦社区深南大道2005号One Avenue·卓越中心北区B1层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4152",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区福田街道岗厦社区深南大道2005号One Avenue·卓越中心北区B1层",
+        "formattedAddress": "广东省深圳市福田区福田街道岗厦社区深南大道2005号",
+        "level": "门牌号",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.063266,
+          "lat": 22.539492
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:53.844Z"
+      },
+      "location": {
+        "lng": 114.063266,
+        "lat": 22.539492
+      }
+    },
+    {
+      "id": 4204,
+      "name": "魅影苍穹潮玩城（宝安华强广场店）",
+      "address": "福海街道塘尾社区华强时代广场L3-06",
+      "geocodeAddress": "深圳市宝安区福海街道塘尾社区华强时代广场L3-06",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4204",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区福海街道塘尾社区华强时代广场L3-06",
+        "formattedAddress": "广东省深圳市宝安区福海街道塘尾社区",
+        "level": "村庄",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.811478,
+          "lat": 22.703142
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:54.093Z"
+      },
+      "location": {
+        "lng": 113.811478,
+        "lat": 22.703142
+      }
+    },
+    {
+      "id": 4209,
+      "name": "奇妙之城·聚有引力（宏发大世界店）",
+      "address": "宝安区石岩宏发大世界主场B区3楼",
+      "geocodeAddress": "深圳市宝安区石岩宏发大世界主场B区3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4209",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区石岩宏发大世界主场B区3楼",
+        "formattedAddress": "广东省深圳市宝安区石岩宏发大世界(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.929375,
+          "lat": 22.673928
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:54.345Z"
+      },
+      "location": {
+        "lng": 113.929375,
+        "lat": 22.673928
+      }
+    },
+    {
+      "id": 4351,
+      "name": "星际传奇坂田万科店",
+      "address": "龙岗区坂田D出口万科广场三楼",
+      "geocodeAddress": "深圳市龙岗区坂田D出口万科广场三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4351",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区坂田D出口万科广场三楼",
+        "formattedAddress": "广东省深圳市龙岗区坂田乡万科广场(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.242662,
+          "lat": 22.714503
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:55.009Z"
+      },
+      "location": {
+        "lng": 114.242662,
+        "lat": 22.714503
+      }
+    },
+    {
+      "id": 4402,
+      "name": "玩咖星球大鹏花生唐店",
+      "address": "大鹏新区葵涌花生唐购物中心2楼",
+      "geocodeAddress": "深圳市龙岗区大鹏新区葵涌花生唐购物中心2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4402",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区大鹏新区葵涌花生唐购物中心2楼",
+        "formattedAddress": "广东省深圳市龙岗区大鹏新区葵涌街道",
+        "level": "乡镇",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.421453,
+          "lat": 22.619706
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:55.256Z"
+      },
+      "location": {
+        "lng": 114.421453,
+        "lat": 22.619706
+      }
+    },
+    {
+      "id": 4457,
+      "name": "星际传奇（坪山益田假日世界店）",
+      "address": "深汕公路168号坪山益田假日世界L2-44号商铺",
+      "geocodeAddress": "深圳市坪山区深汕公路168号坪山益田假日世界L2-44号商铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440310000000",
+      "countyName": "坪山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4457",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市坪山区深汕公路168号坪山益田假日世界L2-44号商铺",
+        "formattedAddress": "广东省深圳市坪山区坪山大道168号坪山益田假日世界(3号门)l2层",
+        "level": "门址",
+        "adcode": "440310",
+        "expectedAdcode": "440310",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.339522,
+          "lat": 22.693012
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:55.505Z"
+      },
+      "location": {
+        "lng": 114.339522,
+        "lat": 22.693012
+      }
+    },
+    {
+      "id": 4505,
+      "name": "玩乐猩球电玩城",
+      "address": "马峦街道比亚迪路4045号悦阾SPACE购物中心3层",
+      "geocodeAddress": "深圳市坪山区马峦街道比亚迪路4045号悦阾SPACE购物中心3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440310000000",
+      "countyName": "坪山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4505",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市坪山区马峦街道比亚迪路4045号悦阾SPACE购物中心3层",
+        "formattedAddress": "广东省深圳市坪山区马峦街道比亚迪路4019号",
+        "level": "门牌号",
+        "adcode": "440310",
+        "expectedAdcode": "440310",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.347552,
+          "lat": 22.677131
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:55.753Z"
+      },
+      "location": {
+        "lng": 114.347552,
+        "lat": 22.677131
+      }
+    },
+    {
+      "id": 4595,
+      "name": "热带时光家庭娱乐中心 深圳店",
+      "address": "中国广东省深圳市宝安区福永街道中科广场3楼",
+      "geocodeAddress": "深圳市中国广东省深圳市宝安区福永街道中科广场3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4595",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市中国广东省深圳市宝安区福永街道中科广场3楼",
+        "formattedAddress": "广东省深圳市宝安区福永街道深圳中科",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.82774,
+          "lat": 22.69528
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:56.002Z"
+      },
+      "location": {
+        "lng": 113.82774,
+        "lat": 22.69528
+      }
+    },
+    {
+      "id": 4740,
+      "name": "浪骄动漫家庭娱乐中心",
+      "address": "华旺路大浪商业中心H栋纷享城3楼",
+      "geocodeAddress": "深圳市龙华区华旺路大浪商业中心H栋纷享城3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4740",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区华旺路大浪商业中心H栋纷享城3楼",
+        "formattedAddress": "广东省深圳市龙华区华旺路大浪商业中心(公交站) h栋纷享城3楼",
+        "level": "门址",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.994388,
+          "lat": 22.675447
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:56.252Z"
+      },
+      "location": {
+        "lng": 113.994388,
+        "lat": 22.675447
+      }
+    },
+    {
+      "id": 4835,
+      "name": "炫次方深圳南山宝能太古城店",
+      "address": "招商街道中心路2233号宝能太古城花园南区SL211",
+      "geocodeAddress": "深圳市南山区招商街道中心路2233号宝能太古城花园南区SL211",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4835",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区招商街道中心路2233号宝能太古城花园南区SL211",
+        "formattedAddress": "广东省深圳市南山区招商街道中心路2233号宝能·太古城",
+        "level": "兴趣点",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.939019,
+          "lat": 22.500568
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:56.942Z"
+      },
+      "location": {
+        "lng": 113.939019,
+        "lat": 22.500568
+      }
+    },
+    {
+      "id": 4850,
+      "name": "星际传奇布吉万象汇店",
+      "address": "布吉街道翔鸽路布吉华润万象汇购物中心4层406号商铺",
+      "geocodeAddress": "深圳市龙岗区布吉街道翔鸽路布吉华润万象汇购物中心4层406号商铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4850",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区布吉街道翔鸽路布吉华润万象汇购物中心4层406号商铺",
+        "formattedAddress": "广东省深圳市龙岗区布吉街道翔鸽路深圳布吉华润万象汇(东南1门)",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.133267,
+          "lat": 22.591562
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:57.192Z"
+      },
+      "location": {
+        "lng": 114.133267,
+        "lat": 22.591562
+      }
+    },
+    {
+      "id": 4915,
+      "name": "星球fun电玩城（星城购物中心店）",
+      "address": "宝石东路209号星城购物中心3楼",
+      "geocodeAddress": "深圳市宝安区宝石东路209号星城购物中心3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4915",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区宝石东路209号星城购物中心3楼",
+        "formattedAddress": "广东省深圳市宝安区宝石东路209号星城购物中心3层",
+        "level": "门址",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.94794,
+          "lat": 22.680084
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:57.443Z"
+      },
+      "location": {
+        "lng": 113.94794,
+        "lat": 22.680084
+      }
+    },
+    {
+      "id": 4951,
+      "name": "宝贝王（坂田星河world·cocopark店）",
+      "address": "广东省深圳市龙岗区坂田街道雅宝路1号星河WORLD1层16.L1S-032-01,L1S-032-09宝贝王家庭欢乐中心(坂田COCOPark店)",
+      "geocodeAddress": "深圳市广东省深圳市龙岗区坂田街道雅宝路1号星河WORLD1层16.L1S-032-01,L1S-032-09宝贝王家庭欢乐中心(坂田COCOPark店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4951",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市龙岗区坂田街道雅宝路1号星河WORLD1层16.L1S-032-01,L1S-032-09宝贝王家庭欢乐中心(坂田COCOPark店)",
+        "formattedAddress": "广东省深圳市龙岗区坂田街道星河world1层",
+        "level": "门址",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.059074,
+          "lat": 22.6032
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:57.700Z"
+      },
+      "location": {
+        "lng": 114.059074,
+        "lat": 22.6032
+      }
+    },
+    {
+      "id": 4967,
+      "name": "星际传奇（壹海城one mall店）",
+      "address": "海山街道海景二路1025号壹海城ONE MALL购物中心L3层",
+      "geocodeAddress": "深圳市盐田区海山街道海景二路1025号壹海城ONE MALL购物中心L3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440308000000",
+      "countyName": "盐田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4967",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市盐田区海山街道海景二路1025号壹海城ONE MALL购物中心L3层",
+        "formattedAddress": "广东省深圳市盐田区海山街道海景二路1025号壹海城ONE MALL",
+        "level": "兴趣点",
+        "adcode": "440308",
+        "expectedAdcode": "440308",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.238395,
+          "lat": 22.551849
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:57.976Z"
+      },
+      "location": {
+        "lng": 114.238395,
+        "lat": 22.551849
+      }
+    },
+    {
+      "id": 5058,
+      "name": "星际传奇啤酒小镇店",
+      "address": "深圳市宝安区创业二路288号",
+      "geocodeAddress": "深圳市宝安区创业二路288号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5058",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区创业二路288号",
+        "formattedAddress": "广东省深圳市宝安区创业二路288号",
+        "level": "门址",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.9135,
+          "lat": 22.576796
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:58.227Z"
+      },
+      "location": {
+        "lng": 113.9135,
+        "lat": 22.576796
+      }
+    },
+    {
+      "id": 5122,
+      "name": "星际传奇深圳睿印店",
+      "address": "睿印RAIL IN L306-307",
+      "geocodeAddress": "深圳市南山区睿印RAIL IN L306-307",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5122",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区睿印RAIL IN L306-307",
+        "formattedAddress": "广东省深圳市南山区",
+        "level": "区县",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.930478,
+          "lat": 22.533191
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:58.900Z"
+      },
+      "location": {
+        "lng": 113.930478,
+        "lat": 22.533191
+      }
+    },
+    {
+      "id": 5215,
+      "name": "征战全明星超乐场",
+      "address": "愉园地铁站C口仁恒梦中心L2层",
+      "geocodeAddress": "深圳市龙岗区愉园地铁站C口仁恒梦中心L2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5215",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区愉园地铁站C口仁恒梦中心L2层",
+        "formattedAddress": "广东省深圳市龙岗区愉园地铁站C口仁恒梦中心",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.224709,
+          "lat": 22.729812
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:59.157Z"
+      },
+      "location": {
+        "lng": 114.224709,
+        "lat": 22.729812
+      }
+    },
+    {
+      "id": 5269,
+      "name": "魅影苍穹潮玩城（坂田百佳华店）",
+      "address": "深圳市龙岗区吉华路635号佳华领汇广场三楼",
+      "geocodeAddress": "深圳市龙岗区吉华路635号佳华领汇广场三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5269",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区吉华路635号佳华领汇广场三楼",
+        "formattedAddress": "广东省深圳市龙岗区吉华路635号佳华领汇广场(西门)",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.057568,
+          "lat": 22.63294
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:37:59.401Z"
+      },
+      "location": {
+        "lng": 114.057568,
+        "lat": 22.63294
+      }
+    },
+    {
+      "id": 5288,
+      "name": "呱呱乐园",
+      "address": "西乡街道前海科兴科学园",
+      "geocodeAddress": "深圳市宝安区西乡街道前海科兴科学园",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5288",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区西乡街道前海科兴科学园",
+        "formattedAddress": "广东省深圳市宝安区西乡宝安街道前海科兴科学园",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.852233,
+          "lat": 22.572715
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:00.090Z"
+      },
+      "location": {
+        "lng": 113.852233,
+        "lat": 22.572715
+      }
+    },
+    {
+      "id": 5311,
+      "name": "星际传奇(蛇口K11 ECOAST店)",
+      "address": "蛇口太子湾K11ECOAST南馆三楼SL323-327",
+      "geocodeAddress": "深圳市南山区蛇口太子湾K11ECOAST南馆三楼SL323-327",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5311",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区蛇口太子湾K11ECOAST南馆三楼SL323-327",
+        "formattedAddress": "广东省深圳市南山区蛇口太子湾",
+        "level": "住宅区",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.906579,
+          "lat": 22.476187
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:00.351Z"
+      },
+      "location": {
+        "lng": 113.906579,
+        "lat": 22.476187
+      }
+    },
+    {
+      "id": 5312,
+      "name": "阿奇拉汤泉",
+      "address": "桃园路田厦金牛广场B座 阿奇拉汤泉生活",
+      "geocodeAddress": "深圳市南山区桃园路田厦金牛广场B座 阿奇拉汤泉生活",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5312",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区桃园路田厦金牛广场B座 阿奇拉汤泉生活",
+        "formattedAddress": "广东省深圳市南山区桃园路田厦金牛广场b座",
+        "level": "门址",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.927169,
+          "lat": 22.532979
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:00.605Z"
+      },
+      "location": {
+        "lng": 113.927169,
+        "lat": 22.532979
+      }
+    },
+    {
+      "id": 5318,
+      "name": "星际传奇罗湖益田假日店",
+      "address": "翠竹街道木头龙社区益田假日广场L2-17",
+      "geocodeAddress": "深圳市罗湖区翠竹街道木头龙社区益田假日广场L2-17",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5318",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区翠竹街道木头龙社区益田假日广场L2-17",
+        "formattedAddress": "广东省深圳市罗湖区翠竹街道龙湖社区",
+        "level": "村庄",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.110845,
+          "lat": 22.588397
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:00.865Z"
+      },
+      "location": {
+        "lng": 114.110845,
+        "lat": 22.588397
+      }
+    },
+    {
+      "id": 5418,
+      "name": "HOP-DX前海天地店",
+      "address": "宝安区兴华一路与海秀路交界处",
+      "geocodeAddress": "深圳市宝安区兴华一路与海秀路交界处",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5418",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区兴华一路与海秀路交界处",
+        "formattedAddress": "广东省深圳市宝安区兴华一路/海秀路",
+        "level": "道路交叉路口",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.88749,
+          "lat": 22.5492
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:01.121Z"
+      },
+      "location": {
+        "lng": 113.88749,
+        "lat": 22.5492
+      }
+    },
+    {
+      "id": 5513,
+      "name": "城市英雄game one",
+      "address": "深圳市宝安区创业二路深圳大悦城",
+      "geocodeAddress": "深圳市宝安区创业二路深圳大悦城",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5513",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区创业二路深圳大悦城",
+        "formattedAddress": "广东省深圳市宝安区创业二路深圳大悦城(1号门)",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.903422,
+          "lat": 22.568929
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:01.371Z"
+      },
+      "location": {
+        "lng": 113.903422,
+        "lat": 22.568929
+      }
+    },
+    {
+      "id": 5573,
+      "name": "奇妙之城(光明万达广场店)",
+      "address": "光明大道6号光明乐府万达广场一层",
+      "geocodeAddress": "深圳市光明区光明大道6号光明乐府万达广场一层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440311000000",
+      "countyName": "光明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5573",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市光明区光明大道6号光明乐府万达广场一层",
+        "formattedAddress": "广东省深圳市光明区光明大道6号",
+        "level": "门址",
+        "adcode": "440311",
+        "expectedAdcode": "440311",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.895549,
+          "lat": 22.734639
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:02.057Z"
+      },
+      "location": {
+        "lng": 113.895549,
+        "lat": 22.734639
+      }
+    },
+    {
+      "id": 5730,
+      "name": "奇妙之城·精灵岛家庭娱乐中心（星河COCO City店）",
+      "address": "民治街道民泰社区星河盛世B1-86栋二层L2-099号",
+      "geocodeAddress": "深圳市龙华区民治街道民泰社区星河盛世B1-86栋二层L2-099号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5730",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区民治街道民泰社区星河盛世B1-86栋二层L2-099号",
+        "formattedAddress": "广东省深圳市龙华区民治街道民泰社区居委会星河盛世B1-001",
+        "level": "门址",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.046104,
+          "lat": 22.602673
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:02.311Z"
+      },
+      "location": {
+        "lng": 114.046104,
+        "lat": 22.602673
+      }
+    },
+    {
+      "id": 5744,
+      "name": "福田购物公园宝贝王",
+      "address": "福田购物公园地铁站星河COCO Park二期",
+      "geocodeAddress": "深圳市福田区福田购物公园地铁站星河COCO Park二期",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5744",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区福田购物公园地铁站星河COCO Park二期",
+        "formattedAddress": "广东省深圳市福田区福田街道购物公园(地铁站)福田星河COCO Park二期(北2门)",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.054895,
+          "lat": 22.532308
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:02.565Z"
+      },
+      "location": {
+        "lng": 114.054895,
+        "lat": 22.532308
+      }
+    },
+    {
+      "id": 5793,
+      "name": "尖峰玩家・皇庭广场店",
+      "address": "福华三路118号皇庭广场L2-57-59A",
+      "geocodeAddress": "深圳市福田区福华三路118号皇庭广场L2-57-59A",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5793",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区福华三路118号皇庭广场L2-57-59A",
+        "formattedAddress": "广东省深圳市福田区福华三路118号皇庭广场l2-55号",
+        "level": "门址",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.059528,
+          "lat": 22.533599
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:02.812Z"
+      },
+      "location": {
+        "lng": 114.059528,
+        "lat": 22.533599
+      }
+    },
+    {
+      "id": 5843,
+      "name": "玩美攻略（深圳世纪汇）",
+      "address": "广东省深圳市福田区深南中路3018号世纪汇商场1层101、2层201、203、2038、204、3层",
+      "geocodeAddress": "深圳市广东省深圳市福田区深南中路3018号世纪汇商场1层101、2层201、203、2038、204、3层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5843",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市福田区深南中路3018号世纪汇商场1层101、2层201、203、2038、204、3层",
+        "formattedAddress": "广东省深圳市福田区深南中路2023号",
+        "level": "门牌号",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.093919,
+          "lat": 22.5403
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:03.091Z"
+      },
+      "location": {
+        "lng": 114.093919,
+        "lat": 22.5403
+      }
+    },
+    {
+      "id": 5905,
+      "name": "星际传奇深业上城店",
+      "address": "华富街道皇岗路5001号深业上城（南区）商业综合楼4栋LC501.502.503",
+      "geocodeAddress": "深圳市福田区华富街道皇岗路5001号深业上城（南区）商业综合楼4栋LC501.502.503",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5905",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区华富街道皇岗路5001号深业上城（南区）商业综合楼4栋LC501.502.503",
+        "formattedAddress": "广东省深圳市福田区华富街道皇岗大道5001号深业上城(南1门)",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.070265,
+          "lat": 22.556013
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:03.345Z"
+      },
+      "location": {
+        "lng": 114.070265,
+        "lat": 22.556013
+      }
+    },
+    {
+      "id": 5909,
+      "name": "精灵岛电玩城（锦泰城店）",
+      "address": "龙岗大道6001号锦泰城A206店铺",
+      "geocodeAddress": "深圳市龙岗区龙岗大道6001号锦泰城A206店铺",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5909",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区龙岗大道6001号锦泰城A206店铺",
+        "formattedAddress": "广东省深圳市龙岗区龙岗大道6001号锦泰城(西门)",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.266095,
+          "lat": 22.72405
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:04.025Z"
+      },
+      "location": {
+        "lng": 114.266095,
+        "lat": 22.72405
+      }
+    },
+    {
+      "id": 5959,
+      "name": "汤崎·汤泉生活TENZ(福田口岸店)",
+      "address": "国花路港城华庭裙楼一层至五层",
+      "geocodeAddress": "深圳市福田区国花路港城华庭裙楼一层至五层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5959",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区国花路港城华庭裙楼一层至五层",
+        "formattedAddress": "广东省深圳市福田区国花路港城华庭",
+        "level": "住宅区",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.072742,
+          "lat": 22.517083
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:04.269Z"
+      },
+      "location": {
+        "lng": 114.072742,
+        "lat": 22.517083
+      }
+    },
+    {
+      "id": 5971,
+      "name": "深圳市宝安区松岗街道MFPARTY运动超乐场",
+      "address": "广东省深圳市宝安区松岗街道杉杉奥莱满纷天地7楼",
+      "geocodeAddress": "深圳市广东省深圳市宝安区松岗街道杉杉奥莱满纷天地7楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5971",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区松岗街道杉杉奥莱满纷天地7楼",
+        "formattedAddress": "广东省深圳市宝安区鬆岗街道街道街道",
+        "level": "乡镇",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.843904,
+          "lat": 22.623514
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:04.518Z"
+      },
+      "location": {
+        "lng": 113.843904,
+        "lat": 22.623514
+      }
+    },
+    {
+      "id": 6339,
+      "name": "东方棕泉（福田店）",
+      "address": "金田路1001号金港豪庭1-3楼",
+      "geocodeAddress": "深圳市福田区金田路1001号金港豪庭1-3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6339",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区金田路1001号金港豪庭1-3楼",
+        "formattedAddress": "广东省深圳市福田区金田路金港豪庭1-3楼",
+        "level": "门址",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.064852,
+          "lat": 22.518347
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:04.766Z"
+      },
+      "location": {
+        "lng": 114.064852,
+        "lat": 22.518347
+      }
+    },
+    {
+      "id": 6372,
+      "name": "城市英雄（怀德万象汇）",
+      "address": "福永街道怀德社区福永大道33号怀德万象汇AL216",
+      "geocodeAddress": "深圳市宝安区福永街道怀德社区福永大道33号怀德万象汇AL216",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6372",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区福永街道怀德社区福永大道33号怀德万象汇AL216",
+        "formattedAddress": "广东省深圳市宝安区福永街道怀德社区福永大道33号深圳怀德万象汇(北门)",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.819387,
+          "lat": 22.667759
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:05.023Z"
+      },
+      "location": {
+        "lng": 113.819387,
+        "lat": 22.667759
+      }
+    },
+    {
+      "id": 6478,
+      "name": "战神争锋光明n次方店",
+      "address": "光侨路与科裕路交汇处东北方向(长圳地铁站A出口)n次方3楼",
+      "geocodeAddress": "深圳市光明区光侨路与科裕路交汇处东北方向(长圳地铁站A出口)n次方3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440311000000",
+      "countyName": "光明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6478",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市光明区光侨路与科裕路交汇处东北方向(长圳地铁站A出口)n次方3楼",
+        "formattedAddress": "广东省深圳市光明区光侨路与科裕路长圳(地铁站)",
+        "level": "公交地铁站点",
+        "adcode": "440311",
+        "expectedAdcode": "440311",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.930926,
+          "lat": 22.726332
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:05.276Z"
+      },
+      "location": {
+        "lng": 113.930926,
+        "lat": 22.726332
+      }
+    },
+    {
+      "id": 6487,
+      "name": "星际传奇光明星河COCO City店",
+      "address": "光明大道511号 光明星河COCO City A馆 3楼",
+      "geocodeAddress": "深圳市光明区光明大道511号 光明星河COCO City A馆 3楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440311000000",
+      "countyName": "光明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6487",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市光明区光明大道511号 光明星河COCO City A馆 3楼",
+        "formattedAddress": "广东省深圳市光明区光明大道511号光明星河COCO City(东门)",
+        "level": "兴趣点",
+        "adcode": "440311",
+        "expectedAdcode": "440311",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.940733,
+          "lat": 22.75995
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:05.951Z"
+      },
+      "location": {
+        "lng": 113.940733,
+        "lat": 22.75995
+      }
+    },
+    {
+      "id": 6555,
+      "name": "坪山百佳华佳漾里奇妙之城",
+      "address": "坪山百佳华佳漾里奇妙之城",
+      "geocodeAddress": "深圳市坪山区坪山百佳华佳漾里奇妙之城",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440310000000",
+      "countyName": "坪山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6555",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市坪山区坪山百佳华佳漾里奇妙之城",
+        "formattedAddress": "广东省深圳市坪山区坪山",
+        "level": "住宅区",
+        "adcode": "440310",
+        "expectedAdcode": "440310",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.351996,
+          "lat": 22.691783
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:06.201Z"
+      },
+      "location": {
+        "lng": 114.351996,
+        "lat": 22.691783
+      }
+    },
+    {
+      "id": 6568,
+      "name": "尖峰玩家 深圳南山益田假日里购物中心店",
+      "address": "留仙大道4168号益田假日里购物中心L3层1/2",
+      "geocodeAddress": "深圳市南山区留仙大道4168号益田假日里购物中心L3层1/2",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440305000000",
+      "countyName": "南山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6568",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市南山区留仙大道4168号益田假日里购物中心L3层1/2",
+        "formattedAddress": "广东省深圳市南山区留仙大道益田假日里购物中心(西丽店)",
+        "level": "兴趣点",
+        "adcode": "440305",
+        "expectedAdcode": "440305",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.963944,
+          "lat": 22.582777
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:06.454Z"
+      },
+      "location": {
+        "lng": 113.963944,
+        "lat": 22.582777
+      }
+    },
+    {
+      "id": 6611,
+      "name": "蓝鲸纵队超乐场",
+      "address": "宝安区沙井街道西环路2105号新沙天虹购物中心四层457号",
+      "geocodeAddress": "深圳市宝安区沙井街道西环路2105号新沙天虹购物中心四层457号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6611",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区沙井街道西环路2105号新沙天虹购物中心四层457号",
+        "formattedAddress": "广东省深圳市宝安区沙井街道沙井西环路2105号新沙天虹",
+        "level": "小巷",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.800394,
+          "lat": 22.730298
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:06.711Z"
+      },
+      "location": {
+        "lng": 113.800394,
+        "lat": 22.730298
+      }
+    },
+    {
+      "id": 6750,
+      "name": "爱玩嘉年华（壹方天地店）",
+      "address": "龙华街道景龙社区壹方天地A区L2-045号",
+      "geocodeAddress": "深圳市龙华区龙华街道景龙社区壹方天地A区L2-045号",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6750",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区龙华街道景龙社区壹方天地A区L2-045号",
+        "formattedAddress": "广东省深圳市龙华区龙华街道景龙社区壹方天地a区L2-045(壹方天地C区)",
+        "level": "兴趣点",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.030591,
+          "lat": 22.644295
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:06.960Z"
+      },
+      "location": {
+        "lng": 114.030591,
+        "lat": 22.644295
+      }
+    },
+    {
+      "id": 6896,
+      "name": "AKIBAGO深圳罗湖新白马·次元店",
+      "address": "东门街道一横街9号新白马·次元9号2层",
+      "geocodeAddress": "深圳市罗湖区东门街道一横街9号新白马·次元9号2层",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440303000000",
+      "countyName": "罗湖区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6896",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市罗湖区东门街道一横街9号新白马·次元9号2层",
+        "formattedAddress": "广东省深圳市罗湖区东门街道一横街9号",
+        "level": "门址",
+        "adcode": "440303",
+        "expectedAdcode": "440303",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.120233,
+          "lat": 22.546143
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:07.211Z"
+      },
+      "location": {
+        "lng": 114.120233,
+        "lat": 22.546143
+      }
+    },
+    {
+      "id": 6916,
+      "name": "猫窝-布吉店",
+      "address": "布吉地铁站e2口出往北走400米鸿冠实业",
+      "geocodeAddress": "深圳市龙岗区布吉地铁站e2口出往北走400米鸿冠实业",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6916",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区布吉地铁站e2口出往北走400米鸿冠实业",
+        "formattedAddress": "广东省深圳市龙岗区布吉鸿冠实业",
+        "level": "兴趣点",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.125977,
+          "lat": 22.603771
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:07.877Z"
+      },
+      "location": {
+        "lng": 114.125977,
+        "lat": 22.603771
+      }
+    },
+    {
+      "id": 6923,
+      "name": "深圳宝安福城万达漫谷拾光（原大玩家）",
+      "address": "广东省深圳市宝安区新安街道文雅社区13区宝民一路256号万达广场F2大玩家(宝安万达店)",
+      "geocodeAddress": "深圳市广东省深圳市宝安区新安街道文雅社区13区宝民一路256号万达广场F2大玩家(宝安万达店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6923",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区新安街道文雅社区13区宝民一路256号万达广场F2大玩家(宝安万达店)",
+        "formattedAddress": "广东省深圳市宝安区新安街道文雅社区13区宝民一路256号",
+        "level": "门址",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.893058,
+          "lat": 22.571011
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:08.139Z"
+      },
+      "location": {
+        "lng": 113.893058,
+        "lat": 22.571011
+      }
+    },
+    {
+      "id": 6936,
+      "name": "星际传奇京基kkone店",
+      "address": "广东省深圳市福田区沙头街道滨河路9289号下沙村京基滨河时代广场L305星际传奇(京基kkone店)",
+      "geocodeAddress": "深圳市广东省深圳市福田区沙头街道滨河路9289号下沙村京基滨河时代广场L305星际传奇(京基kkone店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6936",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市福田区沙头街道滨河路9289号下沙村京基滨河时代广场L305星际传奇(京基kkone店)",
+        "formattedAddress": "广东省深圳市福田区沙头街道滨河大道9289号下沙村京基滨河时代广场KKONE(北门)",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.026994,
+          "lat": 22.5286
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:08.399Z"
+      },
+      "location": {
+        "lng": 114.026994,
+        "lat": 22.5286
+      }
+    },
+    {
+      "id": 6986,
+      "name": "小金宝",
+      "address": "广东省深圳市宝安区艺展三路与艺展二路交叉口东北方向151米左右满京华·满纷天地(满纷天地杉杉奥莱店)",
+      "geocodeAddress": "深圳市广东省深圳市宝安区艺展三路与艺展二路交叉口东北方向151米左右满京华·满纷天地(满纷天地杉杉奥莱店)",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6986",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市宝安区艺展三路与艺展二路交叉口东北方向151米左右满京华·满纷天地(满纷天地杉杉奥莱店)",
+        "formattedAddress": "广东省深圳市宝安区艺展三路艺展二路满京华·满纷天地",
+        "level": "兴趣点",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.835768,
+          "lat": 22.783159
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:09.066Z"
+      },
+      "location": {
+        "lng": 113.835768,
+        "lat": 22.783159
+      }
+    },
+    {
+      "id": 6989,
+      "name": "宝贝王（龙华百佳华店）/叽喳森林超乐场",
+      "address": "广东省深圳市龙华区人民北路291号百佳华三楼",
+      "geocodeAddress": "深圳市广东省深圳市龙华区人民北路291号百佳华三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6989",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市龙华区人民北路291号百佳华三楼",
+        "formattedAddress": "广东省深圳市龙华区",
+        "level": "区县",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.04491,
+          "lat": 22.696735
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:09.310Z"
+      },
+      "location": {
+        "lng": 114.04491,
+        "lat": 22.696735
+      }
+    },
+    {
+      "id": 7038,
+      "name": "酷乐窝宝安店",
+      "address": "美宜佳",
+      "geocodeAddress": "深圳市宝安区美宜佳",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440306000000",
+      "countyName": "宝安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7038",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市宝安区美宜佳",
+        "formattedAddress": "广东省深圳市宝安区",
+        "level": "区县",
+        "adcode": "440306",
+        "expectedAdcode": "440306",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 113.883831,
+          "lat": 22.554986
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:09.557Z"
+      },
+      "location": {
+        "lng": 113.883831,
+        "lat": 22.554986
+      }
+    },
+    {
+      "id": 7056,
+      "name": "尖峰玩家・福成天虹店",
+      "address": "福城街道茜坑社区观澜大道117号E座2楼",
+      "geocodeAddress": "深圳市龙华区福城街道茜坑社区观澜大道117号E座2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440309000000",
+      "countyName": "龙华区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7056",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙华区福城街道茜坑社区观澜大道117号E座2楼",
+        "formattedAddress": "广东省深圳市龙华区福城街道茜坑龙华社区龙观大道117号",
+        "level": "门牌号",
+        "adcode": "440309",
+        "expectedAdcode": "440309",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.027163,
+          "lat": 22.666297
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:09.811Z"
+      },
+      "location": {
+        "lng": 114.027163,
+        "lat": 22.666297
+      }
+    },
+    {
+      "id": 7105,
+      "name": "大娱海棠（龙岗天虹店）",
+      "address": "坂田街道吉华路696号天虹商场三楼",
+      "geocodeAddress": "深圳市龙岗区坂田街道吉华路696号天虹商场三楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440307000000",
+      "countyName": "龙岗区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7105",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市龙岗区坂田街道吉华路696号天虹商场三楼",
+        "formattedAddress": "广东省深圳市龙岗区坂田街道吉华路696号",
+        "level": "门址",
+        "adcode": "440307",
+        "expectedAdcode": "440307",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.059682,
+          "lat": 22.634318
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:10.063Z"
+      },
+      "location": {
+        "lng": 114.059682,
+        "lat": 22.634318
+      }
+    },
+    {
+      "id": 7109,
+      "name": "和音屋（深圳福田CBD店）",
+      "address": "金田路3038号现代国际大厦1502室",
+      "geocodeAddress": "深圳市福田区金田路3038号现代国际大厦1502室",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7109",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市福田区金田路3038号现代国际大厦1502室",
+        "formattedAddress": "广东省深圳市福田区金田路3038-2号现代国际大厦",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.06374,
+          "lat": 22.534241
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:10.319Z"
+      },
+      "location": {
+        "lng": 114.06374,
+        "lat": 22.534241
+      }
+    },
+    {
+      "id": 7127,
+      "name": "星河奇迹（深圳福田中洲湾C Future City店）",
+      "address": "广东省深圳市福田区滨河大道9283号中洲湾C Future City 南区2楼",
+      "geocodeAddress": "深圳市广东省深圳市福田区滨河大道9283号中洲湾C Future City 南区2楼",
+      "provinceCode": "440000000000",
+      "cityCode": "440300000000",
+      "countyCode": "440304000000",
+      "countyName": "福田区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7127",
+      "geocode": {
+        "ok": true,
+        "query": "深圳市广东省深圳市福田区滨河大道9283号中洲湾C Future City 南区2楼",
+        "formattedAddress": "广东省深圳市福田区滨河大道9283号中洲湾C Future City(2号门)",
+        "level": "兴趣点",
+        "adcode": "440304",
+        "expectedAdcode": "440304",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 114.029313,
+          "lat": 22.526658
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:38:11.007Z"
+      },
+      "location": {
+        "lng": 114.029313,
+        "lat": 22.526658
+      }
+    }
+  ],
+  "geocoding": {
+    "provider": "AMap Geocode",
+    "generatedAt": "2026-06-08T03:38:11.007Z",
+    "located": 96,
+    "failed": 0,
+    "warnings": 0
+  }
+}

@@ -1,12 +1,13 @@
-# 北京游戏厅约勤
+# 游戏厅约勤
 
-一个用于游戏厅双人约勤场景的北京通勤推荐工具。两个人各输入起点，工具会从北京游戏厅候选中优先计算真实路线，并按公平优先的通勤体验给出推荐。
+一个用于游戏厅双人约勤场景的通勤推荐工具。两个人各输入起点，工具会从当前城市的游戏厅候选中优先计算真实路线，并按公平优先的通勤体验给出推荐。
 
 候选地点来自 BEMANICN 街机地图，高德地图负责地点搜索、地图展示和路线规划。
 
 ## 功能
 
-- 北京 111 家 BEMANICN 店铺数据，全部预先补全高德坐标。
+- 支持北京、上海、广州、深圳，共 440 家 BEMANICN 店铺数据，全部预先补全高德坐标。
+- 左侧可切换城市，地图和候选店铺会同步切换。
 - 两个人起点搜索，支持公交、驾车、步行路线。
 - 推荐排序公平优先：先压低双方最大通勤时间和时间差，再考虑平均时间。
 - 推荐卡展示双方用时，hover 可查看具体分段路径。
@@ -62,7 +63,7 @@ npm run geocode:data
 
 ## 数据维护
 
-北京店铺列表来自：
+店铺列表来自 BEMANICN 城市页，例如北京：
 
 ```text
 https://map.bemanicn.com/region/city/110100000000
@@ -70,9 +71,9 @@ https://map.bemanicn.com/region/city/110100000000
 
 更新流程：
 
-1. 保存 BEMANICN 北京城市页到 `work/bemanicn-beijing.html`。
-2. 运行 `npm run extract:data` 生成店铺列表。
-3. 运行 `AMAP_KEY=你的key npm run geocode:data` 补全高德坐标。
+1. 保存各城市 BEMANICN 城市页到 `work/bemanicn-*.html`。
+2. 运行 `npm run extract:data` 生成四城店铺列表。
+3. 运行 `AMAP_KEY=你的key npm run geocode:data` 补全四城高德坐标。
 4. 运行 `npm run check` 确认数据完整。
 
 高德地理编码偶尔会误匹配。人工确认的 POI 修正写在 `data/geocode-overrides.json`，预处理脚本会优先使用这些结果。
@@ -87,6 +88,6 @@ https://map.bemanicn.com/region/city/110100000000
 
 ## 重要限制
 
-- 首版只覆盖北京。
+- 当前覆盖北京、上海、广州、深圳。
 - BEMANICN 城市页提供店铺列表，但不提供完整机台详情；机种筛选需要后续接入更细数据源。
 - 正式公网部署前，应把高德 Web 服务 key 放在后端，并配置限流。

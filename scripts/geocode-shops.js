@@ -1,11 +1,10 @@
 const fs = require('fs/promises');
 const path = require('path');
+const { CITIES, cityBySlug } = require('../lib/cities');
 
-const DATA_PATH = path.join('data', 'shops.beijing.json');
 const OVERRIDES_PATH = path.join('data', 'geocode-overrides.json');
 const CACHE_PATH = path.join('work', 'amap-cache.json');
 const AMAP_BASE = 'https://restapi.amap.com';
-const DEFAULT_CITY = '北京';
 const REQUEST_DELAY_MS = Number(process.env.AMAP_GEOCODE_DELAY_MS || 180);
 const MAX_RETRIES = Number(process.env.AMAP_GEOCODE_RETRIES || 2);
 
@@ -24,8 +23,8 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function geocodeKey(query) {
-  return `beijing:${String(query || '').trim()}`;
+function geocodeKey(citySlug, query) {
+  return `${citySlug}:${String(query || '').trim()}`;
 }
 
 function normalizeLocation(value) {
@@ -40,7 +39,7 @@ function expectedAdcode(shop) {
 }
 
 function compactAddress(value) {
-  return String(value || '').replace(/[北京市区县()（）·\s]/g, '');
+  return String(value || '').replace(/[省市区县()（）·\s]/g, '');
 }
 
 function scoreCandidate(shop, candidate) {
@@ -138,11 +137,11 @@ async function readJson(filePath, fallback) {
   }
 }
 
-async function amapGeocode(apiKey, query) {
+async function amapGeocode(apiKey, city, query) {
   const url = new URL('/v3/geocode/geo', AMAP_BASE);
   url.searchParams.set('key', apiKey);
   url.searchParams.set('address', query);
-  url.searchParams.set('city', DEFAULT_CITY);
+  url.searchParams.set('city', city.shortName);
   url.searchParams.set('output', 'json');
 
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt += 1) {
@@ -171,14 +170,14 @@ async function amapGeocode(apiKey, query) {
   return [];
 }
 
-async function geocodeShop(apiKey, shop, cache) {
+async function geocodeShop(apiKey, city, shop, cache) {
   const query = shop.geocodeAddress;
-  const key = geocodeKey(query);
+  const key = geocodeKey(city.slug, query);
   if (cache.geocode?.[key]?.ok) {
     return hydrateCachedGeocode(shop, cache.geocode[key]);
   }
 
-  const candidates = await amapGeocode(apiKey, query);
+  const candidates = await amapGeocode(apiKey, city, query);
   if (!candidates.length) {
     return {
       ok: false,
@@ -196,30 +195,23 @@ async function geocodeShop(apiKey, shop, cache) {
   return normalizeGeocode(shop, query, best);
 }
 
-async function main() {
-  const apiKey = process.env.AMAP_KEY;
-  if (!apiKey) {
-    throw new Error('Set AMAP_KEY in the environment before running this script.');
-  }
-
-  const dataset = await readJson(DATA_PATH);
+async function geocodeDataset(apiKey, city, cache) {
+  const dataset = await readJson(city.dataFile);
   const overrides = await readJson(OVERRIDES_PATH, {});
-  const cache = await readJson(CACHE_PATH, { geocode: {}, routes: {}, tips: {} });
-  cache.geocode ||= {};
-  cache.routes ||= {};
-  cache.tips ||= {};
 
   let ok = 0;
   let failed = 0;
   let warnings = 0;
 
+  console.log(`Geocoding ${city.shortName}: ${city.dataFile}`);
   for (let index = 0; index < dataset.shops.length; index += 1) {
     const shop = dataset.shops[index];
+    const override = overrides[`${city.slug}:${shop.id}`] || overrides[String(shop.id)];
     try {
-      const geocode = overrides[String(shop.id)]
-        ? normalizeOverride(shop, overrides[String(shop.id)])
-        : await geocodeShop(apiKey, shop, cache);
-      cache.geocode[geocodeKey(shop.geocodeAddress)] = geocode;
+      const geocode = override
+        ? normalizeOverride(shop, override)
+        : await geocodeShop(apiKey, city, shop, cache);
+      cache.geocode[geocodeKey(city.slug, shop.geocodeAddress)] = geocode;
       shop.geocode = geocode;
       if (geocode.ok) {
         shop.location = geocode.location;
@@ -254,11 +246,30 @@ async function main() {
     warnings,
   };
 
-  await fs.mkdir(path.dirname(CACHE_PATH), { recursive: true });
-  await fs.writeFile(DATA_PATH, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');
-  await fs.writeFile(CACHE_PATH, `${JSON.stringify(cache, null, 2)}\n`, 'utf8');
+  await fs.writeFile(city.dataFile, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');
 
-  console.log(`Done. Located ${ok}, failed ${failed}, warnings ${warnings}.`);
+  console.log(`Done ${city.shortName}. Located ${ok}, failed ${failed}, warnings ${warnings}.`);
+}
+
+async function main() {
+  const apiKey = process.env.AMAP_KEY;
+  if (!apiKey) {
+    throw new Error('Set AMAP_KEY in the environment before running this script.');
+  }
+
+  const slug = process.argv[2] || 'beijing';
+  const cities = slug === 'all' ? CITIES : [cityBySlug(slug)];
+  const cache = await readJson(CACHE_PATH, { geocode: {}, routes: {}, tips: {} });
+  cache.geocode ||= {};
+  cache.routes ||= {};
+  cache.tips ||= {};
+
+  for (const city of cities) {
+    await geocodeDataset(apiKey, city, cache);
+  }
+
+  await fs.mkdir(path.dirname(CACHE_PATH), { recursive: true });
+  await fs.writeFile(CACHE_PATH, `${JSON.stringify(cache, null, 2)}\n`, 'utf8');
 }
 
 main().catch((error) => {

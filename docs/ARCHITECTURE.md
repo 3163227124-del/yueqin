@@ -4,17 +4,17 @@
 
 ## 数据流
 
-1. `scripts/extract-bemanicn.js` 从保存的 BEMANICN 北京城市页解析店铺列表。
-2. `scripts/geocode-shops.js` 使用高德地理编码预先补全店铺坐标，并写回 `data/shops.beijing.json`。
+1. `scripts/extract-bemanicn.js` 从保存的 BEMANICN 城市页解析店铺列表。
+2. `scripts/geocode-shops.js` 使用高德地理编码预先补全店铺坐标，并写回 `data/shops.{city}.json`。
 3. 浏览器加载 `public/` 前端，展示地图、起点输入、候选店铺和推荐列表。
 4. `server.js` 提供本地 API，负责高德 key 的运行时保存、输入提示、路线请求和缓存。
 5. 推荐排序只使用高德真实路线时间；直线距离只用于决定先计算哪些候选。
 
 ## 关键接口
 
-- `GET /api/config`：城市、店铺数量、key 状态。
+- `GET /api/config`：城市列表、当前城市、店铺数量、key 状态。
 - `POST /api/key`：把高德 key 写入当前服务进程内存。
-- `GET /api/shops`：读取预处理后的北京店铺数据。
+- `GET /api/shops`：读取预处理后的当前城市店铺数据。
 - `GET /api/tips`：高德输入提示代理。
 - `POST /api/geocode`：高德地理编码代理，主要用于起点和数据维护。
 - `POST /api/route`：高德公交、驾车、步行路线代理。

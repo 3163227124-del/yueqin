@@ -3,16 +3,15 @@ const fs = require('fs');
 const fsp = require('fs/promises');
 const path = require('path');
 const { URL } = require('url');
+const { CITIES, cityBySlug } = require('./lib/cities');
 
 const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, 'public');
-const DATA_PATH = path.join(ROOT, 'data', 'shops.beijing.json');
 const CACHE_PATH = path.join(ROOT, 'work', 'amap-cache.json');
 const PORT = Number(process.env.PORT || 5173);
 const HOST = process.env.HOST || '127.0.0.1';
 const AMAP_BASE = 'https://restapi.amap.com';
 const AMAP_MIN_DELAY_MS = Number(process.env.AMAP_MIN_DELAY_MS || 120);
-const DEFAULT_CITY = '北京';
 const ROUTE_CACHE_VERSION = 'route-v2';
 
 let activeAmapKey = process.env.AMAP_KEY || '';
@@ -84,25 +83,41 @@ function requireAmapKey(res) {
   return true;
 }
 
-async function loadDataset() {
-  const dataset = JSON.parse(await fsp.readFile(DATA_PATH, 'utf8'));
+function publicCity(city) {
+  return {
+    slug: city.slug,
+    name: city.name,
+    shortName: city.shortName,
+    code: city.code,
+    provinceCode: city.provinceCode,
+    center: city.center,
+  };
+}
+
+function cityFromRequest(reqUrl, body = {}) {
+  return cityBySlug(body.city || reqUrl.searchParams.get('city') || 'beijing');
+}
+
+async function loadDataset(city) {
+  const dataset = JSON.parse(await fsp.readFile(path.join(ROOT, city.dataFile), 'utf8'));
   await loadCache();
 
   const shops = dataset.shops.map((shop) => {
-    const geocode = cache.geocode[geocodeKey(shop.geocodeAddress)];
+    const geocode = cache.geocode[geocodeKey(city.slug, shop.geocodeAddress)];
     return geocode?.ok ? { ...shop, location: geocode.location, geocode } : shop;
   });
 
   return { ...dataset, shops };
 }
 
-function geocodeKey(query) {
-  return `beijing:${String(query || '').trim()}`;
+function geocodeKey(citySlug, query) {
+  return `${citySlug}:${String(query || '').trim()}`;
 }
 
-function routeKey(mode, origin, destination) {
+function routeKey(citySlug, mode, origin, destination) {
   return [
     ROUTE_CACHE_VERSION,
+    citySlug,
     mode,
     Number(origin.lng).toFixed(5),
     Number(origin.lat).toFixed(5),
@@ -374,6 +389,7 @@ function normalizeTransit(data) {
 
 async function handleTips(reqUrl, res) {
   if (!requireAmapKey(res)) return;
+  const city = cityFromRequest(reqUrl);
   const keywords = reqUrl.searchParams.get('keywords') || reqUrl.searchParams.get('q') || '';
   if (!keywords.trim()) {
     sendJson(res, 200, { ok: true, tips: [] });
@@ -381,7 +397,7 @@ async function handleTips(reqUrl, res) {
   }
 
   await loadCache();
-  const key = `beijing:${keywords.trim()}`;
+  const key = `${city.slug}:${keywords.trim()}`;
   if (cache.tips[key]) {
     sendJson(res, 200, { ok: true, cached: true, tips: cache.tips[key] });
     return;
@@ -389,7 +405,7 @@ async function handleTips(reqUrl, res) {
 
   const data = await amapFetch('/v3/assistant/inputtips', {
     keywords,
-    city: DEFAULT_CITY,
+    city: city.shortName,
     citylimit: true,
     datatype: 'all',
   });
@@ -415,7 +431,8 @@ async function handleTips(reqUrl, res) {
 async function handleGeocode(req, res) {
   if (!requireAmapKey(res)) return;
   const body = await readBody(req);
-  const dataset = await loadDataset();
+  const city = cityFromRequest(new URL(req.url, `http://${req.headers.host || 'localhost'}`), body);
+  const dataset = await loadDataset(city);
   const shop = body.shopId ? dataset.shops.find((item) => item.id === Number(body.shopId)) : null;
   const query = String(body.query || shop?.geocodeAddress || '').trim();
 
@@ -425,7 +442,7 @@ async function handleGeocode(req, res) {
   }
 
   await loadCache();
-  const key = geocodeKey(query);
+  const key = geocodeKey(city.slug, query);
   if (cache.geocode[key]) {
     sendJson(res, 200, { ok: true, cached: true, geocode: cache.geocode[key] });
     return;
@@ -433,7 +450,7 @@ async function handleGeocode(req, res) {
 
   const data = await amapFetch('/v3/geocode/geo', {
     address: query,
-    city: DEFAULT_CITY,
+    city: city.shortName,
   }, 12000);
 
   const geocodes = Array.isArray(data.geocodes) ? data.geocodes : [];
@@ -464,6 +481,7 @@ async function handleGeocode(req, res) {
 async function handleRoute(req, res) {
   if (!requireAmapKey(res)) return;
   const body = await readBody(req);
+  const city = cityBySlug(body.city || 'beijing');
   const mode = String(body.mode || 'transit');
   const origin = normalizeLocation(body.origin);
   const destination = normalizeLocation(body.destination);
@@ -478,7 +496,7 @@ async function handleRoute(req, res) {
   }
 
   await loadCache();
-  const key = routeKey(mode, origin, destination);
+  const key = routeKey(city.slug, mode, origin, destination);
   if (cache.routes[key]) {
     sendJson(res, 200, { ok: true, cached: true, route: cache.routes[key] });
     return;
@@ -495,8 +513,8 @@ async function handleRoute(req, res) {
   if (mode === 'transit') {
     data = await amapFetch('/v3/direction/transit/integrated', {
       ...common,
-      city: DEFAULT_CITY,
-      cityd: DEFAULT_CITY,
+      city: city.shortName,
+      cityd: city.shortName,
       strategy: body.strategy ?? 0,
       nightflag: 0,
     }, 26000);
@@ -520,18 +538,21 @@ async function handleRoute(req, res) {
   sendJson(res, 200, { ok: true, route });
 }
 
-async function handleShops(res) {
-  const dataset = await loadDataset();
+async function handleShops(reqUrl, res) {
+  const city = cityFromRequest(reqUrl);
+  const dataset = await loadDataset(city);
   sendJson(res, 200, { ok: true, dataset });
 }
 
 async function handleApi(req, res, reqUrl) {
   try {
     if (req.method === 'GET' && reqUrl.pathname === '/api/config') {
-      const dataset = JSON.parse(await fsp.readFile(DATA_PATH, 'utf8'));
+      const city = cityFromRequest(reqUrl);
+      const dataset = JSON.parse(await fsp.readFile(path.join(ROOT, city.dataFile), 'utf8'));
       sendJson(res, 200, {
         ok: true,
         city: dataset.city,
+        cities: CITIES.map(publicCity),
         counts: dataset.counts,
         hasAmapKey: Boolean(activeAmapKey),
         keySource: activeAmapKey ? (process.env.AMAP_KEY ? 'env' : 'session') : null,
@@ -547,7 +568,7 @@ async function handleApi(req, res, reqUrl) {
     }
 
     if (req.method === 'GET' && reqUrl.pathname === '/api/shops') {
-      await handleShops(res);
+      await handleShops(reqUrl, res);
       return;
     }
 

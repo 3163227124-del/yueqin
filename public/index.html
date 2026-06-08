@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>北京游戏厅约勤</title>
+    <title>游戏厅约勤</title>
     <link rel="stylesheet" href="/styles.css">
     <script src="/app.js" defer></script>
   </head>
@@ -12,10 +12,15 @@
       <section class="control-panel" aria-label="约勤参数">
         <div class="brand-row">
           <div>
-            <h1>北京游戏厅约勤</h1>
-            <p id="dataSummary">读取北京店铺中</p>
+            <h1>游戏厅约勤</h1>
+            <p id="dataSummary">读取店铺中</p>
           </div>
           <span class="live-badge" id="keyStatus">未连接高德</span>
+        </div>
+
+        <div class="city-field">
+          <label for="citySelect">城市</label>
+          <select id="citySelect"></select>
         </div>
 
         <form class="key-form" id="keyForm">

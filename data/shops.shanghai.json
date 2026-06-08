@@ -1,0 +1,3929 @@
+{
+  "generatedAt": "2026-06-08T03:35:45.086Z",
+  "source": {
+    "name": "BEMANICN 街机地图",
+    "url": "https://map.bemanicn.com/region/city/310100000000",
+    "fetchedAt": "2026-06-08T03:35:45.086Z"
+  },
+  "city": {
+    "id": 73,
+    "name": "上海市",
+    "slug": "shanghai",
+    "shortName": "上海",
+    "code": "310100000000",
+    "provinceCode": "310000000000",
+    "center": [
+      121.473667,
+      31.230525
+    ]
+  },
+  "counts": {
+    "shops": 111,
+    "available": 111,
+    "upcoming": 0,
+    "closed": 0,
+    "located": 111
+  },
+  "shops": [
+    {
+      "id": 1,
+      "name": "街机烈火",
+      "address": "江宁路77恒顺大楼4层(南京西路地铁站1号口步行430米)",
+      "geocodeAddress": "上海市静安区江宁路77恒顺大楼4层(南京西路地铁站1号口步行430米)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310106000000",
+      "countyName": "静安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1",
+      "geocode": {
+        "ok": true,
+        "query": "上海市静安区江宁路77恒顺大楼4层(南京西路地铁站1号口步行430米)",
+        "formattedAddress": "上海市静安区江宁路77号恒顺大楼4层南京西路站(13号口)1号",
+        "level": "门址",
+        "adcode": "310106",
+        "expectedAdcode": "310106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.455483,
+          "lat": 31.229618
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:17.966Z"
+      },
+      "location": {
+        "lng": 121.455483,
+        "lat": 31.229618
+      }
+    },
+    {
+      "id": 6,
+      "name": "风云再起上海人民广场店",
+      "address": "人民大道221号上海迪美购物中心B1层227-229号、265-269号",
+      "geocodeAddress": "上海市黄浦区人民大道221号上海迪美购物中心B1层227-229号、265-269号",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310101000000",
+      "countyName": "黄浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6",
+      "geocode": {
+        "ok": true,
+        "query": "上海市黄浦区人民大道221号上海迪美购物中心B1层227-229号、265-269号",
+        "formattedAddress": "上海市黄浦区人民大道221号上海迪美购物中心b1层227-229号",
+        "level": "小巷",
+        "adcode": "310101",
+        "expectedAdcode": "310101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.473024,
+          "lat": 31.228048
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:18.227Z"
+      },
+      "location": {
+        "lng": 121.473024,
+        "lat": 31.228048
+      }
+    },
+    {
+      "id": 9,
+      "name": "汤姆熊欢乐世界(上海大悦城店)",
+      "address": "西藏北路166号上海大悦城南座L6层S601&S605",
+      "geocodeAddress": "上海市静安区西藏北路166号上海大悦城南座L6层S601&S605",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310106000000",
+      "countyName": "静安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/9",
+      "geocode": {
+        "ok": true,
+        "query": "上海市静安区西藏北路166号上海大悦城南座L6层S601&S605",
+        "formattedAddress": "上海市静安区西藏北路166号上海大悦城(南2门)南座l6层",
+        "level": "小巷",
+        "adcode": "310106",
+        "expectedAdcode": "310106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.472121,
+          "lat": 31.24281
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:18.481Z"
+      },
+      "location": {
+        "lng": 121.472121,
+        "lat": 31.24281
+      }
+    },
+    {
+      "id": 10,
+      "name": "汤姆熊欢乐世界(正大广场店)",
+      "address": "陆家嘴西路168号正大广场2F层",
+      "geocodeAddress": "上海市浦东新区陆家嘴西路168号正大广场2F层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/10",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区陆家嘴西路168号正大广场2F层",
+        "formattedAddress": "上海市浦东新区陆家嘴西路168号正大广场(2F西门)2层",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.49916,
+          "lat": 31.236724
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:18.734Z"
+      },
+      "location": {
+        "lng": 121.49916,
+        "lat": 31.236724
+      }
+    },
+    {
+      "id": 11,
+      "name": "风云再起上海长泰广场店",
+      "address": "祖冲之路1239弄长泰商业广场地下一层59-1室",
+      "geocodeAddress": "上海市浦东新区祖冲之路1239弄长泰商业广场地下一层59-1室",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/11",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区祖冲之路1239弄长泰商业广场地下一层59-1室",
+        "formattedAddress": "上海市浦东新区祖冲之路1239-7号",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.601201,
+          "lat": 31.205564
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:19.002Z"
+      },
+      "location": {
+        "lng": 121.601201,
+        "lat": 31.205564
+      }
+    },
+    {
+      "id": 12,
+      "name": "汤姆熊欢乐世界(置汇旭辉广场店)",
+      "address": "张杨路2389弄4号LCM置汇旭辉广场4F-1B",
+      "geocodeAddress": "上海市浦东新区张杨路2389弄4号LCM置汇旭辉广场4F-1B",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/12",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区张杨路2389弄4号LCM置汇旭辉广场4F-1B",
+        "formattedAddress": "上海市浦东新区张杨路2389号LCM置汇旭辉广场",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.555292,
+          "lat": 31.242636
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:19.251Z"
+      },
+      "location": {
+        "lng": 121.555292,
+        "lat": 31.242636
+      }
+    },
+    {
+      "id": 16,
+      "name": "汤姆熊欢乐世界（上海中山公园龙之梦购物公园店）",
+      "address": "长宁路1018号龙之梦购物公园红中庭6202",
+      "geocodeAddress": "上海市长宁区长宁路1018号龙之梦购物公园红中庭6202",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310105000000",
+      "countyName": "长宁区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/16",
+      "geocode": {
+        "ok": true,
+        "query": "上海市长宁区长宁路1018号龙之梦购物公园红中庭6202",
+        "formattedAddress": "上海市长宁区长宁路1018号龙之梦红中庭(龙之梦城市生活中心店)",
+        "level": "兴趣点",
+        "adcode": "310105",
+        "expectedAdcode": "310105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.416393,
+          "lat": 31.218754
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:19.941Z"
+      },
+      "location": {
+        "lng": 121.416393,
+        "lat": 31.218754
+      }
+    },
+    {
+      "id": 17,
+      "name": "汤姆熊欢乐世界（上海虹桥南丰城店）",
+      "address": "遵义路100号虹桥南丰城南区L3层SL301",
+      "geocodeAddress": "上海市长宁区遵义路100号虹桥南丰城南区L3层SL301",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310105000000",
+      "countyName": "长宁区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/17",
+      "geocode": {
+        "ok": true,
+        "query": "上海市长宁区遵义路100号虹桥南丰城南区L3层SL301",
+        "formattedAddress": "上海市长宁区遵义路100号虹桥南丰城南区",
+        "level": "兴趣点",
+        "adcode": "310105",
+        "expectedAdcode": "310105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.407759,
+          "lat": 31.207066
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:20.198Z"
+      },
+      "location": {
+        "lng": 121.407759,
+        "lat": 31.207066
+      }
+    },
+    {
+      "id": 19,
+      "name": "汤姆熊欢乐世界(虹口店)",
+      "address": "西江湾路388号凯德龙之梦B座5楼",
+      "geocodeAddress": "上海市虹口区西江湾路388号凯德龙之梦B座5楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310109000000",
+      "countyName": "虹口区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/19",
+      "geocode": {
+        "ok": true,
+        "query": "上海市虹口区西江湾路388号凯德龙之梦B座5楼",
+        "formattedAddress": "上海市虹口区西江湾路388号",
+        "level": "门牌号",
+        "adcode": "310109",
+        "expectedAdcode": "310109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.478679,
+          "lat": 31.271071
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:20.456Z"
+      },
+      "location": {
+        "lng": 121.478679,
+        "lat": 31.271071
+      }
+    },
+    {
+      "id": 21,
+      "name": "汤姆熊欢乐世界（百联又一城购物中心店）",
+      "address": "淞沪路8号百联又一城购物中心5层北区01-62",
+      "geocodeAddress": "上海市杨浦区淞沪路8号百联又一城购物中心5层北区01-62",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/21",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区淞沪路8号百联又一城购物中心5层北区01-62",
+        "formattedAddress": "上海市杨浦区淞沪路8号百联又一城购物中心",
+        "level": "兴趣点",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.515615,
+          "lat": 31.301529
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:20.707Z"
+      },
+      "location": {
+        "lng": 121.515615,
+        "lat": 31.301529
+      }
+    },
+    {
+      "id": 22,
+      "name": "星际传奇（上海合生汇店）",
+      "address": "翔殷路1099号上海合生国际广场3楼",
+      "geocodeAddress": "上海市杨浦区翔殷路1099号上海合生国际广场3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/22",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区翔殷路1099号上海合生国际广场3楼",
+        "formattedAddress": "上海市杨浦区翔殷路1099号",
+        "level": "门址",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.5179,
+          "lat": 31.299782
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:20.971Z"
+      },
+      "location": {
+        "lng": 121.5179,
+        "lat": 31.299782
+      }
+    },
+    {
+      "id": 23,
+      "name": "环游嘉年华（上海环球港店）",
+      "address": "中山北路3300号(近宁夏路)月星环球港3楼(L3163)",
+      "geocodeAddress": "上海市普陀区中山北路3300号(近宁夏路)月星环球港3楼(L3163)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310107000000",
+      "countyName": "普陀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/23",
+      "geocode": {
+        "ok": true,
+        "query": "上海市普陀区中山北路3300号(近宁夏路)月星环球港3楼(L3163)",
+        "formattedAddress": "上海市普陀区中山北路3300号宁夏路月星环球港",
+        "level": "兴趣点",
+        "adcode": "310107",
+        "expectedAdcode": "310107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.413869,
+          "lat": 31.235993
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:21.226Z"
+      },
+      "location": {
+        "lng": 121.413869,
+        "lat": 31.235993
+      }
+    },
+    {
+      "id": 24,
+      "name": "汤姆熊欢乐世界（百联南方购物中心店）",
+      "address": "上海市闵行区万源路汤姆熊欢乐世界(南方店)",
+      "geocodeAddress": "上海市闵行区万源路汤姆熊欢乐世界(南方店)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/24",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区万源路汤姆熊欢乐世界(南方店)",
+        "formattedAddress": "上海市闵行区万源路",
+        "level": "道路",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.395591,
+          "lat": 31.142155
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:21.911Z"
+      },
+      "location": {
+        "lng": 121.395591,
+        "lat": 31.142155
+      }
+    },
+    {
+      "id": 25,
+      "name": "菲游乐闵行龙湖天街店",
+      "address": "剑川路1000号龙湖上海闵行天街L3",
+      "geocodeAddress": "上海市闵行区剑川路1000号龙湖上海闵行天街L3",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/25",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区剑川路1000号龙湖上海闵行天街L3",
+        "formattedAddress": "上海市闵行区剑川路1000号上海闵行天街l3-13室",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.414292,
+          "lat": 31.025661
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:22.165Z"
+      },
+      "location": {
+        "lng": 121.414292,
+        "lat": 31.025661
+      }
+    },
+    {
+      "id": 27,
+      "name": "汤姆熊欢乐世界（日月光店）",
+      "address": "漕宝路33-4号徐汇日月光中心B座4楼",
+      "geocodeAddress": "上海市徐汇区漕宝路33-4号徐汇日月光中心B座4楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310104000000",
+      "countyName": "徐汇区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/27",
+      "geocode": {
+        "ok": true,
+        "query": "上海市徐汇区漕宝路33-4号徐汇日月光中心B座4楼",
+        "formattedAddress": "上海市徐汇区漕宝路33号徐汇日月光中心B座",
+        "level": "兴趣点",
+        "adcode": "310104",
+        "expectedAdcode": "310104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.432328,
+          "lat": 31.168737
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:23.421Z"
+      },
+      "location": {
+        "lng": 121.432328,
+        "lat": 31.168737
+      }
+    },
+    {
+      "id": 30,
+      "name": "极速时代上海江桥万达店（升级装修中）",
+      "address": "金沙江西路1051号万达广场(江桥店)娱乐楼2楼",
+      "geocodeAddress": "上海市嘉定区金沙江西路1051号万达广场(江桥店)娱乐楼2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/30",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区金沙江西路1051号万达广场(江桥店)娱乐楼2楼",
+        "formattedAddress": "上海市嘉定区金沙江西路1051号万达广场(上海江桥店)",
+        "level": "兴趣点",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.32383,
+          "lat": 31.239692
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:23.684Z"
+      },
+      "location": {
+        "lng": 121.32383,
+        "lat": 31.239692
+      }
+    },
+    {
+      "id": 31,
+      "name": "汤姆熊欢乐世界(上海嘉定店)",
+      "address": "澄浏中路3172号百联嘉定购物中心F3",
+      "geocodeAddress": "上海市嘉定区澄浏中路3172号百联嘉定购物中心F3",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/31",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区澄浏中路3172号百联嘉定购物中心F3",
+        "formattedAddress": "上海市嘉定区澄浏中路3172号百联嘉定购物中心(北门)3层",
+        "level": "门址",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.278489,
+          "lat": 31.386692
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:23.947Z"
+      },
+      "location": {
+        "lng": 121.278489,
+        "lat": 31.386692
+      }
+    },
+    {
+      "id": 262,
+      "name": "天天玩Game（上海徐汇汇银广场店）",
+      "address": "华山路2088号汇银广场南楼7M层",
+      "geocodeAddress": "上海市徐汇区华山路2088号汇银广场南楼7M层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310104000000",
+      "countyName": "徐汇区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/262",
+      "geocode": {
+        "ok": true,
+        "query": "上海市徐汇区华山路2088号汇银广场南楼7M层",
+        "formattedAddress": "上海市徐汇区上海华山路2088号汇银广场南楼",
+        "level": "兴趣点",
+        "adcode": "310104",
+        "expectedAdcode": "310104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.437137,
+          "lat": 31.196909
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:24.204Z"
+      },
+      "location": {
+        "lng": 121.437137,
+        "lat": 31.196909
+      }
+    },
+    {
+      "id": 272,
+      "name": "星乐荟浦乐汇广场店",
+      "address": "华夏东路2255号浦乐汇A区1F",
+      "geocodeAddress": "上海市浦东新区华夏东路2255号浦乐汇A区1F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/272",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区华夏东路2255号浦乐汇A区1F",
+        "formattedAddress": "上海市浦东新区华夏东路2255号浦乐汇(川沙店)",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.695032,
+          "lat": 31.200501
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:24.897Z"
+      },
+      "location": {
+        "lng": 121.695032,
+        "lat": 31.200501
+      }
+    },
+    {
+      "id": 455,
+      "name": "风云再起上海文峰广场店",
+      "address": "张杨北路801号四楼",
+      "geocodeAddress": "上海市浦东新区张杨北路801号四楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/455",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区张杨北路801号四楼",
+        "formattedAddress": "上海市浦东新区张杨北路801号",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.587292,
+          "lat": 31.271353
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:25.148Z"
+      },
+      "location": {
+        "lng": 121.587292,
+        "lat": 31.271353
+      }
+    },
+    {
+      "id": 491,
+      "name": "风云再起莘庄维璟印象城店",
+      "address": "七莘路1507号莘庄维璟印象城L4层",
+      "geocodeAddress": "上海市闵行区七莘路1507号莘庄维璟印象城L4层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/491",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区七莘路1507号莘庄维璟印象城L4层",
+        "formattedAddress": "上海市闵行区七莘街1507号莘庄维璟印象城(西1门)",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.36309,
+          "lat": 31.130529
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:25.395Z"
+      },
+      "location": {
+        "lng": 121.36309,
+        "lat": 31.130529
+      }
+    },
+    {
+      "id": 583,
+      "name": "风云再起(百联中环购物广场)",
+      "address": "真光路1288号百联中环购物广场F3",
+      "geocodeAddress": "上海市普陀区真光路1288号百联中环购物广场F3",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310107000000",
+      "countyName": "普陀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/583",
+      "geocode": {
+        "ok": true,
+        "query": "上海市普陀区真光路1288号百联中环购物广场F3",
+        "formattedAddress": "上海市普陀区真光路1288号百联中环购物广场f3层",
+        "level": "门址",
+        "adcode": "310107",
+        "expectedAdcode": "310107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.383719,
+          "lat": 31.245397
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:26.065Z"
+      },
+      "location": {
+        "lng": 121.383719,
+        "lat": 31.245397
+      }
+    },
+    {
+      "id": 654,
+      "name": "菲游乐宝杨宝龙广场店",
+      "address": "上海市宝山区同济路669弄宝龙广场1幢4号F3-014(3楼走到底)",
+      "geocodeAddress": "上海市宝山区同济路669弄宝龙广场1幢4号F3-014(3楼走到底)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/654",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区同济路669弄宝龙广场1幢4号F3-014(3楼走到底)",
+        "formattedAddress": "上海市宝山区宝龙广场(A门)1楼",
+        "level": "门址",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.35884,
+          "lat": 31.389197
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:26.327Z"
+      },
+      "location": {
+        "lng": 121.35884,
+        "lat": 31.389197
+      }
+    },
+    {
+      "id": 722,
+      "name": "汤姆熊欢乐世界（七宝宝龙城市广场店）",
+      "address": "漕宝路3299号七宝宝龙城市广场3楼",
+      "geocodeAddress": "上海市闵行区漕宝路3299号七宝宝龙城市广场3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/722",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区漕宝路3299号七宝宝龙城市广场3楼",
+        "formattedAddress": "上海市闵行区漕宝街3299号宝龙城3楼",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.355147,
+          "lat": 31.157801
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:26.587Z"
+      },
+      "location": {
+        "lng": 121.355147,
+        "lat": 31.157801
+      }
+    },
+    {
+      "id": 750,
+      "name": "汤姆熊欢乐世界(森兰花园城店)",
+      "address": "启帆路517路森兰花园城3楼",
+      "geocodeAddress": "上海市浦东新区启帆路517路森兰花园城3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/750",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区启帆路517路森兰花园城3楼",
+        "formattedAddress": "上海市浦东新区启帆路517号森兰花园城3f337室",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.591083,
+          "lat": 31.314397
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:26.839Z"
+      },
+      "location": {
+        "lng": 121.591083,
+        "lat": 31.314397
+      }
+    },
+    {
+      "id": 1039,
+      "name": "风云再起龙阳广场店",
+      "address": "龙阳路2000号龙阳广场2楼  地铁4号出口右手扶梯上2楼右前方",
+      "geocodeAddress": "上海市浦东新区龙阳路2000号龙阳广场2楼  地铁4号出口右手扶梯上2楼右前方",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1039",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区龙阳路2000号龙阳广场2楼  地铁4号出口右手扶梯上2楼右前方",
+        "formattedAddress": "上海市浦东新区龙阳路2000号龙阳广场2楼",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.557603,
+          "lat": 31.203141
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:27.096Z"
+      },
+      "location": {
+        "lng": 121.557603,
+        "lat": 31.203141
+      }
+    },
+    {
+      "id": 1173,
+      "name": "汤姆熊欢乐世界（金山店）",
+      "address": "卫清西路188号金山百联购物中心2层C区201(近松卫南路)",
+      "geocodeAddress": "上海市金山区卫清西路188号金山百联购物中心2层C区201(近松卫南路)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310116000000",
+      "countyName": "金山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1173",
+      "geocode": {
+        "ok": true,
+        "query": "上海市金山区卫清西路188号金山百联购物中心2层C区201(近松卫南路)",
+        "formattedAddress": "上海市金山区卫清西路杭州湾大道",
+        "level": "道路",
+        "adcode": "310116",
+        "expectedAdcode": "310116",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.337708,
+          "lat": 30.759577
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:27.353Z"
+      },
+      "location": {
+        "lng": 121.337708,
+        "lat": 30.759577
+      }
+    },
+    {
+      "id": 1197,
+      "name": "玩者归来/企萌电玩上海新田360店",
+      "address": "秀浦路668号新田360广场上海康桥店3F303",
+      "geocodeAddress": "上海市浦东新区秀浦路668号新田360广场上海康桥店3F303",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1197",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区秀浦路668号新田360广场上海康桥店3F303",
+        "formattedAddress": "上海市浦东新区秀浦路668号",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.565339,
+          "lat": 31.125475
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:28.049Z"
+      },
+      "location": {
+        "lng": 121.565339,
+        "lat": 31.125475
+      }
+    },
+    {
+      "id": 1319,
+      "name": "星际传奇瑞虹天地太阳宫店",
+      "address": "瑞虹路181号4楼",
+      "geocodeAddress": "上海市虹口区瑞虹路181号4楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310109000000",
+      "countyName": "虹口区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1319",
+      "geocode": {
+        "ok": true,
+        "query": "上海市虹口区瑞虹路181号4楼",
+        "formattedAddress": "上海市虹口区瑞虹路181号",
+        "level": "门牌号",
+        "adcode": "310109",
+        "expectedAdcode": "310109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.498709,
+          "lat": 31.263219
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:28.301Z"
+      },
+      "location": {
+        "lng": 121.498709,
+        "lat": 31.263219
+      }
+    },
+    {
+      "id": 1336,
+      "name": "星河部落川沙百联店",
+      "address": "川沙路5398号3楼",
+      "geocodeAddress": "上海市浦东新区川沙路5398号3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1336",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区川沙路5398号3楼",
+        "formattedAddress": "上海市浦东新区川沙路5398号",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.698047,
+          "lat": 31.18517
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:28.549Z"
+      },
+      "location": {
+        "lng": 121.698047,
+        "lat": 31.18517
+      }
+    },
+    {
+      "id": 1424,
+      "name": "星际传奇松江印象城店",
+      "address": "广富林路1788弄松江印象城3楼L337",
+      "geocodeAddress": "上海市松江区广富林路1788弄松江印象城3楼L337",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1424",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区广富林路1788弄松江印象城3楼L337",
+        "formattedAddress": "上海市松江区广富林东路555号",
+        "level": "门牌号",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.26918,
+          "lat": 31.051894
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:28.803Z"
+      },
+      "location": {
+        "lng": 121.26918,
+        "lat": 31.051894
+      }
+    },
+    {
+      "id": 1510,
+      "name": "风云再起上海宝山日月光店",
+      "address": "沪太路1933号宝山大场日月光中心三楼C栋301",
+      "geocodeAddress": "上海市宝山区沪太路1933号宝山大场日月光中心三楼C栋301",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1510",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区沪太路1933号宝山大场日月光中心三楼C栋301",
+        "formattedAddress": "上海市宝山区沪太路1933号大场镇日月光中心(宝山店)",
+        "level": "兴趣点",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.417875,
+          "lat": 31.29486
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:29.075Z"
+      },
+      "location": {
+        "lng": 121.417875,
+        "lat": 31.29486
+      }
+    },
+    {
+      "id": 1604,
+      "name": "天空之城上海青浦吾悦店",
+      "address": "淀山湖大道218号上海青浦吾悦广场2楼",
+      "geocodeAddress": "上海市青浦区淀山湖大道218号上海青浦吾悦广场2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310118000000",
+      "countyName": "青浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1604",
+      "geocode": {
+        "ok": true,
+        "query": "上海市青浦区淀山湖大道218号上海青浦吾悦广场2楼",
+        "formattedAddress": "上海市青浦区淀山湖道218号吾悦广场(出入口)2楼",
+        "level": "门址",
+        "adcode": "310118",
+        "expectedAdcode": "310118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.095659,
+          "lat": 31.144056
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:29.327Z"
+      },
+      "location": {
+        "lng": 121.095659,
+        "lat": 31.144056
+      }
+    },
+    {
+      "id": 1608,
+      "name": "趣玩汇上海百联曲阳店",
+      "address": "曲阳路800号百联曲阳购物中心三楼",
+      "geocodeAddress": "上海市虹口区曲阳路800号百联曲阳购物中心三楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310109000000",
+      "countyName": "虹口区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1608",
+      "geocode": {
+        "ok": true,
+        "query": "上海市虹口区曲阳路800号百联曲阳购物中心三楼",
+        "formattedAddress": "上海市虹口区曲阳路街道800号百联曲阳购物中心",
+        "level": "兴趣点",
+        "adcode": "310109",
+        "expectedAdcode": "310109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.49214,
+          "lat": 31.286466
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:30.007Z"
+      },
+      "location": {
+        "lng": 121.49214,
+        "lat": 31.286466
+      }
+    },
+    {
+      "id": 1776,
+      "name": "星乐荟佘山宝乐汇店",
+      "address": "泗泾镇佘月路27号宝乐汇2楼",
+      "geocodeAddress": "上海市松江区泗泾镇佘月路27号宝乐汇2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1776",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区泗泾镇佘月路27号宝乐汇2楼",
+        "formattedAddress": "上海市松江区泗泾镇佘月路27号宝乐汇",
+        "level": "小巷",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.230651,
+          "lat": 31.104501
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:30.260Z"
+      },
+      "location": {
+        "lng": 121.230651,
+        "lat": 31.104501
+      }
+    },
+    {
+      "id": 1888,
+      "name": "星际传奇（七宝领展广场店）",
+      "address": "漕宝路3366号七宝领展广场3楼",
+      "geocodeAddress": "上海市闵行区漕宝路3366号七宝领展广场3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1888",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区漕宝路3366号七宝领展广场3楼",
+        "formattedAddress": "上海市闵行区漕宝街3366号上海七宝领展广场",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.350371,
+          "lat": 31.154653
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:30.512Z"
+      },
+      "location": {
+        "lng": 121.350371,
+        "lat": 31.154653
+      }
+    },
+    {
+      "id": 2060,
+      "name": "汤姆熊欢乐世界(虹桥天地店)",
+      "address": "虹桥天地购物中心L3-03&05",
+      "geocodeAddress": "上海市闵行区虹桥天地购物中心L3-03&05",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2060",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区虹桥天地购物中心L3-03&05",
+        "formattedAddress": "上海市闵行区虹桥天地购物中心(B1北5门)l3-31号",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.315066,
+          "lat": 31.192651
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:30.762Z"
+      },
+      "location": {
+        "lng": 121.315066,
+        "lat": 31.192651
+      }
+    },
+    {
+      "id": 2112,
+      "name": "汤姆熊欢乐世界（百联滨江店）",
+      "address": "平凉路1399号百联滨江购物中心三楼",
+      "geocodeAddress": "上海市杨浦区平凉路1399号百联滨江购物中心三楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2112",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区平凉路1399号百联滨江购物中心三楼",
+        "formattedAddress": "上海市杨浦区平凉路1399号百联滨江购物中心",
+        "level": "兴趣点",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.537687,
+          "lat": 31.264969
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:31.013Z"
+      },
+      "location": {
+        "lng": 121.537687,
+        "lat": 31.264969
+      }
+    },
+    {
+      "id": 2371,
+      "name": "都市玩家颛桥万达店",
+      "address": "万达广场(颛桥店)3F",
+      "geocodeAddress": "上海市闵行区万达广场(颛桥店)3F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2371",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区万达广场(颛桥店)3F",
+        "formattedAddress": "上海市闵行区万达广场(东南门)颛桥",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.397217,
+          "lat": 31.06834
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:31.270Z"
+      },
+      "location": {
+        "lng": 121.397217,
+        "lat": 31.06834
+      }
+    },
+    {
+      "id": 2461,
+      "name": "奇奇乐园（龙盛国际商业广场店）",
+      "address": "龙盛国际商业广场3759号一楼",
+      "geocodeAddress": "上海市闵行区龙盛国际商业广场3759号一楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2461",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区龙盛国际商业广场3759号一楼",
+        "formattedAddress": "上海市闵行区龙盛国际商业广场",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.398851,
+          "lat": 31.085267
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:31.950Z"
+      },
+      "location": {
+        "lng": 121.398851,
+        "lat": 31.085267
+      }
+    },
+    {
+      "id": 2611,
+      "name": "天空之城上海万嘉广场店",
+      "address": "东靖路1881号万嘉商业广场2楼",
+      "geocodeAddress": "上海市浦东新区东靖路1881号万嘉商业广场2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2611",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区东靖路1881号万嘉商业广场2楼",
+        "formattedAddress": "上海市浦东新区东靖路1881号万嘉商业广场2楼",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.610468,
+          "lat": 31.293365
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:32.218Z"
+      },
+      "location": {
+        "lng": 121.610468,
+        "lat": 31.293365
+      }
+    },
+    {
+      "id": 2668,
+      "name": "蹦蹦乐园南桥百联店",
+      "address": "百齐路588号百联南桥购物中心F3",
+      "geocodeAddress": "上海市奉贤区百齐路588号百联南桥购物中心F3",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310120000000",
+      "countyName": "奉贤区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2668",
+      "geocode": {
+        "ok": true,
+        "query": "上海市奉贤区百齐路588号百联南桥购物中心F3",
+        "formattedAddress": "上海市奉贤区百齐路588号百联南桥购物中心f3号",
+        "level": "未知",
+        "adcode": "310120",
+        "expectedAdcode": "310120",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.483809,
+          "lat": 30.915797
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:32.480Z"
+      },
+      "location": {
+        "lng": 121.483809,
+        "lat": 30.915797
+      }
+    },
+    {
+      "id": 2723,
+      "name": "桂满园上海崇明万达店",
+      "address": "城桥镇崇明大道8388号万达广场2楼西北角",
+      "geocodeAddress": "上海市崇明区城桥镇崇明大道8388号万达广场2楼西北角",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310151000000",
+      "countyName": "崇明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2723",
+      "geocode": {
+        "ok": true,
+        "query": "上海市崇明区城桥镇崇明大道8388号万达广场2楼西北角",
+        "formattedAddress": "上海市崇明区城桥镇崇明大道8388号万达广场(上海崇明店)2层",
+        "level": "门址",
+        "adcode": "310151",
+        "expectedAdcode": "310151",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.417218,
+          "lat": 31.626506
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:32.730Z"
+      },
+      "location": {
+        "lng": 121.417218,
+        "lat": 31.626506
+      }
+    },
+    {
+      "id": 2744,
+      "name": "酷玩空间上海世纪汇店",
+      "address": "世纪大道1192号世纪汇广场负一楼（LG1）",
+      "geocodeAddress": "上海市浦东新区世纪大道1192号世纪汇广场负一楼（LG1）",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2744",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区世纪大道1192号世纪汇广场负一楼（LG1）",
+        "formattedAddress": "上海市浦东新区世纪大道世纪汇广场",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.52719,
+          "lat": 31.227446
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:32.977Z"
+      },
+      "location": {
+        "lng": 121.52719,
+        "lat": 31.227446
+      }
+    },
+    {
+      "id": 2876,
+      "name": "东方明珠塔98米游乐场",
+      "address": "浦东新区世纪大道1号",
+      "geocodeAddress": "上海市浦东新区世纪大道1号",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2876",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区世纪大道1号",
+        "formattedAddress": "上海市浦东新区世纪大道1号",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.499971,
+          "lat": 31.239436
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:33.230Z"
+      },
+      "location": {
+        "lng": 121.499971,
+        "lat": 31.239436
+      }
+    },
+    {
+      "id": 2928,
+      "name": "汤姆熊欢乐世界(上海南翔印象城店)",
+      "address": "上海市嘉定区南翔镇陈翔公路2299号03-14汤姆熊",
+      "geocodeAddress": "上海市嘉定区南翔镇陈翔公路2299号03-14汤姆熊",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2928",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区南翔镇陈翔公路2299号03-14汤姆熊",
+        "formattedAddress": "上海市嘉定区南翔镇陈翔公路2299号",
+        "level": "门址",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.305834,
+          "lat": 31.305041
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:33.911Z"
+      },
+      "location": {
+        "lng": 121.305834,
+        "lat": 31.305041
+      }
+    },
+    {
+      "id": 2930,
+      "name": "FIRST福思特动漫电玩世界嘉定宝龙广场店",
+      "address": "阿克苏路1099号嘉定宝龙广场1L",
+      "geocodeAddress": "上海市嘉定区阿克苏路1099号嘉定宝龙广场1L",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2930",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区阿克苏路1099号嘉定宝龙广场1L",
+        "formattedAddress": "上海市嘉定区阿克苏路1099号嘉定宝龙广场1号楼",
+        "level": "门址",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.259664,
+          "lat": 31.346144
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:34.169Z"
+      },
+      "location": {
+        "lng": 121.259664,
+        "lat": 31.346144
+      }
+    },
+    {
+      "id": 2948,
+      "name": "天空之城上海招商花园城店",
+      "address": "上海市浦东新区顾唐路99号招商花园城L3-018",
+      "geocodeAddress": "上海市浦东新区顾唐路99号招商花园城L3-018",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2948",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区顾唐路99号招商花园城L3-018",
+        "formattedAddress": "上海市浦东新区顾唐路招商花园城",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.658584,
+          "lat": 31.263478
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:34.422Z"
+      },
+      "location": {
+        "lng": 121.658584,
+        "lat": 31.263478
+      }
+    },
+    {
+      "id": 2980,
+      "name": "福爪爪上海浦东店",
+      "address": "上海市浦东新区顾唐路99号招商花园城B1-001",
+      "geocodeAddress": "上海市浦东新区顾唐路99号招商花园城B1-001",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2980",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区顾唐路99号招商花园城B1-001",
+        "formattedAddress": "上海市浦东新区顾唐路招商花园城",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.658584,
+          "lat": 31.263478
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:35.111Z"
+      },
+      "location": {
+        "lng": 121.658584,
+        "lat": 31.263478
+      }
+    },
+    {
+      "id": 3046,
+      "name": "天空之城（宝山龙湖天街店）",
+      "address": "宝山区丹霞山路50弄1号(龙湖上海宝山天街)3楼",
+      "geocodeAddress": "上海市宝山区丹霞山路50弄1号(龙湖上海宝山天街)3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3046",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区丹霞山路50弄1号(龙湖上海宝山天街)3楼",
+        "formattedAddress": "上海市宝山区丹霞山路50弄1号楼",
+        "level": "门址",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.362071,
+          "lat": 31.358658
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:35.364Z"
+      },
+      "location": {
+        "lng": 121.362071,
+        "lat": 31.358658
+      }
+    },
+    {
+      "id": 3062,
+      "name": "星际传奇上海中海环宇城店",
+      "address": "铜川路699弄1号中海环宇城MAX三楼L3001",
+      "geocodeAddress": "上海市普陀区铜川路699弄1号中海环宇城MAX三楼L3001",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310107000000",
+      "countyName": "普陀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3062",
+      "geocode": {
+        "ok": true,
+        "query": "上海市普陀区铜川路699弄1号中海环宇城MAX三楼L3001",
+        "formattedAddress": "上海市普陀区铜川路上海真如环宇城MAX",
+        "level": "兴趣点",
+        "adcode": "310107",
+        "expectedAdcode": "310107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.409564,
+          "lat": 31.250251
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:36.076Z"
+      },
+      "location": {
+        "lng": 121.409564,
+        "lat": 31.250251
+      }
+    },
+    {
+      "id": 3217,
+      "name": "星河部落上海浦江店",
+      "address": "陈行公路2688号浦江欢乐颂3F",
+      "geocodeAddress": "上海市闵行区陈行公路2688号浦江欢乐颂3F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3217",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区陈行公路2688号浦江欢乐颂3F",
+        "formattedAddress": "上海市闵行区陈行公路2688号上海浦江欢乐颂",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.503909,
+          "lat": 31.095022
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:36.324Z"
+      },
+      "location": {
+        "lng": 121.503909,
+        "lat": 31.095022
+      }
+    },
+    {
+      "id": 3280,
+      "name": "星河风云（上海五角场万达店）",
+      "address": "政通路189号万达广场E馆二楼",
+      "geocodeAddress": "上海市杨浦区政通路189号万达广场E馆二楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3280",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区政通路189号万达广场E馆二楼",
+        "formattedAddress": "上海市杨浦区政通路189号",
+        "level": "门址",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.512791,
+          "lat": 31.301945
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:36.584Z"
+      },
+      "location": {
+        "lng": 121.512791,
+        "lat": 31.301945
+      }
+    },
+    {
+      "id": 3359,
+      "name": "汤姆熊欢乐世界（久光店）",
+      "address": "中国上海市静安区共和新路2188号",
+      "geocodeAddress": "上海市中国上海市静安区共和新路2188号",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310106000000",
+      "countyName": "静安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3359",
+      "geocode": {
+        "ok": true,
+        "query": "上海市中国上海市静安区共和新路2188号",
+        "formattedAddress": "上海市静安区共和新路2188号",
+        "level": "门址",
+        "adcode": "310106",
+        "expectedAdcode": "310106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.451324,
+          "lat": 31.276174
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:36.839Z"
+      },
+      "location": {
+        "lng": 121.451324,
+        "lat": 31.276174
+      }
+    },
+    {
+      "id": 3486,
+      "name": "悦漫嘉年华（上海开元地中海店）",
+      "address": "新松江路开元地中海商业广场3楼西侧",
+      "geocodeAddress": "上海市松江区新松江路开元地中海商业广场3楼西侧",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3486",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区新松江路开元地中海商业广场3楼西侧",
+        "formattedAddress": "上海市松江区新松江路开元地中海商业广场",
+        "level": "兴趣点",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.219475,
+          "lat": 31.037768
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:37.096Z"
+      },
+      "location": {
+        "lng": 121.219475,
+        "lat": 31.037768
+      }
+    },
+    {
+      "id": 3707,
+      "name": "卡通尼乐园上海马桥店",
+      "address": "上海市闵行区富岩路121号马桥万达广场3",
+      "geocodeAddress": "上海市闵行区富岩路121号马桥万达广场3",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3707",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区富岩路121号马桥万达广场3",
+        "formattedAddress": "上海市闵行区富岩路121号马桥镇万达广场(上海马桥店)3层",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.3729,
+          "lat": 31.023405
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:37.345Z"
+      },
+      "location": {
+        "lng": 121.3729,
+        "lat": 31.023405
+      }
+    },
+    {
+      "id": 3724,
+      "name": "汤姆熊欢乐世界（新世界店）",
+      "address": "南京西路2-68号新世界城L8层",
+      "geocodeAddress": "上海市黄浦区南京西路2-68号新世界城L8层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310101000000",
+      "countyName": "黄浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3724",
+      "geocode": {
+        "ok": true,
+        "query": "上海市黄浦区南京西路2-68号新世界城L8层",
+        "formattedAddress": "上海市黄浦区南京西路新世界城l8层",
+        "level": "门址",
+        "adcode": "310101",
+        "expectedAdcode": "310101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.473586,
+          "lat": 31.235162
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:38.024Z"
+      },
+      "location": {
+        "lng": 121.473586,
+        "lat": 31.235162
+      }
+    },
+    {
+      "id": 3731,
+      "name": "YumeWorld上海徐汇万科店",
+      "address": "徐汇万科广场二楼L2-25",
+      "geocodeAddress": "上海市徐汇区徐汇万科广场二楼L2-25",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310104000000",
+      "countyName": "徐汇区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3731",
+      "geocode": {
+        "ok": true,
+        "query": "上海市徐汇区徐汇万科广场二楼L2-25",
+        "formattedAddress": "上海市徐汇区徐汇街道徐汇万科广场(1号门)",
+        "level": "兴趣点",
+        "adcode": "310104",
+        "expectedAdcode": "310104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.431741,
+          "lat": 31.157938
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:38.274Z"
+      },
+      "location": {
+        "lng": 121.431741,
+        "lat": 31.157938
+      }
+    },
+    {
+      "id": 3739,
+      "name": "环游地平线家庭娱乐中心",
+      "address": "新松江路开元地中海商业广场2楼东侧",
+      "geocodeAddress": "上海市松江区新松江路开元地中海商业广场2楼东侧",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3739",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区新松江路开元地中海商业广场2楼东侧",
+        "formattedAddress": "上海市松江区新松江路开元地中海商业广场",
+        "level": "兴趣点",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.219475,
+          "lat": 31.037768
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:38.520Z"
+      },
+      "location": {
+        "lng": 121.219475,
+        "lat": 31.037768
+      }
+    },
+    {
+      "id": 3863,
+      "name": "汤姆熊欢乐世界打浦桥日月光店",
+      "address": "徐家汇路618号2楼徐家汇区10号（2F-XJH10室）",
+      "geocodeAddress": "上海市黄浦区徐家汇路618号2楼徐家汇区10号（2F-XJH10室）",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310101000000",
+      "countyName": "黄浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3863",
+      "geocode": {
+        "ok": true,
+        "query": "上海市黄浦区徐家汇路618号2楼徐家汇区10号（2F-XJH10室）",
+        "formattedAddress": "上海市黄浦区徐家汇路618号2楼",
+        "level": "小巷",
+        "adcode": "310101",
+        "expectedAdcode": "310101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.467595,
+          "lat": 31.206089
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:38.765Z"
+      },
+      "location": {
+        "lng": 121.467595,
+        "lat": 31.206089
+      }
+    },
+    {
+      "id": 4043,
+      "name": "菲游乐上海奉贤宝龙店",
+      "address": "南桥宝龙广场三楼菲游乐",
+      "geocodeAddress": "上海市奉贤区南桥宝龙广场三楼菲游乐",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310120000000",
+      "countyName": "奉贤区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4043",
+      "geocode": {
+        "ok": true,
+        "query": "上海市奉贤区南桥宝龙广场三楼菲游乐",
+        "formattedAddress": "上海市奉贤区南桥奉贤宝龙广场菲游乐",
+        "level": "兴趣点",
+        "adcode": "310120",
+        "expectedAdcode": "310120",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.49736,
+          "lat": 30.913227
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:39.017Z"
+      },
+      "location": {
+        "lng": 121.49736,
+        "lat": 30.913227
+      }
+    },
+    {
+      "id": 4143,
+      "name": "卡通尼乐园(嘉亭荟城市生活广场店)",
+      "address": "嘉定区墨玉南路1055-1077号嘉亭荟城市生活广场西区F3层",
+      "geocodeAddress": "上海市嘉定区墨玉南路1055-1077号嘉亭荟城市生活广场西区F3层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4143",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区墨玉南路1055-1077号嘉亭荟城市生活广场西区F3层",
+        "formattedAddress": "上海市嘉定区墨玉南路1055-1077号嘉亭荟城市生活广场西区",
+        "level": "兴趣点",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.161827,
+          "lat": 31.287841
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:39.270Z"
+      },
+      "location": {
+        "lng": 121.161827,
+        "lat": 31.287841
+      }
+    },
+    {
+      "id": 4208,
+      "name": "汤姆熊欢乐世界（上海荟聚店）",
+      "address": "上海长宁区金钟路788号L3层03A02",
+      "geocodeAddress": "上海市上海长宁区金钟路788号L3层03A02",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310105000000",
+      "countyName": "长宁区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4208",
+      "geocode": {
+        "ok": true,
+        "query": "上海市上海长宁区金钟路788号L3层03A02",
+        "formattedAddress": "上海市长宁区金钟路788号",
+        "level": "门牌号",
+        "adcode": "310105",
+        "expectedAdcode": "310105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.356042,
+          "lat": 31.220279
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:39.956Z"
+      },
+      "location": {
+        "lng": 121.356042,
+        "lat": 31.220279
+      }
+    },
+    {
+      "id": 4214,
+      "name": "卡乐比乐园（上海世博源店）",
+      "address": "世博大道1368号世博源3区G层3G13-3G15",
+      "geocodeAddress": "上海市浦东新区世博大道1368号世博源3区G层3G13-3G15",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4214",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区世博大道1368号世博源3区G层3G13-3G15",
+        "formattedAddress": "上海市浦东新区世博大道1368号世博源",
+        "level": "小巷",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.49245,
+          "lat": 31.184
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:40.212Z"
+      },
+      "location": {
+        "lng": 121.49245,
+        "lat": 31.184
+      }
+    },
+    {
+      "id": 4357,
+      "name": "环游家族（上海金山万达店）/酷玩巅峰",
+      "address": "金山万达广场2F/3F东侧",
+      "geocodeAddress": "上海市金山区金山万达广场2F/3F东侧",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310116000000",
+      "countyName": "金山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4357",
+      "geocode": {
+        "ok": true,
+        "query": "上海市金山区金山万达广场2F/3F东侧",
+        "formattedAddress": "上海市金山区万达广场(公交站)2f-a商铺",
+        "level": "门址",
+        "adcode": "310116",
+        "expectedAdcode": "310116",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.335878,
+          "lat": 30.754838
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:40.462Z"
+      },
+      "location": {
+        "lng": 121.335878,
+        "lat": 30.754838
+      }
+    },
+    {
+      "id": 4386,
+      "name": "卡通尼上海美兰湖金地店",
+      "address": "上海市宝山区年喜路19弄中集金地广场B馆3F",
+      "geocodeAddress": "上海市宝山区年喜路19弄中集金地广场B馆3F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4386",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区年喜路19弄中集金地广场B馆3F",
+        "formattedAddress": "上海市宝山区年吉路19弄中集金地广场",
+        "level": "兴趣点",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.349448,
+          "lat": 31.399691
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:40.715Z"
+      },
+      "location": {
+        "lng": 121.349448,
+        "lat": 31.399691
+      }
+    },
+    {
+      "id": 4421,
+      "name": "玩者归来游乐mall上海爱琴海店",
+      "address": "吴中路1588号爱琴海购物公园4F",
+      "geocodeAddress": "上海市闵行区吴中路1588号爱琴海购物公园4F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4421",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区吴中路1588号爱琴海购物公园4F",
+        "formattedAddress": "上海市闵行区吴中路1588号",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.372841,
+          "lat": 31.174768
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:40.962Z"
+      },
+      "location": {
+        "lng": 121.372841,
+        "lat": 31.174768
+      }
+    },
+    {
+      "id": 4684,
+      "name": "悠乐YOLO乐园（经纬汇店）",
+      "address": "经地路99弄经纬汇6座1F2F",
+      "geocodeAddress": "上海市宝山区经地路99弄经纬汇6座1F2F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4684",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区经地路99弄经纬汇6座1F2F",
+        "formattedAddress": "上海市宝山区经地路99弄经纬汇",
+        "level": "未知",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.399224,
+          "lat": 31.323918
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:41.219Z"
+      },
+      "location": {
+        "lng": 121.399224,
+        "lat": 31.323918
+      }
+    },
+    {
+      "id": 4707,
+      "name": "萌多拉上海奉贤港嘉店",
+      "address": "四团镇港嘉路518号2楼",
+      "geocodeAddress": "上海市奉贤区四团镇港嘉路518号2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310120000000",
+      "countyName": "奉贤区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4707",
+      "geocode": {
+        "ok": true,
+        "query": "上海市奉贤区四团镇港嘉路518号2楼",
+        "formattedAddress": "上海市奉贤区四团镇",
+        "level": "乡镇",
+        "adcode": "310120",
+        "expectedAdcode": "310120",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.722813,
+          "lat": 30.939313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:41.914Z"
+      },
+      "location": {
+        "lng": 121.722813,
+        "lat": 30.939313
+      }
+    },
+    {
+      "id": 4712,
+      "name": "酷玩空间上海普陀环球港店",
+      "address": "中山北路3300号(近宁夏路)月星环球港负一楼",
+      "geocodeAddress": "上海市普陀区中山北路3300号(近宁夏路)月星环球港负一楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310107000000",
+      "countyName": "普陀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4712",
+      "geocode": {
+        "ok": true,
+        "query": "上海市普陀区中山北路3300号(近宁夏路)月星环球港负一楼",
+        "formattedAddress": "上海市普陀区中山北路3300号宁夏路月星环球港",
+        "level": "兴趣点",
+        "adcode": "310107",
+        "expectedAdcode": "310107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.413869,
+          "lat": 31.235993
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:42.171Z"
+      },
+      "location": {
+        "lng": 121.413869,
+        "lat": 31.235993
+      }
+    },
+    {
+      "id": 4720,
+      "name": "AKIBAGO（上海杨浦百联ZX造趣场店）",
+      "address": "四平路2500号百联ZX造趣场2楼AKIBAGO",
+      "geocodeAddress": "上海市杨浦区四平路2500号百联ZX造趣场2楼AKIBAGO",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4720",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区四平路2500号百联ZX造趣场2楼AKIBAGO",
+        "formattedAddress": "上海市杨浦区四平路2500号百联zx造趣场",
+        "level": "兴趣点",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.515909,
+          "lat": 31.298338
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:42.420Z"
+      },
+      "location": {
+        "lng": 121.515909,
+        "lat": 31.298338
+      }
+    },
+    {
+      "id": 4807,
+      "name": "潮乐潮（上海颛桥万达广场店)",
+      "address": "上海颛桥万达广场3楼",
+      "geocodeAddress": "上海市闵行区上海颛桥万达广场3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4807",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区上海颛桥万达广场3楼",
+        "formattedAddress": "上海市闵行区颛桥万达广场(东南门)3楼",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.406866,
+          "lat": 31.070842
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:43.114Z"
+      },
+      "location": {
+        "lng": 121.406866,
+        "lat": 31.070842
+      }
+    },
+    {
+      "id": 4854,
+      "name": "六代玩家上海松江店",
+      "address": "泗泾镇泗宝路41号嘉宏·大橘印象荟二楼东侧",
+      "geocodeAddress": "上海市松江区泗泾镇泗宝路41号嘉宏·大橘印象荟二楼东侧",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4854",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区泗泾镇泗宝路41号嘉宏·大橘印象荟二楼东侧",
+        "formattedAddress": "上海市松江区泗泾镇泗宝路41号嘉宏·大橘印象荟(泗泾店)",
+        "level": "兴趣点",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.260577,
+          "lat": 31.115816
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:43.366Z"
+      },
+      "location": {
+        "lng": 121.260577,
+        "lat": 31.115816
+      }
+    },
+    {
+      "id": 4886,
+      "name": "菲菲羊乐园上海江桥万达店",
+      "address": "金沙江西路1051号万达广场（江桥店）3楼",
+      "geocodeAddress": "上海市嘉定区金沙江西路1051号万达广场（江桥店）3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4886",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区金沙江西路1051号万达广场（江桥店）3楼",
+        "formattedAddress": "上海市嘉定区金沙江西路1051号万达广场(上海江桥店)",
+        "level": "兴趣点",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.32383,
+          "lat": 31.239692
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:44.058Z"
+      },
+      "location": {
+        "lng": 121.32383,
+        "lat": 31.239692
+      }
+    },
+    {
+      "id": 5031,
+      "name": "壹号玩家动漫城（航头浦乐汇店）",
+      "address": "上海市浦东新区鹤雷路319号3层301-310号",
+      "geocodeAddress": "上海市浦东新区鹤雷路319号3层301-310号",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5031",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区鹤雷路319号3层301-310号",
+        "formattedAddress": "上海市浦东新区鹤雷路",
+        "level": "道路",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.599885,
+          "lat": 31.076681
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:44.316Z"
+      },
+      "location": {
+        "lng": 121.599885,
+        "lat": 31.076681
+      }
+    },
+    {
+      "id": 5098,
+      "name": "汤姆熊欢乐世界（啦啦宝都店）",
+      "address": "新金桥路738号啦啦宝都商场3楼320商铺",
+      "geocodeAddress": "上海市浦东新区新金桥路738号啦啦宝都商场3楼320商铺",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5098",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区新金桥路738号啦啦宝都商场3楼320商铺",
+        "formattedAddress": "上海市浦东新区新金桥路738号",
+        "level": "门牌号",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.601592,
+          "lat": 31.250892
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:44.567Z"
+      },
+      "location": {
+        "lng": 121.601592,
+        "lat": 31.250892
+      }
+    },
+    {
+      "id": 5200,
+      "name": "菲游乐(上海浦东禹悦汇店)",
+      "address": "浦东新区惠南镇沪南公路9968号上海浦东禹悦汇1层",
+      "geocodeAddress": "上海市浦东新区惠南镇沪南公路9968号上海浦东禹悦汇1层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5200",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区惠南镇沪南公路9968号上海浦东禹悦汇1层",
+        "formattedAddress": "上海市浦东新区惠南镇沪南公路9968号上海浦东禹悦汇(西门)",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.737757,
+          "lat": 31.038697
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:44.818Z"
+      },
+      "location": {
+        "lng": 121.737757,
+        "lat": 31.038697
+      }
+    },
+    {
+      "id": 5394,
+      "name": "星际传奇（静安大融城店）",
+      "address": "沪太路静安大融城1号楼F3层",
+      "geocodeAddress": "上海市静安区沪太路静安大融城1号楼F3层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310106000000",
+      "countyName": "静安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5394",
+      "geocode": {
+        "ok": true,
+        "query": "上海市静安区沪太路静安大融城1号楼F3层",
+        "formattedAddress": "上海市静安区沪太路静安大融城1号楼f3层",
+        "level": "小巷",
+        "adcode": "310106",
+        "expectedAdcode": "310106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.426222,
+          "lat": 31.280172
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:45.074Z"
+      },
+      "location": {
+        "lng": 121.426222,
+        "lat": 31.280172
+      }
+    },
+    {
+      "id": 5423,
+      "name": "万达宝贝王上海浦江万达店",
+      "address": "浦江镇永跃路360号万达广场三楼万达宝贝王",
+      "geocodeAddress": "上海市闵行区浦江镇永跃路360号万达广场三楼万达宝贝王",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5423",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区浦江镇永跃路360号万达广场三楼万达宝贝王",
+        "formattedAddress": "上海市闵行区浦江镇永跃路360号万达宝贝王(上海浦江万达广场店)",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.511525,
+          "lat": 31.026975
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:45.325Z"
+      },
+      "location": {
+        "lng": 121.511525,
+        "lat": 31.026975
+      }
+    },
+    {
+      "id": 5448,
+      "name": "星际传奇（百联西郊购物中心店）",
+      "address": "仙霞西路88号百联西郊购物中心3楼043室",
+      "geocodeAddress": "上海市长宁区仙霞西路88号百联西郊购物中心3楼043室",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310105000000",
+      "countyName": "长宁区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5448",
+      "geocode": {
+        "ok": true,
+        "query": "上海市长宁区仙霞西路88号百联西郊购物中心3楼043室",
+        "formattedAddress": "上海市长宁区仙霞西路88号百联西郊购物中心3楼",
+        "level": "门址",
+        "adcode": "310105",
+        "expectedAdcode": "310105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.370297,
+          "lat": 31.209241
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:46.009Z"
+      },
+      "location": {
+        "lng": 121.370297,
+        "lat": 31.209241
+      }
+    },
+    {
+      "id": 5510,
+      "name": "喜漫游·潮玩中心（上海临港蓝鲸世界店）",
+      "address": "沪城环路与方竹路交汇处龙光蓝鲸世界购物中心L3-49室",
+      "geocodeAddress": "上海市浦东新区沪城环路与方竹路交汇处龙光蓝鲸世界购物中心L3-49室",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5510",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区沪城环路与方竹路交汇处龙光蓝鲸世界购物中心L3-49室",
+        "formattedAddress": "上海市浦东新区沪城环路与方竹路龙光蓝鲸世界购物中心",
+        "level": "兴趣点",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.896191,
+          "lat": 30.896006
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:46.257Z"
+      },
+      "location": {
+        "lng": 121.896191,
+        "lat": 30.896006
+      }
+    },
+    {
+      "id": 5580,
+      "name": "环游地平线（大橘邻里店）",
+      "address": "荣乐中路8号（大橘邻里社区商业中心）一楼",
+      "geocodeAddress": "上海市松江区荣乐中路8号（大橘邻里社区商业中心）一楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5580",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区荣乐中路8号（大橘邻里社区商业中心）一楼",
+        "formattedAddress": "上海市松江区荣乐中路8号大橘邻里(岳阳店)",
+        "level": "兴趣点",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.241345,
+          "lat": 31.018246
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:46.509Z"
+      },
+      "location": {
+        "lng": 121.241345,
+        "lat": 31.018246
+      }
+    },
+    {
+      "id": 5581,
+      "name": "舞玩伏特（凯德闵行商业中心店）",
+      "address": "莘庄镇凯德闵行商业中心（凯德龙之梦）3楼",
+      "geocodeAddress": "上海市闵行区莘庄镇凯德闵行商业中心（凯德龙之梦）3楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5581",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区莘庄镇凯德闵行商业中心（凯德龙之梦）3楼",
+        "formattedAddress": "上海市闵行区莘庄镇凯德闵行商业中心",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.378283,
+          "lat": 31.107788
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:46.763Z"
+      },
+      "location": {
+        "lng": 121.378283,
+        "lat": 31.107788
+      }
+    },
+    {
+      "id": 5596,
+      "name": "威龙传奇（上海松江店）",
+      "address": "松江万达广场2F西侧",
+      "geocodeAddress": "上海市松江区松江万达广场2F西侧",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5596",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区松江万达广场2F西侧",
+        "formattedAddress": "上海市松江区万达广场(上海松江店)2层",
+        "level": "门址",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.242993,
+          "lat": 31.05798
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:47.007Z"
+      },
+      "location": {
+        "lng": 121.242993,
+        "lat": 31.05798
+      }
+    },
+    {
+      "id": 5632,
+      "name": "汤姆熊欢乐世界（正大乐城店）",
+      "address": "中山南二路699号正大乐城F2-7-203",
+      "geocodeAddress": "上海市徐汇区中山南二路699号正大乐城F2-7-203",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310104000000",
+      "countyName": "徐汇区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5632",
+      "geocode": {
+        "ok": true,
+        "query": "上海市徐汇区中山南二路699号正大乐城F2-7-203",
+        "formattedAddress": "上海市徐汇区中山南二路699号正大乐城2-204室",
+        "level": "门址",
+        "adcode": "310104",
+        "expectedAdcode": "310104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.458205,
+          "lat": 31.186327
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:47.257Z"
+      },
+      "location": {
+        "lng": 121.458205,
+        "lat": 31.186327
+      }
+    },
+    {
+      "id": 5646,
+      "name": "卡通尼·Fun Forward（今潮八弄店）",
+      "address": "滨港商业中心LG1层",
+      "geocodeAddress": "上海市虹口区滨港商业中心LG1层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310109000000",
+      "countyName": "虹口区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5646",
+      "geocode": {
+        "ok": true,
+        "query": "上海市虹口区滨港商业中心LG1层",
+        "formattedAddress": "上海市虹口区滨港商业中心",
+        "level": "兴趣点",
+        "adcode": "310109",
+        "expectedAdcode": "310109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.483422,
+          "lat": 31.2498
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:47.945Z"
+      },
+      "location": {
+        "lng": 121.483422,
+        "lat": 31.2498
+      }
+    },
+    {
+      "id": 5653,
+      "name": "星际传奇（虹桥万象城店）",
+      "address": "闵行区虹桥镇吴中路1799号万象城(吴中路店)L4层",
+      "geocodeAddress": "上海市闵行区虹桥镇吴中路1799号万象城(吴中路店)L4层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5653",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区虹桥镇吴中路1799号万象城(吴中路店)L4层",
+        "formattedAddress": "上海市闵行区虹桥镇吴中路1799号万象城(东门)",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.370865,
+          "lat": 31.17179
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:48.210Z"
+      },
+      "location": {
+        "lng": 121.370865,
+        "lat": 31.17179
+      }
+    },
+    {
+      "id": 5923,
+      "name": "忆凯乐电玩动漫城",
+      "address": "松江区叶榭镇叶政路471号301、302、303、304室",
+      "geocodeAddress": "上海市松江区叶榭镇叶政路471号301、302、303、304室",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310117000000",
+      "countyName": "松江区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5923",
+      "geocode": {
+        "ok": true,
+        "query": "上海市松江区叶榭镇叶政路471号301、302、303、304室",
+        "formattedAddress": "上海市松江区叶榭镇叶政路471号",
+        "level": "门址",
+        "adcode": "310117",
+        "expectedAdcode": "310117",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.318103,
+          "lat": 30.942249
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:48.473Z"
+      },
+      "location": {
+        "lng": 121.318103,
+        "lat": 30.942249
+      }
+    },
+    {
+      "id": 5933,
+      "name": "卡通尼乐园(金桥国际商业广场店)",
+      "address": "张杨路3611号金桥国际商业广场1座3/4层",
+      "geocodeAddress": "上海市浦东新区张杨路3611号金桥国际商业广场1座3/4层",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5933",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区张杨路3611号金桥国际商业广场1座3/4层",
+        "formattedAddress": "上海市浦东新区张杨路3611号金桥国际商业广场1座3层",
+        "level": "小巷",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.578008,
+          "lat": 31.25748
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:48.732Z"
+      },
+      "location": {
+        "lng": 121.578008,
+        "lat": 31.25748
+      }
+    },
+    {
+      "id": 6021,
+      "name": "啵比特（上海浦江万达店）",
+      "address": "浦江万达广场2楼(瑞辛上面)",
+      "geocodeAddress": "上海市闵行区浦江万达广场2楼(瑞辛上面)",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6021",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区浦江万达广场2楼(瑞辛上面)",
+        "formattedAddress": "上海市闵行区浦江镇万达广场(东南门)2楼",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.406454,
+          "lat": 31.071323
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:48.994Z"
+      },
+      "location": {
+        "lng": 121.406454,
+        "lat": 31.071323
+      }
+    },
+    {
+      "id": 6068,
+      "name": "六代玩家上海嘉定南翔店",
+      "address": "上海市嘉定区南翔镇中冶祥腾中冶祥腾城市广场L2",
+      "geocodeAddress": "上海市嘉定区南翔镇中冶祥腾中冶祥腾城市广场L2",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6068",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区南翔镇中冶祥腾中冶祥腾城市广场L2",
+        "formattedAddress": "上海市嘉定区南翔镇中冶祥腾中冶祥腾城市广场2层",
+        "level": "门址",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.3226,
+          "lat": 31.295313
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:49.258Z"
+      },
+      "location": {
+        "lng": 121.3226,
+        "lat": 31.295313
+      }
+    },
+    {
+      "id": 6272,
+      "name": "CPCM龙之梦长宁城市生活中心店",
+      "address": "上海市长宁区龙之梦城市生活中心5楼",
+      "geocodeAddress": "上海市长宁区龙之梦城市生活中心5楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310105000000",
+      "countyName": "长宁区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6272",
+      "geocode": {
+        "ok": true,
+        "query": "上海市长宁区龙之梦城市生活中心5楼",
+        "formattedAddress": "上海市长宁区龙之梦城市生活中心(东北3门)",
+        "level": "兴趣点",
+        "adcode": "310105",
+        "expectedAdcode": "310105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.41741,
+          "lat": 31.219771
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:49.936Z"
+      },
+      "location": {
+        "lng": 121.41741,
+        "lat": 31.219771
+      }
+    },
+    {
+      "id": 6298,
+      "name": "玩者归来上海嘉定信业店",
+      "address": "上海市嘉定区信业购物中心一楼",
+      "geocodeAddress": "上海市嘉定区信业购物中心一楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310114000000",
+      "countyName": "嘉定区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6298",
+      "geocode": {
+        "ok": true,
+        "query": "上海市嘉定区信业购物中心一楼",
+        "formattedAddress": "上海市嘉定区",
+        "level": "区县",
+        "adcode": "310114",
+        "expectedAdcode": "310114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.265276,
+          "lat": 31.375566
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:50.188Z"
+      },
+      "location": {
+        "lng": 121.265276,
+        "lat": 31.375566
+      }
+    },
+    {
+      "id": 6342,
+      "name": "星河奇迹（上海杨浦悠方店）",
+      "address": "新江湾城街道殷行路1388号悠方购物中心一楼",
+      "geocodeAddress": "上海市杨浦区新江湾城街道殷行路1388号悠方购物中心一楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6342",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区新江湾城街道殷行路1388号悠方购物中心一楼",
+        "formattedAddress": "上海市杨浦区新江湾城街道街道殷行路悠方购物中心",
+        "level": "兴趣点",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.508465,
+          "lat": 31.329994
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:50.442Z"
+      },
+      "location": {
+        "lng": 121.508465,
+        "lat": 31.329994
+      }
+    },
+    {
+      "id": 6371,
+      "name": "鑫鑫游乐",
+      "address": "上海市闵行区东川路2325号燎升生活广场2楼",
+      "geocodeAddress": "上海市闵行区东川路2325号燎升生活广场2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6371",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区东川路2325号燎升生活广场2楼",
+        "formattedAddress": "上海市闵行区东川路2325号",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.411835,
+          "lat": 31.010996
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:50.957Z"
+      },
+      "location": {
+        "lng": 121.411835,
+        "lat": 31.010996
+      }
+    },
+    {
+      "id": 6450,
+      "name": "星际玩家崇明万达店",
+      "address": "上海市崇明区城桥镇万达广场2楼2052",
+      "geocodeAddress": "上海市崇明区城桥镇万达广场2楼2052",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310151000000",
+      "countyName": "崇明区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6450",
+      "geocode": {
+        "ok": true,
+        "query": "上海市崇明区城桥镇万达广场2楼2052",
+        "formattedAddress": "上海市崇明区城桥镇万达广场(上海崇明店)2f-06号",
+        "level": "门址",
+        "adcode": "310151",
+        "expectedAdcode": "310151",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.416708,
+          "lat": 31.625263
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:51.215Z"
+      },
+      "location": {
+        "lng": 121.416708,
+        "lat": 31.625263
+      }
+    },
+    {
+      "id": 6481,
+      "name": "GOODSLOVE LAND（上海五角场店）",
+      "address": "政通路189号万达广场C馆2楼",
+      "geocodeAddress": "上海市杨浦区政通路189号万达广场C馆2楼",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6481",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区政通路189号万达广场C馆2楼",
+        "formattedAddress": "上海市杨浦区政通路189号",
+        "level": "门址",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.512791,
+          "lat": 31.301945
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:51.509Z"
+      },
+      "location": {
+        "lng": 121.512791,
+        "lat": 31.301945
+      }
+    },
+    {
+      "id": 6494,
+      "name": "汤姆熊上海前湾印象城店",
+      "address": "联友路369正东方向160米",
+      "geocodeAddress": "上海市闵行区联友路369正东方向160米",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6494",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区联友路369正东方向160米",
+        "formattedAddress": "上海市闵行区联友路369号",
+        "level": "门址",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.273733,
+          "lat": 31.215457
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:51.782Z"
+      },
+      "location": {
+        "lng": 121.273733,
+        "lat": 31.215457
+      }
+    },
+    {
+      "id": 6518,
+      "name": "万达宝贝王金桥太茂广场店",
+      "address": "金高路1882号金桥太茂商业广场2F",
+      "geocodeAddress": "上海市浦东新区金高路1882号金桥太茂商业广场2F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6518",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区金高路1882号金桥太茂商业广场2F",
+        "formattedAddress": "上海市浦东新区金高路1882号金桥太茂商业广场2层",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.608357,
+          "lat": 31.266897
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:52.051Z"
+      },
+      "location": {
+        "lng": 121.608357,
+        "lat": 31.266897
+      }
+    },
+    {
+      "id": 6647,
+      "name": "星河部落(海上世界店)",
+      "address": "友谊路街道吴淞口路58、68、98、128号二层L2-019B",
+      "geocodeAddress": "上海市宝山区友谊路街道吴淞口路58、68、98、128号二层L2-019B",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6647",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区友谊路街道吴淞口路58、68、98、128号二层L2-019B",
+        "formattedAddress": "上海市宝山区友谊路街道吴淞口路58",
+        "level": "门牌号",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.502168,
+          "lat": 31.404765
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:52.305Z"
+      },
+      "location": {
+        "lng": 121.502168,
+        "lat": 31.404765
+      }
+    },
+    {
+      "id": 6791,
+      "name": "猫鼓旗舰店",
+      "address": "七莘路1599弄平金中心B2",
+      "geocodeAddress": "上海市闵行区七莘路1599弄平金中心B2",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6791",
+      "geocode": {
+        "ok": true,
+        "query": "上海市闵行区七莘路1599弄平金中心B2",
+        "formattedAddress": "上海市闵行区七莘路平金中心",
+        "level": "兴趣点",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.362663,
+          "lat": 31.132593
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:53.044Z"
+      },
+      "location": {
+        "lng": 121.362663,
+        "lat": 31.132593
+      }
+    },
+    {
+      "id": 6800,
+      "name": "汤姆熊欢乐世界(国华店)",
+      "address": "闸殷路1555号2楼201-204",
+      "geocodeAddress": "上海市杨浦区闸殷路1555号2楼201-204",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6800",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区闸殷路1555号2楼201-204",
+        "formattedAddress": "上海市杨浦区闸殷路1555号",
+        "level": "门址",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.511437,
+          "lat": 31.311922
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:53.294Z"
+      },
+      "location": {
+        "lng": 121.511437,
+        "lat": 31.311922
+      }
+    },
+    {
+      "id": 6850,
+      "name": "乐炫风（静安大融城店）",
+      "address": "沪太路1111弄10号大融城L240-6室乐炫风静安大融城店",
+      "geocodeAddress": "上海市静安区沪太路1111弄10号大融城L240-6室乐炫风静安大融城店",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310106000000",
+      "countyName": "静安区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6850",
+      "geocode": {
+        "ok": true,
+        "query": "上海市静安区沪太路1111弄10号大融城L240-6室乐炫风静安大融城店",
+        "formattedAddress": "上海市静安区沪太路1111弄10号静安大融城(A门)乐炫风(静安大融城店)静安大融城",
+        "level": "兴趣点",
+        "adcode": "310106",
+        "expectedAdcode": "310106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.427231,
+          "lat": 31.279852
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:53.551Z"
+      },
+      "location": {
+        "lng": 121.427231,
+        "lat": 31.279852
+      }
+    },
+    {
+      "id": 6914,
+      "name": "菲菲羊乐园（周浦万达店）",
+      "address": "周浦镇年家浜路518号万达广场2层娱乐楼-2 F-01号铺位",
+      "geocodeAddress": "上海市浦东新区周浦镇年家浜路518号万达广场2层娱乐楼-2 F-01号铺位",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310115000000",
+      "countyName": "浦东新区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6914",
+      "geocode": {
+        "ok": true,
+        "query": "上海市浦东新区周浦镇年家浜路518号万达广场2层娱乐楼-2 F-01号铺位",
+        "formattedAddress": "上海市浦东新区周浦镇年家浜路518号万达广场(上海周浦店)2层",
+        "level": "门址",
+        "adcode": "310115",
+        "expectedAdcode": "310115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.569371,
+          "lat": 31.114711
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:53.813Z"
+      },
+      "location": {
+        "lng": 121.569371,
+        "lat": 31.114711
+      }
+    },
+    {
+      "id": 6932,
+      "name": "GiGO 上海概念店",
+      "address": "南京东路340-372号百联ZX创趣场-B1F",
+      "geocodeAddress": "上海市黄浦区南京东路340-372号百联ZX创趣场-B1F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310101000000",
+      "countyName": "黄浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6932",
+      "geocode": {
+        "ok": true,
+        "query": "上海市黄浦区南京东路340-372号百联ZX创趣场-B1F",
+        "formattedAddress": "上海市黄浦区南京路步行街340-372号百联ZX创趣场(南门)",
+        "level": "兴趣点",
+        "adcode": "310101",
+        "expectedAdcode": "310101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.483351,
+          "lat": 31.237074
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:54.070Z"
+      },
+      "location": {
+        "lng": 121.483351,
+        "lat": 31.237074
+      }
+    },
+    {
+      "id": 6953,
+      "name": "几何舞俱乐部",
+      "address": "上海市杨浦区军工路200号20A栋3209&3210室",
+      "geocodeAddress": "上海市杨浦区军工路200号20A栋3209&3210室",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310110000000",
+      "countyName": "杨浦区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6953",
+      "geocode": {
+        "ok": true,
+        "query": "上海市杨浦区军工路200号20A栋3209&3210室",
+        "formattedAddress": "上海市杨浦区军工路200号",
+        "level": "门牌号",
+        "adcode": "310110",
+        "expectedAdcode": "310110",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.557547,
+          "lat": 31.282627
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:54.339Z"
+      },
+      "location": {
+        "lng": 121.557547,
+        "lat": 31.282627
+      }
+    },
+    {
+      "id": 6961,
+      "name": "悠乐哒（新业坊店）",
+      "address": "逸仙路1328号新业坊9号楼1F",
+      "geocodeAddress": "上海市宝山区逸仙路1328号新业坊9号楼1F",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310113000000",
+      "countyName": "宝山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6961",
+      "geocode": {
+        "ok": true,
+        "query": "上海市宝山区逸仙路1328号新业坊9号楼1F",
+        "formattedAddress": "上海市宝山区逸仙路1328号新业坊(2号门)",
+        "level": "兴趣点",
+        "adcode": "310113",
+        "expectedAdcode": "310113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.485087,
+          "lat": 31.318091
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:55.025Z"
+      },
+      "location": {
+        "lng": 121.485087,
+        "lat": 31.318091
+      }
+    },
+    {
+      "id": 7001,
+      "name": "cowplaycowmoo上海徐汇新六百店",
+      "address": "衡山路932号新六百407室cowplaycowmoo",
+      "geocodeAddress": "上海市徐汇区衡山路932号新六百407室cowplaycowmoo",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310104000000",
+      "countyName": "徐汇区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7001",
+      "geocode": {
+        "ok": true,
+        "query": "上海市徐汇区衡山路932号新六百407室cowplaycowmoo",
+        "formattedAddress": "上海市徐汇区华山路932号上海六百(建设中)",
+        "level": "兴趣点",
+        "adcode": "310104",
+        "expectedAdcode": "310104",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.439628,
+          "lat": 31.194607
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:55.284Z"
+      },
+      "location": {
+        "lng": 121.439628,
+        "lat": 31.194607
+      }
+    },
+    {
+      "id": 7002,
+      "name": "DEDEAPU上海奉贤可家广场",
+      "address": "上海市上海市奉贤区环城东路奉贤区南桥可家广场",
+      "geocodeAddress": "上海市上海市奉贤区环城东路奉贤区南桥可家广场",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310120000000",
+      "countyName": "奉贤区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7002",
+      "geocode": {
+        "ok": true,
+        "query": "上海市上海市奉贤区环城东路奉贤区南桥可家广场",
+        "formattedAddress": "上海市奉贤区环城东路南桥可家广场",
+        "level": "兴趣点",
+        "adcode": "310120",
+        "expectedAdcode": "310120",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.467016,
+          "lat": 30.924482
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:55.540Z"
+      },
+      "location": {
+        "lng": 121.467016,
+        "lat": 30.924482
+      }
+    },
+    {
+      "id": 7028,
+      "name": "菲游乐奉贤龙湖天街店",
+      "address": "奉贤区南桥镇金海公路3800号A-3F-44b,A-3F-45a,A-3F-46幢",
+      "geocodeAddress": "上海市奉贤区南桥镇金海公路3800号A-3F-44b,A-3F-45a,A-3F-46幢",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310120000000",
+      "countyName": "奉贤区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7028",
+      "geocode": {
+        "ok": true,
+        "query": "上海市奉贤区南桥镇金海公路3800号A-3F-44b,A-3F-45a,A-3F-46幢",
+        "formattedAddress": "上海市奉贤区南桥镇金海公路3800号",
+        "level": "门址",
+        "adcode": "310120",
+        "expectedAdcode": "310120",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.496881,
+          "lat": 30.913741
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:55.818Z"
+      },
+      "location": {
+        "lng": 121.496881,
+        "lat": 30.913741
+      }
+    },
+    {
+      "id": 7064,
+      "name": "疯狂娃娃城（梅陇里店）",
+      "address": "上海市上海市闵行区虹梅南路高架下梅陇里NovaArk诺瓦城",
+      "geocodeAddress": "上海市上海市闵行区虹梅南路高架下梅陇里NovaArk诺瓦城",
+      "provinceCode": "310000000000",
+      "cityCode": "310100000000",
+      "countyCode": "310112000000",
+      "countyName": "闵行区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7064",
+      "geocode": {
+        "ok": true,
+        "query": "上海市上海市闵行区虹梅南路高架下梅陇里NovaArk诺瓦城",
+        "formattedAddress": "上海市闵行区虹梅南路梅陇",
+        "level": "住宅区",
+        "adcode": "310112",
+        "expectedAdcode": "310112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 121.411194,
+          "lat": 31.124898
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-08T03:36:56.076Z"
+      },
+      "location": {
+        "lng": 121.411194,
+        "lat": 31.124898
+      }
+    }
+  ],
+  "geocoding": {
+    "provider": "AMap Geocode",
+    "generatedAt": "2026-06-08T03:36:56.077Z",
+    "located": 111,
+    "failed": 0,
+    "warnings": 0
+  }
+}
