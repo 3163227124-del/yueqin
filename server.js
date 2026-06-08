@@ -613,6 +613,7 @@ function serveStatic(req, res, reqUrl) {
     }
     res.writeHead(200, {
       'Content-Type': MIME_TYPES[path.extname(filePath)] || 'application/octet-stream',
+      'Cache-Control': 'no-store',
     });
     res.end(data);
   });

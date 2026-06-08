@@ -64,6 +64,7 @@
   const el = {
     keyForm: document.getElementById('keyForm'),
     citySelect: document.getElementById('citySelect'),
+    cityTabs: document.getElementById('cityTabs'),
     apiKey: document.getElementById('apiKey'),
     keyStatus: document.getElementById('keyStatus'),
     dataSummary: document.getElementById('dataSummary'),
@@ -236,6 +237,11 @@
     el.citySelect.innerHTML = state.cities.map((city) => `
       <option value="${city.slug}" ${city.slug === state.city ? 'selected' : ''}>${escapeHtml(city.shortName || city.name)}</option>
     `).join('');
+    el.cityTabs.innerHTML = state.cities.map((city) => `
+      <button class="city-tab ${city.slug === state.city ? 'active' : ''}" type="button" data-city="${city.slug}" aria-pressed="${city.slug === state.city}">
+        ${escapeHtml(city.shortName || city.name)}
+      </button>
+    `).join('');
   }
 
   function wireEvents() {
@@ -257,13 +263,11 @@
     setupSearch(el.personA, el.personASuggestions, 'a');
     setupSearch(el.personB, el.personBSuggestions, 'b');
 
-    el.citySelect.addEventListener('change', async () => {
-      state.city = el.citySelect.value;
-      resetForCityChange();
-      await loadConfig();
-      await loadShops();
-      renderResults([]);
-      setProgress('待开始', 0, 0);
+    el.citySelect.addEventListener('change', async () => changeCity(el.citySelect.value));
+    el.cityTabs.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-city]');
+      if (!button) return;
+      await changeCity(button.dataset.city);
     });
 
     el.locateShops.addEventListener('click', async () => {
@@ -273,6 +277,16 @@
     });
 
     el.recommend.addEventListener('click', runRecommendation);
+  }
+
+  async function changeCity(citySlug) {
+    if (!citySlug || citySlug === state.city) return;
+    state.city = citySlug;
+    resetForCityChange();
+    await loadConfig();
+    await loadShops();
+    renderResults([]);
+    setProgress('待开始', 0, 0);
   }
 
   function setupSearch(input, container, person) {

@@ -23,7 +23,8 @@
 
         <div class="city-field">
           <label for="citySelect">城市</label>
-          <select id="citySelect"></select>
+          <div class="city-tabs" id="cityTabs" role="group" aria-label="城市"></div>
+          <select id="citySelect" class="sr-only"></select>
         </div>
 
         <form class="key-form" id="keyForm">
@@ -76,10 +77,10 @@
 
         <fieldset class="mode-row">
           <legend>路线</legend>
-          <label><input type="checkbox" value="transit" name="mode" checked> 公交</label>
-          <label><input type="checkbox" value="driving" name="mode" checked> 驾车</label>
-          <label><input type="checkbox" value="walking" name="mode" checked> 步行</label>
-          <label><input type="checkbox" id="includeUnavailable"> 含暂停/未开业</label>
+          <label><input type="checkbox" value="transit" name="mode" checked><span>公交</span></label>
+          <label><input type="checkbox" value="driving" name="mode" checked><span>驾车</span></label>
+          <label><input type="checkbox" value="walking" name="mode" checked><span>步行</span></label>
+          <label><input type="checkbox" id="includeUnavailable"><span>含暂停/未开业</span></label>
         </fieldset>
 
         <div class="action-row">
