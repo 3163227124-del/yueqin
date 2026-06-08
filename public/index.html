@@ -11,9 +11,12 @@
     <main class="app-shell">
       <section class="control-panel" aria-label="约勤参数">
         <div class="brand-row">
-          <div>
-            <h1>游戏厅约勤</h1>
-            <p id="dataSummary">读取店铺中</p>
+          <div class="brand-lockup">
+            <div class="app-mark" aria-hidden="true">约</div>
+            <div>
+              <h1>游戏厅约勤</h1>
+              <p id="dataSummary">读取店铺中</p>
+            </div>
           </div>
           <span class="live-badge" id="keyStatus">未连接高德</span>
         </div>
@@ -80,7 +83,7 @@
         </fieldset>
 
         <div class="action-row">
-          <button id="locateShops" type="button">定位店铺</button>
+          <button id="locateShops" type="button" class="secondary">定位店铺</button>
           <button id="recommend" type="button" class="primary">开始推荐</button>
         </div>
 

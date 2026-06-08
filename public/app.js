@@ -10,6 +10,22 @@
     b: '#2b8a3e',
   };
 
+  function readSessionAmapKey() {
+    try {
+      return window.sessionStorage.getItem('amapKey') || '';
+    } catch {
+      return '';
+    }
+  }
+
+  function storeSessionAmapKey(apiKey) {
+    try {
+      window.sessionStorage.setItem('amapKey', apiKey);
+    } catch {
+      // Session storage is a convenience only; routing still works for the current request.
+    }
+  }
+
   const COUNTY_CENTERS = {
     '110101000000': { lng: 116.4164, lat: 39.9289 },
     '110102000000': { lng: 116.3659, lat: 39.9123 },
@@ -42,7 +58,7 @@
     routeLines: [],
     results: [],
     selectedShopId: null,
-    amapKeyForBrowser: '',
+    amapKeyForBrowser: readSessionAmapKey(),
   };
 
   const el = {
@@ -170,10 +186,23 @@
 
   async function init() {
     wireEvents();
+    await restoreSessionKey();
     await loadConfig();
     await loadShops();
     renderResults([]);
     setProgress('待开始', 0, 0);
+    if (state.amapKeyForBrowser) {
+      ensureMap().catch((error) => setProgress(error.message, 0, 0));
+    }
+  }
+
+  async function restoreSessionKey() {
+    if (!state.amapKeyForBrowser) return;
+    el.apiKey.value = state.amapKeyForBrowser;
+    await api('/api/key', {
+      method: 'POST',
+      body: JSON.stringify({ apiKey: state.amapKeyForBrowser }),
+    }).catch(() => {});
   }
 
   async function loadConfig() {
@@ -183,6 +212,9 @@
     if (state.config.hasAmapKey) {
       el.keyStatus.textContent = state.config.keySource === 'env' ? '服务端 key 已就绪' : '高德已连接';
       el.keyStatus.classList.add('ready');
+    } else {
+      el.keyStatus.textContent = '未连接高德';
+      el.keyStatus.classList.remove('ready');
     }
   }
 
@@ -216,6 +248,7 @@
         body: JSON.stringify({ apiKey }),
       });
       state.amapKeyForBrowser = apiKey;
+      storeSessionAmapKey(apiKey);
       el.keyStatus.textContent = '高德已连接';
       el.keyStatus.classList.add('ready');
       await ensureMap();
@@ -689,7 +722,7 @@
   function renderResults(results) {
     el.resultCount.textContent = `${results.length} 家`;
     if (!results.length) {
-      el.resultsList.innerHTML = '<div class="result-card"><p class="shop-address">暂无推荐结果</p></div>';
+      el.resultsList.innerHTML = '<div class="empty-state">等待路线计算</div>';
       return;
     }
 
@@ -726,7 +759,7 @@
         </div>
         <div class="route-grid">${modeHtml}</div>
         <div class="route-actions">
-          <button type="button" data-route-mode="${el.primaryMode.value}">地图路线</button>
+          <button type="button" data-route-mode="${el.primaryMode.value}">查看路线</button>
           <a class="source-link" href="${shop.sourceUrl}" target="_blank" rel="noreferrer">全国音游地图</a>
         </div>
       </article>
