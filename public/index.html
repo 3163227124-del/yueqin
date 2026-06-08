@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>北京游戏厅约勤</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="control-panel" aria-label="约勤参数">
+        <div class="brand-row">
+          <div>
+            <h1>北京游戏厅约勤</h1>
+            <p id="dataSummary">读取北京店铺中</p>
+          </div>
+          <span class="live-badge" id="keyStatus">未连接高德</span>
+        </div>
+
+        <form class="key-form" id="keyForm">
+          <label for="apiKey">高德 API key</label>
+          <div class="inline-field">
+            <input id="apiKey" name="apiKey" type="password" autocomplete="off" placeholder="运行时输入，不写入项目">
+            <button type="submit">连接</button>
+          </div>
+        </form>
+
+        <div class="people-grid">
+          <div class="person-card">
+            <label for="personA">A 的起点</label>
+            <input id="personA" type="search" autocomplete="off" placeholder="例如 五道口">
+            <div class="suggestions" id="personASuggestions"></div>
+            <p class="point-readout" id="personAReadout">未选择</p>
+          </div>
+          <div class="person-card">
+            <label for="personB">B 的起点</label>
+            <input id="personB" type="search" autocomplete="off" placeholder="例如 国贸">
+            <div class="suggestions" id="personBSuggestions"></div>
+            <p class="point-readout" id="personBReadout">未选择</p>
+          </div>
+        </div>
+
+        <div class="filters">
+          <div class="filter-field">
+            <label for="primaryMode">主推荐</label>
+            <select id="primaryMode">
+              <option value="transit">公交</option>
+              <option value="driving">驾车</option>
+              <option value="walking">步行</option>
+            </select>
+          </div>
+
+          <div class="filter-field">
+            <label for="scanScope">真实路线扫描</label>
+            <select id="scanScope">
+              <option value="36">智能 36 家</option>
+              <option value="60">智能 60 家</option>
+              <option value="999">全量</option>
+            </select>
+          </div>
+
+          <div class="filter-field">
+            <label for="maxMinutes">理想上限</label>
+            <input id="maxMinutes" type="number" min="20" max="180" step="5" value="75">
+          </div>
+        </div>
+
+        <fieldset class="mode-row">
+          <legend>路线</legend>
+          <label><input type="checkbox" value="transit" name="mode" checked> 公交</label>
+          <label><input type="checkbox" value="driving" name="mode" checked> 驾车</label>
+          <label><input type="checkbox" value="walking" name="mode" checked> 步行</label>
+          <label><input type="checkbox" id="includeUnavailable"> 含暂停/未开业</label>
+        </fieldset>
+
+        <div class="action-row">
+          <button id="locateShops" type="button">定位店铺</button>
+          <button id="recommend" type="button" class="primary">开始推荐</button>
+        </div>
+
+        <div class="progress-box">
+          <div class="progress-meta">
+            <span id="progressText">待开始</span>
+            <span id="progressCount">0/0</span>
+          </div>
+          <div class="progress-track"><div id="progressBar"></div></div>
+        </div>
+
+        <div class="results-head">
+          <h2>推荐</h2>
+          <span id="resultCount">0 家</span>
+        </div>
+        <div class="results-list" id="resultsList"></div>
+      </section>
+
+      <section class="map-panel" aria-label="地图">
+        <div id="map"></div>
+        <div class="map-overlay">
+          <div class="metric">
+            <span>店铺</span>
+            <strong id="metricShops">0</strong>
+          </div>
+          <div class="metric">
+            <span>已定位</span>
+            <strong id="metricLocated">0</strong>
+          </div>
+          <div class="metric">
+            <span>路线源</span>
+            <strong>高德</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

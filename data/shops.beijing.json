@@ -1,0 +1,3989 @@
+{
+  "generatedAt": "2026-06-07T14:37:32.469Z",
+  "source": {
+    "name": "BEMANICN 街机地图",
+    "url": "https://map.bemanicn.com/region/city/110100000000",
+    "fetchedAt": "2026-06-07T14:37:32.469Z"
+  },
+  "city": {
+    "id": 1,
+    "name": "北京市",
+    "code": "110100000000",
+    "provinceCode": "110000000000",
+    "center": [
+      116.397428,
+      39.90923
+    ]
+  },
+  "counts": {
+    "shops": 111,
+    "available": 107,
+    "upcoming": 1,
+    "closed": 3,
+    "located": 111
+  },
+  "shops": [
+    {
+      "id": 4,
+      "name": "环游嘉年华（北京朝阳大悦城店）",
+      "address": "朝阳区朝阳北路101号朝阳大悦城8F金逸影城旁",
+      "geocodeAddress": "北京市朝阳区朝阳北路101号朝阳大悦城8F金逸影城旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区朝阳北路101号朝阳大悦城8F金逸影城旁",
+        "formattedAddress": "北京市朝阳区朝阳北路101号朝阳大悦城(10号门)8f13号",
+        "level": "门址",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.518685,
+          "lat": 39.924036
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.942Z"
+      },
+      "location": {
+        "lng": 116.518685,
+        "lat": 39.924036
+      }
+    },
+    {
+      "id": 572,
+      "name": "量子攻略游戏体验中心(新奥购物中心店)",
+      "address": "湖景东路9号新奥购物中心B1层H1-01",
+      "geocodeAddress": "北京市朝阳区湖景东路9号新奥购物中心B1层H1-01",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/572",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区湖景东路9号新奥购物中心B1层H1-01",
+        "formattedAddress": "北京市朝阳区湖景东路新奥购物中心(东南门)b1层",
+        "level": "门址",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.394921,
+          "lat": 40.000616
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.394921,
+        "lat": 40.000616
+      }
+    },
+    {
+      "id": 646,
+      "name": "宝贝计划（北京通州万达店）",
+      "address": "新华西街58号万达广场(通州店)3F东侧",
+      "geocodeAddress": "北京市通州区新华西街58号万达广场(通州店)3F东侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110112000000",
+      "countyName": "通州区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/646",
+      "geocode": {
+        "ok": true,
+        "query": "北京市通州区新华西街58号万达广场(通州店)3F东侧",
+        "formattedAddress": "北京市通州区新华西街58号",
+        "level": "门址",
+        "adcode": "110112",
+        "location": {
+          "lng": 116.641114,
+          "lat": 39.905174
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.641114,
+        "lat": 39.905174
+      }
+    },
+    {
+      "id": 682,
+      "name": "（暂停营业）KT竞技现场(朝阳合生汇店)",
+      "address": "广渠路九龙山地铁站合生汇B1层",
+      "geocodeAddress": "北京市朝阳区广渠路九龙山地铁站合生汇B1层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "closed",
+      "isAvailable": false,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/682",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区广渠路九龙山地铁站合生汇B1层",
+        "formattedAddress": "北京市朝阳区广渠路九龙山(地铁站)合生汇",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.479117,
+          "lat": 39.893957
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:43.006Z"
+      },
+      "location": {
+        "lng": 116.479117,
+        "lat": 39.893957
+      }
+    },
+    {
+      "id": 743,
+      "name": "嘉贝乐电玩城(上地华联店)",
+      "address": "嘉贝乐(上地华联店)，BHGMall上地店3层",
+      "geocodeAddress": "北京市海淀区嘉贝乐(上地华联店)，BHGMall上地店3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/743",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区嘉贝乐(上地华联店)，BHGMall上地店3层",
+        "formattedAddress": "北京市海淀区嘉贝乐(上地华联店)BHGMall上地店",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "location": {
+          "lng": 116.311268,
+          "lat": 40.028656
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.311268,
+        "lat": 40.028656
+      }
+    },
+    {
+      "id": 1054,
+      "name": "盖姆龙电玩俱乐部（新辰里酒仙桥店）",
+      "address": "酒仙桥路12号新辰里酒仙桥店3层",
+      "geocodeAddress": "北京市朝阳区酒仙桥路12号新辰里酒仙桥店3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1054",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区酒仙桥路12号新辰里酒仙桥店3层",
+        "formattedAddress": "北京市朝阳区酒仙桥中路12号新辰里(酒仙桥店)3层",
+        "level": "门址",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.490621,
+          "lat": 39.975816
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.490621,
+        "lat": 39.975816
+      }
+    },
+    {
+      "id": 1079,
+      "name": "风云再起北京北投爱琴海店（通爱）",
+      "address": "新华东街289号院1号楼北京北投爱琴海购物公园M层",
+      "geocodeAddress": "北京市通州区新华东街289号院1号楼北京北投爱琴海购物公园M层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110112000000",
+      "countyName": "通州区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1079",
+      "geocode": {
+        "ok": true,
+        "query": "北京市通州区新华东街289号院1号楼北京北投爱琴海购物公园M层",
+        "formattedAddress": "北京市通州区新华东街289号院1号楼北投爱琴海购物公园",
+        "level": "兴趣点",
+        "adcode": "110112",
+        "location": {
+          "lng": 116.658573,
+          "lat": 39.908913
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.658573,
+        "lat": 39.908913
+      }
+    },
+    {
+      "id": 1184,
+      "name": "摩根大古游戏体验中心（崇文门搜秀店）",
+      "address": "崇文门外大街40号搜秀城购物广场9层",
+      "geocodeAddress": "北京市东城区崇文门外大街40号搜秀城购物广场9层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110101000000",
+      "countyName": "东城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1184",
+      "geocode": {
+        "ok": true,
+        "query": "北京市东城区崇文门外大街40号搜秀城购物广场9层",
+        "formattedAddress": "北京市东城区崇文门外大街40号搜秀城(西门)",
+        "level": "兴趣点",
+        "adcode": "110101",
+        "location": {
+          "lng": 116.419136,
+          "lat": 39.896479
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.419136,
+        "lat": 39.896479
+      }
+    },
+    {
+      "id": 1293,
+      "name": "噜彼熊电玩嘉年华北京华联万柳店",
+      "address": "海淀街道巴沟路2号华联万柳购物中心二楼北侧",
+      "geocodeAddress": "北京市海淀区海淀街道巴沟路2号华联万柳购物中心二楼北侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1293",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区海淀街道巴沟路2号华联万柳购物中心二楼北侧",
+        "formattedAddress": "北京市海淀区海淀街道巴沟路万柳",
+        "level": "住宅区",
+        "adcode": "110108",
+        "location": {
+          "lng": 116.299649,
+          "lat": 39.965614
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.299649,
+        "lat": 39.965614
+      }
+    },
+    {
+      "id": 1354,
+      "name": "夸特游艺（熙悦店）",
+      "address": "良乡东路与长于大街交汇处熙悦天街B区4F L4-13",
+      "geocodeAddress": "北京市房山区良乡东路与长于大街交汇处熙悦天街B区4F L4-13",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110111000000",
+      "countyName": "房山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1354",
+      "geocode": {
+        "ok": true,
+        "query": "北京市房山区良乡东路与长于大街交汇处熙悦天街B区4F L4-13",
+        "formattedAddress": "北京市房山区良乡东路与长于大街熙悦天街",
+        "level": "道路",
+        "adcode": "110111",
+        "location": {
+          "lng": 116.18505,
+          "lat": 39.733299
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.943Z"
+      },
+      "location": {
+        "lng": 116.18505,
+        "lat": 39.733299
+      }
+    },
+    {
+      "id": 1565,
+      "name": "绿蜻蜓美吉熊昌平天通苑店",
+      "address": "太平庄东路天通苑东苑3区2号商业楼国泰百货3层",
+      "geocodeAddress": "北京市昌平区太平庄东路天通苑东苑3区2号商业楼国泰百货3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1565",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区太平庄东路天通苑东苑3区2号商业楼国泰百货3层",
+        "formattedAddress": "北京市昌平区太平庄东路天通苑东苑3区2号",
+        "level": "未知",
+        "adcode": "110114",
+        "location": {
+          "lng": 116.435727,
+          "lat": 40.072875
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.435727,
+        "lat": 40.072875
+      }
+    },
+    {
+      "id": 1615,
+      "name": "真快活北京西城coohooMax",
+      "address": "西单北大街130号华威大厦5层",
+      "geocodeAddress": "北京市西城区西单北大街130号华威大厦5层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110102000000",
+      "countyName": "西城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1615",
+      "geocode": {
+        "ok": true,
+        "query": "北京市西城区西单北大街130号华威大厦5层",
+        "formattedAddress": "北京市西城区西单北大街130号华威大厦(东南门)5层",
+        "level": "门址",
+        "adcode": "110102",
+        "location": {
+          "lng": 116.374318,
+          "lat": 39.91148
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110102",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.374318,
+        "lat": 39.91148
+      }
+    },
+    {
+      "id": 1798,
+      "name": "量子空间·电竞家庭娱乐中心北京顺义店",
+      "address": "锦荟港3楼",
+      "geocodeAddress": "北京市顺义区锦荟港3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1798",
+      "geocode": {
+        "ok": true,
+        "query": "北京市顺义区锦荟港3楼",
+        "formattedAddress": "北京市顺义区锦荟港(西北门)",
+        "level": "兴趣点",
+        "adcode": "110113",
+        "location": {
+          "lng": 116.646413,
+          "lat": 40.127133
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.646413,
+        "lat": 40.127133
+      }
+    },
+    {
+      "id": 1800,
+      "name": "量子攻略北京朝阳金隅嘉品店",
+      "address": "东坝中路38号3楼",
+      "geocodeAddress": "北京市朝阳区东坝中路38号3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1800",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区东坝中路38号3楼",
+        "formattedAddress": "北京市朝阳区东坝中路38号楼",
+        "level": "门址",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.547936,
+          "lat": 39.951501
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.547936,
+        "lat": 39.951501
+      }
+    },
+    {
+      "id": 1867,
+      "name": "风云再起西单西西友谊店",
+      "address": "西西友谊商城2楼",
+      "geocodeAddress": "北京市西城区西西友谊商城2楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110102000000",
+      "countyName": "西城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1867",
+      "geocode": {
+        "ok": true,
+        "query": "北京市西城区西西友谊商城2楼",
+        "formattedAddress": "北京市西城区",
+        "level": "区县",
+        "adcode": "110102",
+        "location": {
+          "lng": 116.36585,
+          "lat": 39.9126
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110102",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.36585,
+        "lat": 39.9126
+      }
+    },
+    {
+      "id": 1950,
+      "name": "嘉贝乐北京五道口店",
+      "address": "五道口购物中心3楼",
+      "geocodeAddress": "北京市海淀区五道口购物中心3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/1950",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区五道口购物中心3楼",
+        "formattedAddress": "北京市海淀区五道口购物中心3楼",
+        "level": "未知",
+        "adcode": "110108",
+        "location": {
+          "lng": 116.339207,
+          "lat": 39.99251
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.339207,
+        "lat": 39.99251
+      }
+    },
+    {
+      "id": 2006,
+      "name": "可多梦北京丰台花乡奥莱店",
+      "address": "花乡奥莱村13号楼1楼（大牌子耀莱成龙影院）",
+      "geocodeAddress": "北京市丰台区花乡奥莱村13号楼1楼（大牌子耀莱成龙影院）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2006",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区花乡奥莱村13号楼1楼（大牌子耀莱成龙影院）",
+        "formattedAddress": "北京市丰台区花乡奥莱村13号楼",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "location": {
+          "lng": 116.322946,
+          "lat": 39.826356
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.322946,
+        "lat": 39.826356
+      }
+    },
+    {
+      "id": 2024,
+      "name": "魔方MIX北京顺义华联店",
+      "address": "北京顺义华联金街购物中心3楼",
+      "geocodeAddress": "北京市顺义区北京顺义华联金街购物中心3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2024",
+      "geocode": {
+        "ok": true,
+        "query": "北京市顺义区北京顺义华联金街购物中心3楼",
+        "formattedAddress": "北京市顺义区顺义镇",
+        "level": "乡镇",
+        "adcode": "110113",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.643691,
+          "lat": 40.146143
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:49.239Z"
+      },
+      "location": {
+        "lng": 116.643691,
+        "lat": 40.146143
+      }
+    },
+    {
+      "id": 2027,
+      "name": "星际传奇北京丽泽天地店",
+      "address": "丽泽天地购物中心3楼",
+      "geocodeAddress": "北京市丰台区丽泽天地购物中心3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2027",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区丽泽天地购物中心3楼",
+        "formattedAddress": "北京市丰台区丽泽天地购物中心(西门)",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "location": {
+          "lng": 116.303917,
+          "lat": 39.867984
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.303917,
+        "lat": 39.867984
+      }
+    },
+    {
+      "id": 2028,
+      "name": "量子攻略北京大兴旧宫店",
+      "address": "旧宫忠凉路1号住总万科广场5楼",
+      "geocodeAddress": "北京市大兴区旧宫忠凉路1号住总万科广场5楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2028",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区旧宫忠凉路1号住总万科广场5楼",
+        "formattedAddress": "北京市大兴区旧宫忠凉路1号楼",
+        "level": "门址",
+        "adcode": "110115",
+        "location": {
+          "lng": 116.459045,
+          "lat": 39.805962
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.459045,
+        "lat": 39.805962
+      }
+    },
+    {
+      "id": 2072,
+      "name": "乐酷汇电玩城",
+      "address": "蓝色港湾儿童城一层冰场东侧K114号",
+      "geocodeAddress": "北京市朝阳区蓝色港湾儿童城一层冰场东侧K114号",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2072",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区蓝色港湾儿童城一层冰场东侧K114号",
+        "formattedAddress": "北京市朝阳区蓝色港湾",
+        "level": "住宅区",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.475558,
+          "lat": 39.949334
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.475558,
+        "lat": 39.949334
+      }
+    },
+    {
+      "id": 2130,
+      "name": "环游乐园（北京银泰百货大红门店）",
+      "address": "马家堡东路101号银泰百货B1层",
+      "geocodeAddress": "北京市丰台区马家堡东路101号银泰百货B1层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2130",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区马家堡东路101号银泰百货B1层",
+        "formattedAddress": "北京市丰台区马家堡东路101号",
+        "level": "门址",
+        "adcode": "110106",
+        "location": {
+          "lng": 116.384815,
+          "lat": 39.844353
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.384815,
+        "lat": 39.844353
+      }
+    },
+    {
+      "id": 2174,
+      "name": "吾技动漫（北京龙德广场店）",
+      "address": "龙德广场4层",
+      "geocodeAddress": "北京市昌平区龙德广场4层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2174",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区龙德广场4层",
+        "formattedAddress": "北京市昌平区龙德广场4层",
+        "level": "门址",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.415487,
+          "lat": 40.059431
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:44.264Z"
+      },
+      "location": {
+        "lng": 116.415487,
+        "lat": 40.059431
+      }
+    },
+    {
+      "id": 2287,
+      "name": "泛时空北京西红门荟聚店",
+      "address": "西红门欣宁街15号荟聚购物中心2楼（近地铁口）",
+      "geocodeAddress": "北京市大兴区西红门欣宁街15号荟聚购物中心2楼（近地铁口）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2287",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区西红门欣宁街15号荟聚购物中心2楼（近地铁口）",
+        "formattedAddress": "北京市大兴区西红门欣宁大街15号北京荟聚购物中心(北1门)2楼",
+        "level": "门址",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.326717,
+          "lat": 39.78777
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:44.522Z"
+      },
+      "location": {
+        "lng": 116.326717,
+        "lat": 39.78777
+      }
+    },
+    {
+      "id": 2299,
+      "name": "风云再起（北京门头沟中骏世界城店）",
+      "address": "西长安中骏世界城4楼",
+      "geocodeAddress": "北京市门头沟区西长安中骏世界城4楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110109000000",
+      "countyName": "门头沟区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2299",
+      "geocode": {
+        "ok": true,
+        "query": "北京市门头沟区西长安中骏世界城4楼",
+        "formattedAddress": "北京市门头沟区西长安中骏世界城(2号门)",
+        "level": "兴趣点",
+        "adcode": "110109",
+        "expectedAdcode": "110109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.124758,
+          "lat": 39.911888
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:44.803Z"
+      },
+      "location": {
+        "lng": 116.124758,
+        "lat": 39.911888
+      }
+    },
+    {
+      "id": 2378,
+      "name": "嘉贝乐惠多港店",
+      "address": "黄厂西路惠多港三层嘉贝乐",
+      "geocodeAddress": "北京市朝阳区黄厂西路惠多港三层嘉贝乐",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2378",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区黄厂西路惠多港三层嘉贝乐",
+        "formattedAddress": "北京市朝阳区黄厂西路",
+        "level": "道路",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.558125,
+          "lat": 39.849419
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:45.062Z"
+      },
+      "location": {
+        "lng": 116.558125,
+        "lat": 39.849419
+      }
+    },
+    {
+      "id": 2447,
+      "name": "宝贝计划北京西三旗万象汇店",
+      "address": "西三旗万象汇4楼",
+      "geocodeAddress": "北京市海淀区西三旗万象汇4楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2447",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区西三旗万象汇4楼",
+        "formattedAddress": "北京市海淀区西三旗万象汇",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.366266,
+          "lat": 40.061826
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:45.316Z"
+      },
+      "location": {
+        "lng": 116.366266,
+        "lat": 40.061826
+      }
+    },
+    {
+      "id": 2477,
+      "name": "夸特糖乐园北京房山龙湖天街店",
+      "address": "房山龙湖天街3楼",
+      "geocodeAddress": "北京市房山区房山龙湖天街3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110111000000",
+      "countyName": "房山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2477",
+      "geocode": {
+        "ok": true,
+        "query": "北京市房山区房山龙湖天街3楼",
+        "formattedAddress": "北京市房山区北京天街3层",
+        "level": "门址",
+        "adcode": "110111",
+        "expectedAdcode": "110111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.140888,
+          "lat": 39.745676
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:49.497Z"
+      },
+      "location": {
+        "lng": 116.140888,
+        "lat": 39.745676
+      }
+    },
+    {
+      "id": 2517,
+      "name": "星际锋暴［原 新世界电玩］",
+      "address": "崇文门外大街3号新世界百货2期B1",
+      "geocodeAddress": "北京市东城区崇文门外大街3号新世界百货2期B1",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110101000000",
+      "countyName": "东城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2517",
+      "geocode": {
+        "ok": true,
+        "query": "北京市东城区崇文门外大街3号新世界百货2期B1",
+        "formattedAddress": "北京市东城区崇文门外大街3-1号新世界百货二期b1f022号",
+        "level": "门址",
+        "adcode": "110101",
+        "expectedAdcode": "110101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.417511,
+          "lat": 39.896671
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:46.266Z"
+      },
+      "location": {
+        "lng": 116.417511,
+        "lat": 39.896671
+      }
+    },
+    {
+      "id": 2531,
+      "name": "真快活coohooMax（北京半岛万科广场店）",
+      "address": "北京市北京市房山区张家场路北京房山印象城2层",
+      "geocodeAddress": "北京市北京市房山区张家场路北京房山印象城2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110111000000",
+      "countyName": "房山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2531",
+      "geocode": {
+        "ok": true,
+        "query": "北京市北京市房山区张家场路北京房山印象城2层",
+        "formattedAddress": "北京市房山区张家场路北京房山印象城(北3门)",
+        "level": "兴趣点",
+        "adcode": "110111",
+        "expectedAdcode": "110111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.211063,
+          "lat": 39.754218
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:46.529Z"
+      },
+      "location": {
+        "lng": 116.211063,
+        "lat": 39.754218
+      }
+    },
+    {
+      "id": 2698,
+      "name": "夸特游艺（北京常营长楹天街店）",
+      "address": "长楹天街西区3楼",
+      "geocodeAddress": "北京市朝阳区长楹天街西区3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2698",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区长楹天街西区3楼",
+        "formattedAddress": "北京市朝阳区长楹天街",
+        "level": "道路",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.599655,
+          "lat": 39.924971
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:46.780Z"
+      },
+      "location": {
+        "lng": 116.599655,
+        "lat": 39.924971
+      }
+    },
+    {
+      "id": 2706,
+      "name": "PLAYCE乐顽星电玩（京西大悦城店）",
+      "address": "北京市石景山区阜石路173号院1号楼京西大悦城B1层B1-13/14/15",
+      "geocodeAddress": "北京市石景山区阜石路173号院1号楼京西大悦城B1层B1-13/14/15",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110107000000",
+      "countyName": "石景山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2706",
+      "geocode": {
+        "ok": true,
+        "query": "北京市石景山区阜石路173号院1号楼京西大悦城B1层B1-13/14/15",
+        "formattedAddress": "北京市石景山区阜石路173号院1号楼京西大悦城",
+        "level": "兴趣点",
+        "adcode": "110107",
+        "expectedAdcode": "110107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.183181,
+          "lat": 39.925607
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:47.036Z"
+      },
+      "location": {
+        "lng": 116.183181,
+        "lat": 39.925607
+      }
+    },
+    {
+      "id": 2768,
+      "name": "夸特游艺（北苑天街店）",
+      "address": "北苑龙湖天街A区4F西侧",
+      "geocodeAddress": "北京市朝阳区北苑龙湖天街A区4F西侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2768",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区北苑龙湖天街A区4F西侧",
+        "formattedAddress": "北京市朝阳区天街",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.59591,
+          "lat": 39.925099
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:47.288Z"
+      },
+      "location": {
+        "lng": 116.59591,
+        "lat": 39.925099
+      }
+    },
+    {
+      "id": 2845,
+      "name": "星际传奇STAR LEGEND电玩(北京五棵松店)",
+      "address": "北京市海淀区五棵松万达广场3层星际传奇",
+      "geocodeAddress": "北京市海淀区五棵松万达广场3层星际传奇",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2845",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区五棵松万达广场3层星际传奇",
+        "formattedAddress": "北京市海淀区复兴路69号北京五棵松万达广场3F层",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "poi-district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.276661,
+          "lat": 39.912796
+        },
+        "provider": "AMap Place Text",
+        "poiId": "B0KDVO07Y6",
+        "poiName": "星际传奇(北京海淀万达广场店)",
+        "overrideReason": "AMap geocode matched STAR LEGEND to the Dongba Wanda POI; AMap place search and input tips returned the exact Wukesong arcade POI.",
+        "geocodedAt": "2026-06-07T14:40:53.971Z"
+      },
+      "location": {
+        "lng": 116.276661,
+        "lat": 39.912796
+      }
+    },
+    {
+      "id": 2866,
+      "name": "星际传奇北京东坝万达店",
+      "address": "东坝中路25号东坝万达广场3F-A室",
+      "geocodeAddress": "北京市朝阳区东坝中路25号东坝万达广场3F-A室",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2866",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区东坝中路25号东坝万达广场3F-A室",
+        "formattedAddress": "北京市朝阳区东坝中路东坝万达广场(北京东坝店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.54858,
+          "lat": 39.962015
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.54858,
+        "lat": 39.962015
+      }
+    },
+    {
+      "id": 2867,
+      "name": "噜彼熊电玩嘉年华",
+      "address": "东直门外大街48号东方银座商城L3层",
+      "geocodeAddress": "北京市东城区东直门外大街48号东方银座商城L3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110101000000",
+      "countyName": "东城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2867",
+      "geocode": {
+        "ok": true,
+        "query": "北京市东城区东直门外大街48号东方银座商城L3层",
+        "formattedAddress": "北京市东城区东直门外大街48号楼",
+        "level": "门址",
+        "adcode": "110101",
+        "location": {
+          "lng": 116.435078,
+          "lat": 39.939721
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.435078,
+        "lat": 39.939721
+      }
+    },
+    {
+      "id": 2872,
+      "name": "夸特世界（亦庄龙湖天街店）",
+      "address": "兴海路1号院1号楼龙湖亦庄天街三层3F-25、3F-26",
+      "geocodeAddress": "北京市大兴区兴海路1号院1号楼龙湖亦庄天街三层3F-25、3F-26",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2872",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区兴海路1号院1号楼龙湖亦庄天街三层3F-25、3F-26",
+        "formattedAddress": "北京市大兴区兴海路亦庄天街(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.493402,
+          "lat": 39.752259
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:47.616Z"
+      },
+      "location": {
+        "lng": 116.493402,
+        "lat": 39.752259
+      }
+    },
+    {
+      "id": 2912,
+      "name": "【营业状态存疑】迪乐尼电玩城望京中福百货店",
+      "address": "中福百货",
+      "geocodeAddress": "北京市朝阳区中福百货",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2912",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区中福百货",
+        "formattedAddress": "北京市朝阳区中福百货(西门)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.463183,
+          "lat": 40.00026
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:48.313Z"
+      },
+      "location": {
+        "lng": 116.463183,
+        "lat": 40.00026
+      }
+    },
+    {
+      "id": 2922,
+      "name": "盖姆龙电玩俱乐部（新辰里亚运村店）",
+      "address": "北辰东路8号院1号楼新辰里购物中心2层",
+      "geocodeAddress": "北京市朝阳区北辰东路8号院1号楼新辰里购物中心2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2922",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区北辰东路8号院1号楼新辰里购物中心2层",
+        "formattedAddress": "北京市朝阳区北辰东路新辰里购物中心2层",
+        "level": "未知",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.406194,
+          "lat": 39.991452
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:48.604Z"
+      },
+      "location": {
+        "lng": 116.406194,
+        "lat": 39.991452
+      }
+    },
+    {
+      "id": 2951,
+      "name": "量子攻略（龙湖大兴天街店）",
+      "address": "永兴路七号院龙湖大兴天街2层",
+      "geocodeAddress": "北京市大兴区永兴路七号院龙湖大兴天街2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/2951",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区永兴路七号院龙湖大兴天街2层",
+        "formattedAddress": "北京市大兴区永兴路七号院",
+        "level": "住宅区",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.320289,
+          "lat": 39.686743
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:49.758Z"
+      },
+      "location": {
+        "lng": 116.320289,
+        "lat": 39.686743
+      }
+    },
+    {
+      "id": 3014,
+      "name": "绿蜻蜓国泰百货店",
+      "address": "北京市北京市密云区鼓楼南大街16号国泰百货(密云店)F3美吉熊儿童乐园(密云国泰百货店)",
+      "geocodeAddress": "北京市北京市密云区鼓楼南大街16号国泰百货(密云店)F3美吉熊儿童乐园(密云国泰百货店)",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110118000000",
+      "countyName": "密云区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3014",
+      "geocode": {
+        "ok": true,
+        "query": "北京市北京市密云区鼓楼南大街16号国泰百货(密云店)F3美吉熊儿童乐园(密云国泰百货店)",
+        "formattedAddress": "北京市密云区鼓楼南大街16号国泰百货(密云店)美吉熊儿童乐园(国泰百货密云店)",
+        "level": "兴趣点",
+        "adcode": "110118",
+        "expectedAdcode": "110118",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.845944,
+          "lat": 40.373727
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:49.577Z"
+      },
+      "location": {
+        "lng": 116.845944,
+        "lat": 40.373727
+      }
+    },
+    {
+      "id": 3295,
+      "name": "夸特游艺（门头沟店）",
+      "address": "新城东街17号院2号楼（新城大街与金安路交叉口）龙湖北京长安天街四层",
+      "geocodeAddress": "北京市门头沟区新城东街17号院2号楼（新城大街与金安路交叉口）龙湖北京长安天街四层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110109000000",
+      "countyName": "门头沟区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3295",
+      "geocode": {
+        "ok": true,
+        "query": "北京市门头沟区新城东街17号院2号楼（新城大街与金安路交叉口）龙湖北京长安天街四层",
+        "formattedAddress": "北京市门头沟区新城东街17号院2号楼新城大街与金安路北京长安天街",
+        "level": "兴趣点",
+        "adcode": "110109",
+        "expectedAdcode": "110109",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.12345,
+          "lat": 39.905343
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:49.831Z"
+      },
+      "location": {
+        "lng": 116.12345,
+        "lat": 39.905343
+      }
+    },
+    {
+      "id": 3301,
+      "name": "快乐星球（北京凯德大兴4F）",
+      "address": "天宫院华佗路2号大兴凯德MALL4层",
+      "geocodeAddress": "北京市大兴区天宫院华佗路2号大兴凯德MALL4层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3301",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区天宫院华佗路2号大兴凯德MALL4层",
+        "formattedAddress": "北京市大兴区天宫院华佗路2号",
+        "level": "门址",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.318978,
+          "lat": 39.672246
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:50.005Z"
+      },
+      "location": {
+        "lng": 116.318978,
+        "lat": 39.672246
+      }
+    },
+    {
+      "id": 3467,
+      "name": "KT竞技现场（昌平超极合生汇店）",
+      "address": "北清路超极合生汇LG1-17",
+      "geocodeAddress": "北京市昌平区北清路超极合生汇LG1-17",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3467",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区北清路超极合生汇LG1-17",
+        "formattedAddress": "北京市昌平区北清路北京超极合生汇(正门)",
+        "level": "兴趣点",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.292047,
+          "lat": 40.096017
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:50.353Z"
+      },
+      "location": {
+        "lng": 116.292047,
+        "lat": 40.096017
+      }
+    },
+    {
+      "id": 3536,
+      "name": "夸特游艺（望京凯德mall店）",
+      "address": "广顺北大街33号院213号楼凯德MALL（望京店）3层30103-3435号",
+      "geocodeAddress": "北京市朝阳区广顺北大街33号院213号楼凯德MALL（望京店）3层30103-3435号",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3536",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区广顺北大街33号院213号楼凯德MALL（望京店）3层30103-3435号",
+        "formattedAddress": "北京市朝阳区广顺北大街33号院213号楼华联商厦(望京凯德MALL店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.468981,
+          "lat": 39.992141
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:50.612Z"
+      },
+      "location": {
+        "lng": 116.468981,
+        "lat": 39.992141
+      }
+    },
+    {
+      "id": 3552,
+      "name": "娃娃攻略祥云店",
+      "address": "北京市安泰大街9号院7号楼1层102号 （祥云小镇北区）",
+      "geocodeAddress": "北京市安泰大街9号院7号楼1层102号 （祥云小镇北区）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3552",
+      "geocode": {
+        "ok": true,
+        "query": "北京市安泰大街9号院7号楼1层102号 （祥云小镇北区）",
+        "formattedAddress": "北京市顺义区安泰大街九号院祥云小镇(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "110113",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.536254,
+          "lat": 40.087425
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:51.308Z"
+      },
+      "location": {
+        "lng": 116.536254,
+        "lat": 40.087425
+      }
+    },
+    {
+      "id": 3646,
+      "name": "夸特（西北旺万象汇店）",
+      "address": "海淀区西北旺万象汇4F",
+      "geocodeAddress": "北京市海淀区西北旺万象汇4F",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3646",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区西北旺万象汇4F",
+        "formattedAddress": "北京市海淀区西北旺万象汇",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.259961,
+          "lat": 40.04904
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:51.572Z"
+      },
+      "location": {
+        "lng": 116.259961,
+        "lat": 40.04904
+      }
+    },
+    {
+      "id": 3661,
+      "name": "町豆部落（北京槐房万达2F）",
+      "address": "南苑西路39号（槐房南路6号）槐房万达广场2层（近19号线新宫站E口）",
+      "geocodeAddress": "北京市丰台区南苑西路39号（槐房南路6号）槐房万达广场2层（近19号线新宫站E口）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3661",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区南苑西路39号（槐房南路6号）槐房万达广场2层（近19号线新宫站E口）",
+        "formattedAddress": "北京市丰台区南苑西路39号槐房南路6号万达广场(北京槐房店)2层",
+        "level": "门址",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.368004,
+          "lat": 39.814136
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:51.832Z"
+      },
+      "location": {
+        "lng": 116.368004,
+        "lat": 39.814136
+      }
+    },
+    {
+      "id": 3662,
+      "name": "热带雨林（丰科万达3F）",
+      "address": "丰科路6号丰科万达广场3层",
+      "geocodeAddress": "北京市丰台区丰科路6号丰科万达广场3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3662",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区丰科路6号丰科万达广场3层",
+        "formattedAddress": "北京市丰台区丰科路6号北京丰科万达广场3层",
+        "level": "门址",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.298533,
+          "lat": 39.824457
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:52.171Z"
+      },
+      "location": {
+        "lng": 116.298533,
+        "lat": 39.824457
+      }
+    },
+    {
+      "id": 3834,
+      "name": "夹米星球（北京昌平悦荟店）",
+      "address": "南环路10号院1号楼北京悦荟5层（原玩家会店址）",
+      "geocodeAddress": "北京市昌平区南环路10号院1号楼北京悦荟5层（原玩家会店址）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3834",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区南环路10号院1号楼北京悦荟5层（原玩家会店址）",
+        "formattedAddress": "北京市昌平区南环南路10号",
+        "level": "门牌号",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.301429,
+          "lat": 40.207507
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:52.433Z"
+      },
+      "location": {
+        "lng": 116.301429,
+        "lat": 40.207507
+      }
+    },
+    {
+      "id": 3875,
+      "name": "卡通尼乐园（北京凯德大兴3F）",
+      "address": "天宫院华佗路2号大兴凯德MALL3层",
+      "geocodeAddress": "北京市大兴区天宫院华佗路2号大兴凯德MALL3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/3875",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区天宫院华佗路2号大兴凯德MALL3层",
+        "formattedAddress": "北京市大兴区天宫院华佗路2号",
+        "level": "门址",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.318978,
+          "lat": 39.672246
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:50.261Z"
+      },
+      "location": {
+        "lng": 116.318978,
+        "lat": 39.672246
+      }
+    },
+    {
+      "id": 4002,
+      "name": "宝贝计划常营华联店",
+      "address": "北京市朝阳区常营华联购物中心东区2-46",
+      "geocodeAddress": "北京市朝阳区常营华联购物中心东区2-46",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4002",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区常营华联购物中心东区2-46",
+        "formattedAddress": "北京市朝阳区常营",
+        "level": "村庄",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.592674,
+          "lat": 39.926037
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:52.943Z"
+      },
+      "location": {
+        "lng": 116.592674,
+        "lat": 39.926037
+      }
+    },
+    {
+      "id": 4136,
+      "name": "星际玩家西直门凯德MALL店",
+      "address": "西直门凯德MALL3楼",
+      "geocodeAddress": "北京市西城区西直门凯德MALL3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110102000000",
+      "countyName": "西城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4136",
+      "geocode": {
+        "ok": true,
+        "query": "北京市西城区西直门凯德MALL3楼",
+        "formattedAddress": "北京市西城区西直门凯德",
+        "level": "未知",
+        "adcode": "110102",
+        "expectedAdcode": "110102",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.352866,
+          "lat": 39.94148
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:53.207Z"
+      },
+      "location": {
+        "lng": 116.352866,
+        "lat": 39.94148
+      }
+    },
+    {
+      "id": 4145,
+      "name": "星际玩家北京通州万象汇店",
+      "address": "运河大街51号首开通州万象汇4层L419（商场4层南侧）",
+      "geocodeAddress": "北京市通州区运河大街51号首开通州万象汇4层L419（商场4层南侧）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110112000000",
+      "countyName": "通州区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4145",
+      "geocode": {
+        "ok": true,
+        "query": "北京市通州区运河大街51号首开通州万象汇4层L419（商场4层南侧）",
+        "formattedAddress": "北京市通州区首开通州万象汇",
+        "level": "兴趣点",
+        "adcode": "110112",
+        "expectedAdcode": "110112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.734377,
+          "lat": 39.904541
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:50.515Z"
+      },
+      "location": {
+        "lng": 116.734377,
+        "lat": 39.904541
+      }
+    },
+    {
+      "id": 4190,
+      "name": "夹米星球（丰台汇琴店）",
+      "address": "北京市北京市丰台区夹米星球(丰台汇琴店)",
+      "geocodeAddress": "北京市北京市丰台区夹米星球(丰台汇琴店)",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4190",
+      "geocode": {
+        "ok": true,
+        "query": "北京市北京市丰台区夹米星球(丰台汇琴店)",
+        "formattedAddress": "北京市丰台区",
+        "level": "区县",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.286726,
+          "lat": 39.858538
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:54.158Z"
+      },
+      "location": {
+        "lng": 116.286726,
+        "lat": 39.858538
+      }
+    },
+    {
+      "id": 4237,
+      "name": "阿凡达&爱玩荟（朝阳华腾新天地店）",
+      "address": "东四环中路195号 华腾新天地一层",
+      "geocodeAddress": "北京市朝阳区东四环中路195号 华腾新天地一层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4237",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区东四环中路195号 华腾新天地一层",
+        "formattedAddress": "北京市朝阳区东四环中路195号华腾新天地(东1门)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.488509,
+          "lat": 39.88583
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:54.503Z"
+      },
+      "location": {
+        "lng": 116.488509,
+        "lat": 39.88583
+      }
+    },
+    {
+      "id": 4247,
+      "name": "万达宝贝王北京沙河万达店",
+      "address": "沙河万达广场3层西南角万达宝贝王",
+      "geocodeAddress": "北京市昌平区沙河万达广场3层西南角万达宝贝王",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4247",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区沙河万达广场3层西南角万达宝贝王",
+        "formattedAddress": "北京市昌平区沙河镇万达广场(北京乐多港店)",
+        "level": "兴趣点",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.190168,
+          "lat": 40.229903
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:54.762Z"
+      },
+      "location": {
+        "lng": 116.190168,
+        "lat": 40.229903
+      }
+    },
+    {
+      "id": 4325,
+      "name": "吉睿潮玩（海淀学清路店）",
+      "address": "学清路8号新辰里（学清路店）3楼",
+      "geocodeAddress": "北京市海淀区学清路8号新辰里（学清路店）3楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4325",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区学清路8号新辰里（学清路店）3楼",
+        "formattedAddress": "北京市海淀区北京学清路8号新辰里(学清路店)",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.354362,
+          "lat": 40.008667
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:55.012Z"
+      },
+      "location": {
+        "lng": 116.354362,
+        "lat": 40.008667
+      }
+    },
+    {
+      "id": 4328,
+      "name": "糖果梦乐园（朝阳合生汇店）",
+      "address": "北京市朝阳区合生汇kt糖果梦乐园L3",
+      "geocodeAddress": "北京市朝阳区合生汇kt糖果梦乐园L3",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4328",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区合生汇kt糖果梦乐园L3",
+        "formattedAddress": "北京市朝阳区合生汇糖果梦乐园(北京朝阳合生汇店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.478525,
+          "lat": 39.894025
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:55.266Z"
+      },
+      "location": {
+        "lng": 116.478525,
+        "lat": 39.894025
+      }
+    },
+    {
+      "id": 4333,
+      "name": "布丁电玩（北京石景山店）",
+      "address": "阜石路165号当代商城（鼎城店）4层中影时光国际影城旁",
+      "geocodeAddress": "北京市石景山区阜石路165号当代商城（鼎城店）4层中影时光国际影城旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110107000000",
+      "countyName": "石景山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4333",
+      "geocode": {
+        "ok": true,
+        "query": "北京市石景山区阜石路165号当代商城（鼎城店）4层中影时光国际影城旁",
+        "formattedAddress": "北京市石景山区阜石路165号当代当代商城(鼎城店)中影时光国际影城(鼎城当代商城店)",
+        "level": "兴趣点",
+        "adcode": "110107",
+        "expectedAdcode": "110107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.195566,
+          "lat": 39.925818
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:55.524Z"
+      },
+      "location": {
+        "lng": 116.195566,
+        "lat": 39.925818
+      }
+    },
+    {
+      "id": 4338,
+      "name": "吉睿游艺（悠唐中心店）",
+      "address": "朝阳区朝阳门外大街三丰北里2号悠唐购物中心三楼",
+      "geocodeAddress": "北京市朝阳区朝阳门外大街三丰北里2号悠唐购物中心三楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4338",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区朝阳门外大街三丰北里2号悠唐购物中心三楼",
+        "formattedAddress": "北京市朝阳区朝阳门三丰北里2号楼悠唐购物中心",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.438951,
+          "lat": 39.921623
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:56.204Z"
+      },
+      "location": {
+        "lng": 116.438951,
+        "lat": 39.921623
+      }
+    },
+    {
+      "id": 4346,
+      "name": "万达宝贝王（丰科万达2F）",
+      "address": "丰科路6号院万达广场（北京丰科店）2F",
+      "geocodeAddress": "北京市丰台区丰科路6号院万达广场（北京丰科店）2F",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4346",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区丰科路6号院万达广场（北京丰科店）2F",
+        "formattedAddress": "北京市丰台区丰科路六号院",
+        "level": "住宅区",
+        "adcode": "110106",
+        "location": {
+          "lng": 116.282928,
+          "lat": 39.825022
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.282928,
+        "lat": 39.825022
+      }
+    },
+    {
+      "id": 4393,
+      "name": "吉睿游艺（太阳宫凯德mall店）",
+      "address": "太阳宫中路12号太阳宫凯德MALL3楼寿司郎对面",
+      "geocodeAddress": "北京市朝阳区太阳宫中路12号太阳宫凯德MALL3楼寿司郎对面",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4393",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区太阳宫中路12号太阳宫凯德MALL3楼寿司郎对面",
+        "formattedAddress": "北京市朝阳区太阳宫中路12凯德寿司郎(太阳宫凯德MALL店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.44753,
+          "lat": 39.971737
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.44753,
+        "lat": 39.971737
+      }
+    },
+    {
+      "id": 4422,
+      "name": "【音游区暂停营业】西瓜屋SUIKAYA & 西瓜雀荘",
+      "address": "绿地诺亚方舟北区2号楼8层804室",
+      "geocodeAddress": "北京市房山区绿地诺亚方舟北区2号楼8层804室",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110111000000",
+      "countyName": "房山区",
+      "status": "closed",
+      "isAvailable": false,
+      "tags": [
+        "音游"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4422",
+      "geocode": {
+        "ok": true,
+        "query": "北京市房山区绿地诺亚方舟北区2号楼8层804室",
+        "formattedAddress": "北京市房山区绿地文创商业中心",
+        "level": "兴趣点",
+        "adcode": "110111",
+        "expectedAdcode": "110111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.181784,
+          "lat": 39.731982
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:56.464Z"
+      },
+      "location": {
+        "lng": 116.181784,
+        "lat": 39.731982
+      }
+    },
+    {
+      "id": 4476,
+      "name": "爱玩荟电玩家庭娱乐中心（北苑店）",
+      "address": "朝阳区北苑路42号K酷时尚广场F4层",
+      "geocodeAddress": "北京市朝阳区北苑路42号K酷时尚广场F4层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4476",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区北苑路42号K酷时尚广场F4层",
+        "formattedAddress": "北京市朝阳区北苑路42号K酷时尚广场",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.419026,
+          "lat": 40.033422
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.419026,
+        "lat": 40.033422
+      }
+    },
+    {
+      "id": 4621,
+      "name": "乐立方潮玩运动馆大兴龙玥城店",
+      "address": "科创五街38号龙玥城一层D区",
+      "geocodeAddress": "北京市大兴区科创五街38号龙玥城一层D区",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4621",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区科创五街38号龙玥城一层D区",
+        "formattedAddress": "北京市大兴区科创五街38号龙玥城(南门)",
+        "level": "兴趣点",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.53401,
+          "lat": 39.800663
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:56.721Z"
+      },
+      "location": {
+        "lng": 116.53401,
+        "lat": 39.800663
+      }
+    },
+    {
+      "id": 4633,
+      "name": "城市英雄北京海淀大悦城店",
+      "address": "海淀区海淀大悦城3F",
+      "geocodeAddress": "北京市海淀区海淀大悦城3F",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4633",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区海淀大悦城3F",
+        "formattedAddress": "北京市海淀区海淀镇海淀大悦城(1号门)",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.230319,
+          "lat": 40.090796
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:56.976Z"
+      },
+      "location": {
+        "lng": 116.230319,
+        "lat": 40.090796
+      }
+    },
+    {
+      "id": 4733,
+      "name": "宝贝王北京通州万达店",
+      "address": "新华西街58号万达广场（通州店）2F东侧",
+      "geocodeAddress": "北京市通州区新华西街58号万达广场（通州店）2F东侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110112000000",
+      "countyName": "通州区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4733",
+      "geocode": {
+        "ok": true,
+        "query": "北京市通州区新华西街58号万达广场（通州店）2F东侧",
+        "formattedAddress": "北京市通州区新华西街58号",
+        "level": "门址",
+        "adcode": "110112",
+        "expectedAdcode": "110112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.641114,
+          "lat": 39.905174
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:51.213Z"
+      },
+      "location": {
+        "lng": 116.641114,
+        "lat": 39.905174
+      }
+    },
+    {
+      "id": 4760,
+      "name": "kt fighter space（石景山喜隆多店）",
+      "address": "北京市石景山区喜隆多4层",
+      "geocodeAddress": "北京市石景山区喜隆多4层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110107000000",
+      "countyName": "石景山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4760",
+      "geocode": {
+        "ok": true,
+        "query": "北京市石景山区喜隆多4层",
+        "formattedAddress": "北京市石景山区喜隆多",
+        "level": "未知",
+        "adcode": "110107",
+        "expectedAdcode": "110107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.171153,
+          "lat": 39.922687
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:57.480Z"
+      },
+      "location": {
+        "lng": 116.171153,
+        "lat": 39.922687
+      }
+    },
+    {
+      "id": 4917,
+      "name": "宝贝计划（顺义隆华店）",
+      "address": "新顺南大街11号隆华购物中心（站前街店）3F东北侧",
+      "geocodeAddress": "北京市顺义区新顺南大街11号隆华购物中心（站前街店）3F东北侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4917",
+      "geocode": {
+        "ok": true,
+        "query": "北京市顺义区新顺南大街11号隆华购物中心（站前街店）3F东北侧",
+        "formattedAddress": "北京市顺义区新顺南大街11号",
+        "level": "门址",
+        "adcode": "110113",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.650757,
+          "lat": 40.126603
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:58.166Z"
+      },
+      "location": {
+        "lng": 116.650757,
+        "lat": 40.126603
+      }
+    },
+    {
+      "id": 4940,
+      "name": "插电师北京王府井银泰店",
+      "address": "王府井银泰in88 2楼",
+      "geocodeAddress": "北京市东城区王府井银泰in88 2楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110101000000",
+      "countyName": "东城区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4940",
+      "geocode": {
+        "ok": true,
+        "query": "北京市东城区王府井银泰in88 2楼",
+        "formattedAddress": "北京市东城区王府井北京银泰(北京王府井银泰in88购物中心店)IN88(东门)",
+        "level": "兴趣点",
+        "adcode": "110101",
+        "expectedAdcode": "110101",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.412029,
+          "lat": 39.916164
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:58.420Z"
+      },
+      "location": {
+        "lng": 116.412029,
+        "lat": 39.916164
+      }
+    },
+    {
+      "id": 4942,
+      "name": "爱玩荟家庭娱乐中心（望京店）",
+      "address": "广顺南大街16号新世界百货（望京店）3F东南侧",
+      "geocodeAddress": "北京市朝阳区广顺南大街16号新世界百货（望京店）3F东南侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/4942",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区广顺南大街16号新世界百货（望京店）3F东南侧",
+        "formattedAddress": "北京市朝阳区广顺南大街16号",
+        "level": "门址",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.480431,
+          "lat": 39.986639
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:58.678Z"
+      },
+      "location": {
+        "lng": 116.480431,
+        "lat": 39.986639
+      }
+    },
+    {
+      "id": 5074,
+      "name": "贝乐童话(北京怀柔万达广场店)",
+      "address": "府前西街1号院怀柔万达广场3层",
+      "geocodeAddress": "北京市怀柔区府前西街1号院怀柔万达广场3层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110116000000",
+      "countyName": "怀柔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5074",
+      "geocode": {
+        "ok": true,
+        "query": "北京市怀柔区府前西街1号院怀柔万达广场3层",
+        "formattedAddress": "北京市怀柔区府前西街万达广场(北京怀柔店)3层",
+        "level": "门址",
+        "adcode": "110116",
+        "expectedAdcode": "110116",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.629985,
+          "lat": 40.316321
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:51.498Z"
+      },
+      "location": {
+        "lng": 116.629985,
+        "lat": 40.316321
+      }
+    },
+    {
+      "id": 5095,
+      "name": "大玩家（西铁营万达店）",
+      "address": "西铁营中路1号院万达广场4层东侧",
+      "geocodeAddress": "北京市丰台区西铁营中路1号院万达广场4层东侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5095",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区西铁营中路1号院万达广场4层东侧",
+        "formattedAddress": "北京市丰台区西铁营中路1号院",
+        "level": "门址",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.355731,
+          "lat": 39.860777
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:59.187Z"
+      },
+      "location": {
+        "lng": 116.355731,
+        "lat": 39.860777
+      }
+    },
+    {
+      "id": 5198,
+      "name": "米洛克北京大兴鸿坤店",
+      "address": "北京市大兴区西红门镇欣旺北大街8号2层（近南门）",
+      "geocodeAddress": "北京市大兴区西红门镇欣旺北大街8号2层（近南门）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5198",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区西红门镇欣旺北大街8号2层（近南门）",
+        "formattedAddress": "北京市大兴区西红门镇欣旺北大街8号",
+        "level": "门址",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.340254,
+          "lat": 39.79174
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:35:59.444Z"
+      },
+      "location": {
+        "lng": 116.340254,
+        "lat": 39.79174
+      }
+    },
+    {
+      "id": 5205,
+      "name": "吾技动漫（四元桥店）",
+      "address": "四元桥购物中心苏宁易购1层",
+      "geocodeAddress": "北京市朝阳区四元桥购物中心苏宁易购1层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5205",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区四元桥购物中心苏宁易购1层",
+        "formattedAddress": "北京市朝阳区四元桥购物中心(东南门)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.462314,
+          "lat": 39.978526
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:00.132Z"
+      },
+      "location": {
+        "lng": 116.462314,
+        "lat": 39.978526
+      }
+    },
+    {
+      "id": 5322,
+      "name": "爱玩荟家庭游乐中心（大望路店）",
+      "address": "建国路93号CBD万达广场A座（新世界百货（大望路店））2楼东侧",
+      "geocodeAddress": "北京市朝阳区建国路93号CBD万达广场A座（新世界百货（大望路店））2楼东侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5322",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区建国路93号CBD万达广场A座（新世界百货（大望路店））2楼东侧",
+        "formattedAddress": "北京市朝阳区建国路93号cbd号万达广场(公交站) a座新世界百货(大望路店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.472563,
+          "lat": 39.909289
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:00.396Z"
+      },
+      "location": {
+        "lng": 116.472563,
+        "lat": 39.909289
+      }
+    },
+    {
+      "id": 5461,
+      "name": "乐立方大冒险丰台海户屯京东店",
+      "address": "南苑路6号海户屯京东MALL二层",
+      "geocodeAddress": "北京市丰台区南苑路6号海户屯京东MALL二层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5461",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区南苑路6号海户屯京东MALL二层",
+        "formattedAddress": "北京市丰台区南苑西路6号院",
+        "level": "门址",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.367598,
+          "lat": 39.814253
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:00.655Z"
+      },
+      "location": {
+        "lng": 116.367598,
+        "lat": 39.814253
+      }
+    },
+    {
+      "id": 5623,
+      "name": "【搬迁暂停营业】电雀屋Cozyroom",
+      "address": "学院路20号 石油共生大院院内 进店指引如第一张店铺图片所示",
+      "geocodeAddress": "北京市海淀区学院路20号 石油共生大院院内 进店指引如第一张店铺图片所示",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "closed",
+      "isAvailable": false,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5623",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区学院路20号 石油共生大院院内 进店指引如第一张店铺图片所示",
+        "formattedAddress": "北京市海淀区学院路20号院",
+        "level": "门址",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.360011,
+          "lat": 39.994878
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:00.910Z"
+      },
+      "location": {
+        "lng": 116.360011,
+        "lat": 39.994878
+      }
+    },
+    {
+      "id": 5628,
+      "name": "吉睿潮玩(顺义祥云小镇店)",
+      "address": "安泰大街6号院祥云小镇南区11号楼二层",
+      "geocodeAddress": "北京市顺义区安泰大街6号院祥云小镇南区11号楼二层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5628",
+      "geocode": {
+        "ok": true,
+        "query": "北京市顺义区安泰大街6号院祥云小镇南区11号楼二层",
+        "formattedAddress": "北京市顺义区安泰大街祥云小镇(公交站)",
+        "level": "公交地铁站点",
+        "adcode": "110113",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.536254,
+          "lat": 40.087425
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:01.193Z"
+      },
+      "location": {
+        "lng": 116.536254,
+        "lat": 40.087425
+      }
+    },
+    {
+      "id": 5644,
+      "name": "魔力季（旧宫万科3F）",
+      "address": "旧宫忠凉路1号院1号楼住总万科广场3F L3025",
+      "geocodeAddress": "北京市大兴区旧宫忠凉路1号院1号楼住总万科广场3F L3025",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5644",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区旧宫忠凉路1号院1号楼住总万科广场3F L3025",
+        "formattedAddress": "北京市大兴区旧宫忠凉路1号院1号楼北京住总万科广场(B2东门)3层",
+        "level": "门址",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.45936,
+          "lat": 39.805613
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:01.445Z"
+      },
+      "location": {
+        "lng": 116.45936,
+        "lat": 39.805613
+      }
+    },
+    {
+      "id": 5664,
+      "name": "米洛克动漫城（房山绿地店）",
+      "address": "天星街1号院绿地缤纷城4层",
+      "geocodeAddress": "北京市房山区天星街1号院绿地缤纷城4层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110111000000",
+      "countyName": "房山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5664",
+      "geocode": {
+        "ok": true,
+        "query": "北京市房山区天星街1号院绿地缤纷城4层",
+        "formattedAddress": "北京市房山区绿地缤纷城(东北1门)4层",
+        "level": "门址",
+        "adcode": "110111",
+        "expectedAdcode": "110111",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.160656,
+          "lat": 39.756564
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:02.124Z"
+      },
+      "location": {
+        "lng": 116.160656,
+        "lat": 39.756564
+      }
+    },
+    {
+      "id": 5709,
+      "name": "宝贝王家庭娱乐中心（捌食捌街店）",
+      "address": "羊坊店路18号光耀东方广场S座捌食捌街LIFE MALL 2F",
+      "geocodeAddress": "北京市海淀区羊坊店路18号光耀东方广场S座捌食捌街LIFE MALL 2F",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5709",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区羊坊店路18号光耀东方广场S座捌食捌街LIFE MALL 2F",
+        "formattedAddress": "北京市海淀区羊坊店东路18光耀光耀东方广场s座捌食捌街LIFE MALL(西门)",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.321917,
+          "lat": 39.898878
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:02.388Z"
+      },
+      "location": {
+        "lng": 116.321917,
+        "lat": 39.898878
+      }
+    },
+    {
+      "id": 5733,
+      "name": "宝贝计划（昌平乐多港万达店）",
+      "address": "南口路29号万达广场（乐多港店）1F（原大玩家）",
+      "geocodeAddress": "北京市昌平区南口路29号万达广场（乐多港店）1F（原大玩家）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5733",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区南口路29号万达广场（乐多港店）1F（原大玩家）",
+        "formattedAddress": "北京市昌平区万达广场(北京乐多港店)乐多港",
+        "level": "住宅区",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.190582,
+          "lat": 40.233943
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:02.643Z"
+      },
+      "location": {
+        "lng": 116.190582,
+        "lat": 40.233943
+      }
+    },
+    {
+      "id": 5734,
+      "name": "卡通尼乐园(北京荟聚中心店)",
+      "address": "北京市大兴区欣宁街15号北京荟聚中心F3",
+      "geocodeAddress": "北京市大兴区欣宁街15号北京荟聚中心F3",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5734",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区欣宁街15号北京荟聚中心F3",
+        "formattedAddress": "北京市大兴区欣宁大街15号北京荟聚(北1门)",
+        "level": "兴趣点",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.325575,
+          "lat": 39.789617
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:02.904Z"
+      },
+      "location": {
+        "lng": 116.325575,
+        "lat": 39.789617
+      }
+    },
+    {
+      "id": 5859,
+      "name": "卡通尼乐园（北京银座和谐广场店）",
+      "address": "万丰路68号银座和谐广场3F-301（商场3楼西北角）",
+      "geocodeAddress": "北京市丰台区万丰路68号银座和谐广场3F-301（商场3楼西北角）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5859",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区万丰路68号银座和谐广场3F-301（商场3楼西北角）",
+        "formattedAddress": "北京市丰台区万丰路银座和谐广场",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.297342,
+          "lat": 39.882318
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:03.160Z"
+      },
+      "location": {
+        "lng": 116.297342,
+        "lat": 39.882318
+      }
+    },
+    {
+      "id": 5931,
+      "name": "乐游记游戏体验中心",
+      "address": "镇岗塔路云岗航天人才家园1号楼京盛时代购物中心4F",
+      "geocodeAddress": "北京市丰台区镇岗塔路云岗航天人才家园1号楼京盛时代购物中心4F",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5931",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区镇岗塔路云岗航天人才家园1号楼京盛时代购物中心4F",
+        "formattedAddress": "北京市丰台区镇岗塔路云岗航天人才家园1号楼京盛时代购物中心",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.173067,
+          "lat": 39.819683
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:03.415Z"
+      },
+      "location": {
+        "lng": 116.173067,
+        "lat": 39.819683
+      }
+    },
+    {
+      "id": 5938,
+      "name": "奇哒荟北京丰台店",
+      "address": "北京市丰台区丰台北路18号金唐新光界三层东侧奇哒荟",
+      "geocodeAddress": "北京市丰台区丰台北路18号金唐新光界三层东侧奇哒荟",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/5938",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区丰台北路18号金唐新光界三层东侧奇哒荟",
+        "formattedAddress": "北京市丰台区丰台北路金唐新光界(北8门)",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.307874,
+          "lat": 39.866572
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:04.151Z"
+      },
+      "location": {
+        "lng": 116.307874,
+        "lat": 39.866572
+      }
+    },
+    {
+      "id": 6005,
+      "name": "夸特游艺（银座和谐广场店）",
+      "address": "万丰路68号银座和谐广场4层402（卡通尼楼上）",
+      "geocodeAddress": "北京市丰台区万丰路68号银座和谐广场4层402（卡通尼楼上）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6005",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区万丰路68号银座和谐广场4层402（卡通尼楼上）",
+        "formattedAddress": "北京市丰台区万丰路银座和谐广场",
+        "level": "兴趣点",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.297342,
+          "lat": 39.882318
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:04.411Z"
+      },
+      "location": {
+        "lng": 116.297342,
+        "lat": 39.882318
+      }
+    },
+    {
+      "id": 6091,
+      "name": "宝贝计划（大兴上德银泰城店）",
+      "address": "大兴区广茂大街19号院4号楼2层",
+      "geocodeAddress": "北京市大兴区广茂大街19号院4号楼2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6091",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区广茂大街19号院4号楼2层",
+        "formattedAddress": "北京市大兴区广茂大街19号",
+        "level": "门牌号",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.348973,
+          "lat": 39.756964
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:04.665Z"
+      },
+      "location": {
+        "lng": 116.348973,
+        "lat": 39.756964
+      }
+    },
+    {
+      "id": 6111,
+      "name": "星际玩家（望京万象汇店）",
+      "address": "广顺北大街16号北京望京万象汇2层西南角",
+      "geocodeAddress": "北京市朝阳区广顺北大街16号北京望京万象汇2层西南角",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6111",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区广顺北大街16号北京望京万象汇2层西南角",
+        "formattedAddress": "北京市朝阳区广顺北大街16号北京望京万象汇(西南门)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.46782,
+          "lat": 40.010455
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:04.925Z"
+      },
+      "location": {
+        "lng": 116.46782,
+        "lat": 40.010455
+      }
+    },
+    {
+      "id": 6144,
+      "name": "酷玩劲乐游艺中心",
+      "address": "双营西路78号路劲世界广场2层东北角",
+      "geocodeAddress": "北京市昌平区双营西路78号路劲世界广场2层东北角",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6144",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区双营西路78号路劲世界广场2层东北角",
+        "formattedAddress": "北京市昌平区双营西路78号路劲世界广场2层",
+        "level": "门址",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.29105,
+          "lat": 40.206939
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:05.184Z"
+      },
+      "location": {
+        "lng": 116.29105,
+        "lat": 40.206939
+      }
+    },
+    {
+      "id": 6183,
+      "name": "玩宙电玩世界",
+      "address": "团结湖东里3-5号（团结新里内）",
+      "geocodeAddress": "北京市朝阳区团结湖东里3-5号（团结新里内）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6183",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区团结湖东里3-5号（团结新里内）",
+        "formattedAddress": "北京市朝阳区团结湖东里甲3-1号",
+        "level": "门址",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.470135,
+          "lat": 39.930023
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:05.442Z"
+      },
+      "location": {
+        "lng": 116.470135,
+        "lat": 39.930023
+      }
+    },
+    {
+      "id": 6253,
+      "name": "索尼Playstation（北京世纪金源店）",
+      "address": "世纪金源购物中心东区B1层名创优品及北京地铁长春桥站地下通道旁",
+      "geocodeAddress": "北京市海淀区世纪金源购物中心东区B1层名创优品及北京地铁长春桥站地下通道旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6253",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区世纪金源购物中心东区B1层名创优品及北京地铁长春桥站地下通道旁",
+        "formattedAddress": "北京市海淀区世纪金源购物中心(E19门)东区b1层名创优品(北京华联万柳店)长春桥",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.296081,
+          "lat": 39.958981
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:06.135Z"
+      },
+      "location": {
+        "lng": 116.296081,
+        "lat": 39.958981
+      }
+    },
+    {
+      "id": 6275,
+      "name": "宝贝计划北京延庆万达店",
+      "address": "庆园街59号延庆万达广场2楼",
+      "geocodeAddress": "北京市延庆区庆园街59号延庆万达广场2楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110119000000",
+      "countyName": "延庆区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6275",
+      "geocode": {
+        "ok": true,
+        "query": "北京市延庆区庆园街59号延庆万达广场2楼",
+        "formattedAddress": "北京市延庆区庆园街59号延庆万达广场(东2门)2层",
+        "level": "门址",
+        "adcode": "110119",
+        "expectedAdcode": "110119",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 115.984727,
+          "lat": 40.474012
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:51.753Z"
+      },
+      "location": {
+        "lng": 115.984727,
+        "lat": 40.474012
+      }
+    },
+    {
+      "id": 6333,
+      "name": "電波雀莊（北京昌平城北店）",
+      "address": "城北街道嘉诚中心6层627室",
+      "geocodeAddress": "北京市昌平区城北街道嘉诚中心6层627室",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6333",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区城北街道嘉诚中心6层627室",
+        "formattedAddress": "北京市昌平区城北街道嘉诚中心",
+        "level": "兴趣点",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.23435,
+          "lat": 40.216479
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:06.642Z"
+      },
+      "location": {
+        "lng": 116.23435,
+        "lat": 40.216479
+      }
+    },
+    {
+      "id": 6345,
+      "name": "夸特游艺（石景山店）",
+      "address": "石景山路乙18号石景山万达广场1F东侧",
+      "geocodeAddress": "北京市石景山区石景山路乙18号石景山万达广场1F东侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110107000000",
+      "countyName": "石景山区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6345",
+      "geocode": {
+        "ok": true,
+        "query": "北京市石景山区石景山路乙18号石景山万达广场1F东侧",
+        "formattedAddress": "北京市石景山区石景山路乙18号万达广场(西1门)1f层",
+        "level": "门址",
+        "adcode": "110107",
+        "expectedAdcode": "110107",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.225748,
+          "lat": 39.906436
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:52.011Z"
+      },
+      "location": {
+        "lng": 116.225748,
+        "lat": 39.906436
+      }
+    },
+    {
+      "id": 6394,
+      "name": "PKBoy潮玩嘉年华北京湾里奥莱店",
+      "address": "颐瑞东路66号1号楼湾里·王府井WellTown L2北侧",
+      "geocodeAddress": "北京市通州区颐瑞东路66号1号楼湾里·王府井WellTown L2北侧",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110112000000",
+      "countyName": "通州区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6394",
+      "geocode": {
+        "ok": true,
+        "query": "北京市通州区颐瑞东路66号1号楼湾里·王府井WellTown L2北侧",
+        "formattedAddress": "北京市通州区群芳中二街66号湾里·王府井WellTown(临时5号停车场)",
+        "level": "兴趣点",
+        "adcode": "110112",
+        "expectedAdcode": "110112",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.678459,
+          "lat": 39.862189
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:07.162Z"
+      },
+      "location": {
+        "lng": 116.678459,
+        "lat": 39.862189
+      }
+    },
+    {
+      "id": 6498,
+      "name": "宝贝计划(怀柔店)",
+      "address": "府前西街1号院怀柔万达广场2层",
+      "geocodeAddress": "北京市怀柔区府前西街1号院怀柔万达广场2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110116000000",
+      "countyName": "怀柔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6498",
+      "geocode": {
+        "ok": true,
+        "query": "北京市怀柔区府前西街1号院怀柔万达广场2层",
+        "formattedAddress": "北京市怀柔区府前西街万达广场(北京怀柔店)2层",
+        "level": "门址",
+        "adcode": "110116",
+        "expectedAdcode": "110116",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.629912,
+          "lat": 40.316631
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:52.270Z"
+      },
+      "location": {
+        "lng": 116.629912,
+        "lat": 40.316631
+      }
+    },
+    {
+      "id": 6625,
+      "name": "奇幻王国（大兴环宇坊店）",
+      "address": "瀛海环宇坊4楼",
+      "geocodeAddress": "北京市大兴区瀛海环宇坊4楼",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110115000000",
+      "countyName": "大兴区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6625",
+      "geocode": {
+        "ok": true,
+        "query": "北京市大兴区瀛海环宇坊4楼",
+        "formattedAddress": "北京市大兴区瀛海环宇坊",
+        "level": "兴趣点",
+        "adcode": "110115",
+        "expectedAdcode": "110115",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.448613,
+          "lat": 39.758038
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:08.116Z"
+      },
+      "location": {
+        "lng": 116.448613,
+        "lat": 39.758038
+      }
+    },
+    {
+      "id": 6667,
+      "name": "竞趣大陆",
+      "address": "京通苑30号楼枫尚城市奥特莱斯（京通店）3F星逸影城旁",
+      "geocodeAddress": "北京市朝阳区京通苑30号楼枫尚城市奥特莱斯（京通店）3F星逸影城旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6667",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区京通苑30号楼枫尚城市奥特莱斯（京通店）3F星逸影城旁",
+        "formattedAddress": "北京市朝阳区京通苑30号楼星逸影城(朝阳路店)",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.595899,
+          "lat": 39.912342
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:08.373Z"
+      },
+      "location": {
+        "lng": 116.595899,
+        "lat": 39.912342
+      }
+    },
+    {
+      "id": 6832,
+      "name": "AKIBAGO北京朝阳微博IN店",
+      "address": "微博IN跨次元引力场（朝阳公园内）1F 1003-1004",
+      "geocodeAddress": "北京市朝阳区微博IN跨次元引力场（朝阳公园内）1F 1003-1004",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6832",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区微博IN跨次元引力场（朝阳公园内）1F 1003-1004",
+        "formattedAddress": "北京市朝阳区朝阳公园内",
+        "level": "未知",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.48233,
+          "lat": 39.940044
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:37:52.530Z"
+      },
+      "location": {
+        "lng": 116.48233,
+        "lat": 39.940044
+      }
+    },
+    {
+      "id": 6870,
+      "name": "和音屋 x -Azisai- 北京店 立直麻将/音游",
+      "address": "七里庄路口向北附近（详见群内信息）",
+      "geocodeAddress": "北京市丰台区七里庄路口向北附近（详见群内信息）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110106000000",
+      "countyName": "丰台区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "音游",
+        "麻将"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6870",
+      "geocode": {
+        "ok": true,
+        "query": "北京市丰台区七里庄路口向北附近（详见群内信息）",
+        "formattedAddress": "北京市丰台区七里庄",
+        "level": "村庄",
+        "adcode": "110106",
+        "expectedAdcode": "110106",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.289676,
+          "lat": 39.866876
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:09.941Z"
+      },
+      "location": {
+        "lng": 116.289676,
+        "lat": 39.866876
+      }
+    },
+    {
+      "id": 6988,
+      "name": "【即将开业】E享空间北京新华百货CCmall店",
+      "address": "新街口北大街1号新华百货CCmall（新街口店）L6云川台球旁",
+      "geocodeAddress": "北京市西城区新街口北大街1号新华百货CCmall（新街口店）L6云川台球旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110102000000",
+      "countyName": "西城区",
+      "status": "upcoming",
+      "isAvailable": false,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6988",
+      "geocode": {
+        "ok": true,
+        "query": "北京市西城区新街口北大街1号新华百货CCmall（新街口店）L6云川台球旁",
+        "formattedAddress": "北京市西城区新街口北大街1号楼新华百货CCmall(新街口店)",
+        "level": "兴趣点",
+        "adcode": "110102",
+        "expectedAdcode": "110102",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.371174,
+          "lat": 39.947394
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:10.192Z"
+      },
+      "location": {
+        "lng": 116.371174,
+        "lat": 39.947394
+      }
+    },
+    {
+      "id": 6999,
+      "name": "KT竞技现场（五棵松华熙店）",
+      "address": "复兴路69号华熙LIVE·五棵松F1（泡泡玛特楼上）",
+      "geocodeAddress": "北京市海淀区复兴路69号华熙LIVE·五棵松F1（泡泡玛特楼上）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/6999",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区复兴路69号华熙LIVE·五棵松F1（泡泡玛特楼上）",
+        "formattedAddress": "北京市海淀区复兴路69号华熙五棵松",
+        "level": "兴趣点",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.277504,
+          "lat": 39.910507
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:10.455Z"
+      },
+      "location": {
+        "lng": 116.277504,
+        "lat": 39.910507
+      }
+    },
+    {
+      "id": 7085,
+      "name": "岛屋-白将小窝",
+      "address": "北京市顺义区通顺路辅路顺义石园小区石园南社区(通顺路东)",
+      "geocodeAddress": "北京市顺义区通顺路辅路顺义石园小区石园南社区(通顺路东)",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110113000000",
+      "countyName": "顺义区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7085",
+      "geocode": {
+        "ok": true,
+        "query": "北京市顺义区通顺路辅路顺义石园小区石园南社区(通顺路东)",
+        "formattedAddress": "北京市顺义区通顺路辅路顺义石园石园小区石园南社区",
+        "level": "住宅区",
+        "adcode": "110113",
+        "expectedAdcode": "110113",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.662697,
+          "lat": 40.10618
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:11.156Z"
+      },
+      "location": {
+        "lng": 116.662697,
+        "lat": 40.10618
+      }
+    },
+    {
+      "id": 7086,
+      "name": "奥尔曼嘉年华北京龙旗广场店",
+      "address": "北京市昌平区黄平路19号龙旗购物中心F2层",
+      "geocodeAddress": "北京市昌平区黄平路19号龙旗购物中心F2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110114000000",
+      "countyName": "昌平区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7086",
+      "geocode": {
+        "ok": true,
+        "query": "北京市昌平区黄平路19号龙旗购物中心F2层",
+        "formattedAddress": "北京市昌平区黄平路19号龙旗购物中心(北1门)f2层",
+        "level": "门址",
+        "adcode": "110114",
+        "expectedAdcode": "110114",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.346927,
+          "lat": 40.066932
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:11.424Z"
+      },
+      "location": {
+        "lng": 116.346927,
+        "lat": 40.066932
+      }
+    },
+    {
+      "id": 7104,
+      "name": "宝贝计划（姚家园万象汇店）",
+      "address": "青年北路35号北京姚家园万象汇L4（原极客森地址）",
+      "geocodeAddress": "北京市朝阳区青年北路35号北京姚家园万象汇L4（原极客森地址）",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7104",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区青年北路35号北京姚家园万象汇L4（原极客森地址）",
+        "formattedAddress": "北京市朝阳区青年北路北京姚家园万象汇",
+        "level": "兴趣点",
+        "adcode": "110105",
+        "location": {
+          "lng": 116.516015,
+          "lat": 39.941242
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.516015,
+        "lat": 39.941242
+      }
+    },
+    {
+      "id": 7108,
+      "name": "京北智玩空间",
+      "address": "府前街14号京北大世界五层",
+      "geocodeAddress": "北京市怀柔区府前街14号京北大世界五层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110116000000",
+      "countyName": "怀柔区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7108",
+      "geocode": {
+        "ok": true,
+        "query": "北京市怀柔区府前街14号京北大世界五层",
+        "formattedAddress": "北京市怀柔区府前东街14号京北大世界",
+        "level": "兴趣点",
+        "adcode": "110116",
+        "location": {
+          "lng": 116.632241,
+          "lat": 40.31532
+        },
+        "provider": "AMap Geocode",
+        "expectedAdcode": "110116",
+        "matchQuality": "district-match",
+        "warning": null,
+        "geocodedAt": "2026-06-07T14:38:53.946Z"
+      },
+      "location": {
+        "lng": 116.632241,
+        "lat": 40.31532
+      }
+    },
+    {
+      "id": 7123,
+      "name": "PLAYCE插电师电玩（芳圆里店）",
+      "address": "东四环中路189号芳圆里ID MALL L3北侧meland club旁",
+      "geocodeAddress": "北京市朝阳区东四环中路189号芳圆里ID MALL L3北侧meland club旁",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110105000000",
+      "countyName": "朝阳区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [
+        "街机/电玩"
+      ],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7123",
+      "geocode": {
+        "ok": true,
+        "query": "北京市朝阳区东四环中路189号芳圆里ID MALL L3北侧meland club旁",
+        "formattedAddress": "北京市朝阳区东四环中路189号芳圆里id mall号",
+        "level": "小巷",
+        "adcode": "110105",
+        "expectedAdcode": "110105",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.488517,
+          "lat": 39.888994
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:11.775Z"
+      },
+      "location": {
+        "lng": 116.488517,
+        "lat": 39.888994
+      }
+    },
+    {
+      "id": 7135,
+      "name": "喜魔方潮玩乐园",
+      "address": "旱河路京粮广场2层",
+      "geocodeAddress": "北京市海淀区旱河路京粮广场2层",
+      "provinceCode": "110000000000",
+      "cityCode": "110100000000",
+      "countyCode": "110108000000",
+      "countyName": "海淀区",
+      "status": "open",
+      "isAvailable": true,
+      "tags": [],
+      "sourceName": "BEMANICN 街机地图",
+      "sourceUrl": "https://map.bemanicn.com/s/7135",
+      "geocode": {
+        "ok": true,
+        "query": "北京市海淀区旱河路京粮广场2层",
+        "formattedAddress": "北京市海淀区旱河路京粮广场2层",
+        "level": "门址",
+        "adcode": "110108",
+        "expectedAdcode": "110108",
+        "matchQuality": "district-match",
+        "warning": null,
+        "location": {
+          "lng": 116.253985,
+          "lat": 39.93099
+        },
+        "provider": "AMap Geocode",
+        "geocodedAt": "2026-06-07T14:36:12.030Z"
+      },
+      "location": {
+        "lng": 116.253985,
+        "lat": 39.93099
+      }
+    }
+  ],
+  "geocoding": {
+    "provider": "AMap Geocode",
+    "generatedAt": "2026-06-07T14:40:53.973Z",
+    "located": 111,
+    "failed": 0,
+    "warnings": 0
+  }
+}

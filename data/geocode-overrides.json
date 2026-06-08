@@ -1,0 +1,15 @@
+{
+  "2845": {
+    "poiId": "B0KDVO07Y6",
+    "poiName": "星际传奇(北京海淀万达广场店)",
+    "formattedAddress": "北京市海淀区复兴路69号北京五棵松万达广场3F层",
+    "adcode": "110108",
+    "level": "兴趣点",
+    "location": {
+      "lng": 116.276661,
+      "lat": 39.912796
+    },
+    "provider": "AMap Place Text",
+    "reason": "AMap geocode matched STAR LEGEND to the Dongba Wanda POI; AMap place search and input tips returned the exact Wukesong arcade POI."
+  }
+}
